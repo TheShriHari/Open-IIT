@@ -4,6 +4,6 @@ baseline_street,8,72.0,162.1,1,40.0,1.0,conformal_5fold_cv
 cross_account_street,1,2197.9,150.0,0,,,conservative_prior
 landmark,18,163.7,1430.4,4,197.0,1.0,conformal_5fold_cv
 unmapped_village,0,,,0,,,unmapped
-visit_1,10,24.1,77.4,3,16.3,1.0,conformal_5fold_cv
-visits_agree,21,10.2,56.3,1,7.9,1.0,conformal_5fold_cv
-visits_disagree,9,8.5,387.2,1,7.2,1.0,conformal_5fold_cv
+visit_1,12,30.5,387.2,3,16.3,1.0,conformal_5fold_cv
+visits_agree,22,9.6,56.3,1,7.9,1.0,conformal_5fold_cv
+visits_disagree,6,6.7,214.6,1,7.2,1.0,conformal_5fold_cv

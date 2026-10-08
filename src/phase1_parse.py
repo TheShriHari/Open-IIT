@@ -4,12 +4,19 @@ Deterministic: compiled regex + rapidfuzz. No ML.
 Outputs: output/structured_addresses.csv, output/phase1_audit.csv
 """
 import re
+import sys
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from rapidfuzz import fuzz, process
 
+SRC_DIR = Path(__file__).resolve().parent
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
 from config import GEO, LOCALITY_THRESHOLD, OUT, POI_FUZZY_THRESHOLD, SHARED
+
 
 # ---- Tier 1 lexicon: canonical type == landmarks_poi.landmark_type (most specific first) ----
 LEXICON = [
@@ -62,6 +69,74 @@ def door_no(t: str):
 def street_info(t: str):
     found = list(dict.fromkeys(m.group(1) for m in STREET.finditer(t)))
     return "; ".join(found) if found else np.nan
+
+
+def extract_street_keys(t: str, raw_norm: str = ""):
+    """Extracts hierarchical Indian street key components from address text.
+    
+    Hierarchy:
+    1. cross_main: cross_no + main_no
+    2. block_road: block + road_no
+    3. block: block identifier
+    4. gali: gali_no
+    5. fallback: locality + street_info (computed in fusion/cross-account)
+    """
+    def num(pat, src):
+        m = re.search(pat, src, re.IGNORECASE)
+        if not m:
+            return None
+        for g in m.groups():
+            if g is not None:
+                return g
+        return None
+
+    # Cross & Main numbers
+    cross_no = num(r"\b(\d+)(?:st|nd|rd|th)?\s*(?:cross|x)\b", t)
+    main_no = num(r"\b(\d+)(?:st|nd|rd|th)?\s*main\b", t)
+    cross_main = f"{cross_no}_{main_no}" if cross_no and main_no else None
+
+    # Block & Road numbers (handling 'block a', 'b block', 'b blk', 'blk b')
+    blk_match = re.search(r"\b(?:block|blk)\.?\s*([a-z0-9]+)\b|\b([a-z0-9]+)\s*(?:block|blk)\b", t, re.IGNORECASE)
+    block = None
+    if blk_match:
+        b_cand = blk_match.group(1) or blk_match.group(2)
+        if len(b_cand) <= 3:
+            block = b_cand.lower()
+
+    road_no = num(r"\b(?:road|rd)\.?\s*(\d+)\b|\b(\d+)(?:st|nd|rd|th)?\s*(?:road|rd)\b", t)
+    block_road = f"{block}_{road_no}" if block and road_no else None
+
+    # Gali number (Latin + Devanagari)
+    gali_no = num(r"\bgali\s*(?:no\.?|n\.?|#)?\s*(\d+)\b", t)
+    if not gali_no and raw_norm:
+        gali_no = num(r"गली\s*(?:नं\.?|नंबर)?\s*(\d+)", raw_norm)
+    gali = str(gali_no) if gali_no else None
+
+    # Determine highest-priority street key available
+    if cross_main:
+        key = f"cross_main:{cross_main}"
+    elif block_road:
+        key = f"block_road:{block_road}"
+    elif block:
+        key = f"block:{block}"
+    elif gali:
+        key = f"gali:{gali}"
+    else:
+        key = None
+
+    return {
+        "cross_no": cross_no,
+        "main_no": main_no,
+        "cross_main": cross_main,
+        "block": block,
+        "road_no": road_no,
+        "block_road": block_road,
+        "gali_no": gali_no,
+        "gali": gali,
+        "street_key": key,
+    }
+
+
 
 
 def tier1_landmark(t: str):
@@ -155,8 +230,21 @@ def parse_addresses(addr_df, pois=None, loc=None, towns=None):
         for t, tid, p in zip(addr.clean_text_lower, addr.town_id, addr.pincode)
     ]
 
-    cols = ["address_id", "account_id", "town_id", "address_text", "door_no", "street_info", "landmark_type",
-            "spatial_relation", "landmark_source", "landmark_match_score", "locality_name", "pincode"]
+    # Granular Indian street keys
+    raw_texts = addr.address_text.fillna("").tolist()
+    street_key_records = [
+        extract_street_keys(t, raw) for t, raw in zip(addr.clean_text_lower, raw_texts)
+    ]
+    sk_df = pd.DataFrame(street_key_records)
+    for col in sk_df.columns:
+        addr[col] = sk_df[col]
+
+    cols = [
+        "address_id", "account_id", "town_id", "address_text", "door_no", "street_info",
+        "cross_no", "main_no", "cross_main", "block", "road_no", "block_road", "gali_no", "gali", "street_key",
+        "landmark_type", "spatial_relation", "landmark_source", "landmark_match_score",
+        "locality_name", "pincode"
+    ]
     out = addr[cols]
     out.to_csv(OUT / "structured_addresses.csv", index=False, encoding="utf-8-sig")
 
@@ -164,6 +252,7 @@ def parse_addresses(addr_df, pois=None, loc=None, towns=None):
     audit = intown[intown.landmark_type.isna() | intown.locality_name.isna() | intown.pincode.isna()]
     audit.to_csv(OUT / "phase1_audit.csv", index=False, encoding="utf-8-sig")
     return out
+
 
 
 def main():
