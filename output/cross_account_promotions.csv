@@ -1,0 +1,245 @@
+address_id,account_id,town_id,old_tier,old_px,old_py,street_info,new_px,new_py,new_tier,promoted_r90
+AD000008,AC000006,T1,baseline_coarse,-2950.8,1246.7,1st main,783.6,-216.0,cross_account_inferred,75.0
+AD000016,AC000013,T2,visits_disagree,749.7,2395.7,gali 2,2850.9,142.7,cross_account_inferred,75.0
+AD000026,AC000022,T1,baseline_coarse,-2808.8,965.6,9th cross; 7th main,-2656.2,1426.5,cross_account_inferred,75.0
+AD000032,AC000028,T2,visits_disagree,1768.2,-1816.5,gali no. 9,1463.7,-14.1,cross_account_inferred,75.0
+AD000037,AC000032,T1,visits_disagree,544.5,-3234.8,4th cross,1509.8,-2718.0,cross_account_inferred,75.0
+AD000055,AC000044,T3,baseline_coarse,920.0,-972.3,1st road,1325.8,-1116.6,cross_account_inferred,75.0
+AD000056,AC000044,T3,baseline_coarse,-3841.3,-903.0,4th road,-2522.6,-528.6,cross_account_inferred,75.0
+AD000075,AC000060,T1,visits_disagree,2769.6,-2331.1,5th cross; 5th main,1064.2,-1693.4,cross_account_inferred,75.0
+AD000077,AC000062,T3,baseline_coarse,1912.1,-1886.9,2nd rd,1031.3,-699.4,cross_account_inferred,75.0
+AD000098,AC000077,T3,visits_disagree,-2492.9,1358.7,b block; 5th road,-452.0,2927.4,cross_account_inferred,75.0
+AD000112,AC000089,T1,baseline_coarse,804.3,-2828.4,5th cross; 5th main,2564.7,924.2,cross_account_inferred,75.0
+AD000121,AC000096,T3,baseline_coarse,-1415.5,-1879.2,d block; 1st road,-978.6,-432.0,cross_account_inferred,75.0
+AD000129,AC000103,T1,visits_disagree,3228.4,-1945.3,11th cross; 7th main,988.3,-2664.9,cross_account_inferred,75.0
+AD000135,AC000107,T1,visits_disagree,808.6,-2608.7,5th main,817.6,-2618.4,cross_account_inferred,75.0
+AD000141,AC000112,T2,baseline_coarse,1537.3,-1398.4,gali no. 4,1805.9,-2198.5,cross_account_inferred,75.0
+AD000156,AC000124,T1,baseline_coarse,1540.6,-1875.4,1st cross; 4th main,1998.4,-1381.6,cross_account_inferred,75.0
+AD000160,AC000127,T3,baseline_coarse,3714.4,463.4,6th road,-2369.7,1821.9,cross_account_inferred,75.0
+AD000179,AC000143,T1,baseline_coarse,2359.4,960.2,6th main,1628.6,2206.9,cross_account_inferred,75.0
+AD000210,AC000169,T3,baseline_coarse,-617.3,-417.4,d block; 1st road,-978.6,-432.0,cross_account_inferred,75.0
+AD000214,AC000172,T1,baseline_coarse,719.5,-2910.2,9th cross; 1st main,1429.0,-2380.5,cross_account_inferred,75.0
+AD000216,AC000173,T3,visits_disagree,-4073.8,-1012.5,a block; 4th road,-604.4,-3778.5,cross_account_inferred,75.0
+AD000227,AC000182,T3,visits_disagree,1158.8,-1192.6,1st road,1330.8,-1116.6,cross_account_inferred,75.0
+AD000228,AC000183,T3,visits_disagree,3808.8,-113.1,b block; 5th road,-496.6,-3728.1,cross_account_inferred,75.0
+AD000245,AC000195,T1,baseline_coarse,2315.3,-2045.4,4th main,1052.4,-1066.8,cross_account_inferred,75.0
+AD000261,AC000208,T2,baseline_coarse,978.3,-31.3,3 gali,899.6,-3087.8,cross_account_inferred,75.0
+AD000264,AC000209,T2,baseline_coarse,3015.8,634.3,gali 3,3061.5,303.7,cross_account_inferred,75.0
+AD000302,AC000239,T1,baseline_coarse,1095.4,-284.1,3rd cross,730.4,-3301.6,cross_account_inferred,75.0
+AD000309,AC000246,T1,visits_disagree,2775.7,-1817.0,3rd main,2634.3,-1818.2,cross_account_inferred,75.0
+AD000317,AC000251,T1,baseline_coarse,-1833.5,1124.5,7th main,-2544.1,1094.6,cross_account_inferred,75.0
+AD000318,AC000252,T1,baseline_coarse,1002.4,40.9,6th cross; 5th main,1616.3,-547.4,cross_account_inferred,75.0
+AD000322,AC000255,T1,visits_disagree,3013.6,-2444.7,8th main,2212.9,-2655.7,cross_account_inferred,75.0
+AD000341,AC000270,T1,baseline_coarse,288.3,2340.7,6th cross; 5th main,422.0,2330.8,cross_account_inferred,75.0
+AD000349,AC000278,T2,baseline_coarse,896.9,2688.7,gali no. 4,946.3,1123.1,cross_account_inferred,75.0
+AD000370,AC000294,T1,baseline_coarse,2836.0,-2227.3,11th cross; 6th main,1212.1,201.9,cross_account_inferred,75.0
+AD000371,AC000295,T1,baseline_coarse,694.6,-2877.7,3rd cross; 5th main,2746.4,-2472.3,cross_account_inferred,75.0
+AD000372,AC000296,T1,baseline_coarse,771.8,-3053.5,3rd cross,730.4,-3301.6,cross_account_inferred,75.0
+AD000381,AC000303,T2,baseline_coarse,495.4,-3176.7,gali 5,1232.9,-2121.8,cross_account_inferred,75.0
+AD000392,AC000312,T2,baseline_coarse,1380.6,-1327.9,gali 9,1891.6,-460.6,cross_account_inferred,75.0
+AD000436,AC000344,T3,baseline_coarse,1941.1,1128.7,2nd road,3674.9,471.6,cross_account_inferred,75.0
+AD000438,AC000346,T2,baseline_coarse,795.5,2732.6,gali no. 1,1859.7,1201.2,cross_account_inferred,75.0
+AD000440,AC000347,T1,baseline_coarse,1980.7,-958.7,12th cross; 3rd main,2848.5,-1819.5,cross_account_inferred,75.0
+AD000447,AC000352,T1,baseline_coarse,369.8,2138.8,10th cross; 3rd main,128.2,2571.4,cross_account_inferred,75.0
+AD000450,AC000355,T2,baseline_coarse,2543.5,-1325.8,gali 8,1316.6,-2375.5,cross_account_inferred,75.0
+AD000451,AC000356,T3,visits_disagree,-3736.7,-775.5,f block; 6th road,3413.0,-1378.0,cross_account_inferred,75.0
+AD000464,AC000366,T3,baseline_coarse,993.0,-896.4,3rd road,3200.4,-2340.5,cross_account_inferred,75.0
+AD000466,AC000368,T1,baseline_coarse,1310.1,-117.2,4th main,1052.4,-1066.8,cross_account_inferred,75.0
+AD000478,AC000376,T1,baseline_coarse,633.9,-2929.8,8th main,2247.9,-2655.7,cross_account_inferred,75.0
+AD000503,AC000394,T2,baseline_coarse,1213.3,-198.4,gali no. 4,1805.9,-2198.5,cross_account_inferred,75.0
+AD000539,AC000418,T2,visits_disagree,2579.8,-1025.9,gali no. 9,1468.7,-14.1,cross_account_inferred,75.0
+AD000542,AC000421,T3,baseline_coarse,-1260.6,2056.9,d block; 2nd road,-2618.8,1719.1,cross_account_inferred,75.0
+AD000557,AC000433,T1,baseline_coarse,656.2,-2964.3,3rd main,2634.3,-1818.2,cross_account_inferred,75.0
+AD000577,AC000447,T3,baseline_coarse,3743.0,495.1,5th road,-1385.8,-1915.4,cross_account_inferred,75.0
+AD000594,AC000462,T1,baseline_coarse,-1688.1,1061.4,3rd cross,-2575.4,997.2,cross_account_inferred,75.0
+AD000607,AC000474,T3,visits_disagree,-862.8,-3920.9,a block; 1st road,-807.8,-3859.5,cross_account_inferred,75.0
+AD000637,AC000495,T1,baseline_coarse,1825.8,-1078.6,3rd main,2659.3,-1818.2,cross_account_inferred,75.0
+AD000648,AC000503,T3,baseline_coarse,-1833.1,-1089.9,5th road,-1420.8,-1915.4,cross_account_inferred,75.0
+AD000653,AC000507,T1,baseline_coarse,1946.7,-906.7,12th cross; 4th main,-2383.7,-2020.9,cross_account_inferred,75.0
+AD000702,AC000544,T1,baseline_coarse,2902.7,-2289.0,1st cross; 5th main,2735.5,-2575.4,cross_account_inferred,75.0
+AD000704,AC000546,T2,baseline_coarse,2488.2,-1430.6,gali no. 1,1247.7,-1454.1,cross_account_inferred,75.0
+AD000708,AC000549,T2,baseline_coarse,2977.2,636.1,gali 2,2860.9,142.7,cross_account_inferred,75.0
+AD000718,AC000556,T2,baseline_coarse,999.1,2588.3,gali 7,774.3,3008.7,cross_account_inferred,75.0
+AD000722,AC000560,T3,visits_disagree,4028.6,322.2,c block; 6th road,4024.7,318.4,cross_account_inferred,75.0
+AD000731,AC000566,T1,baseline_coarse,2761.5,-2520.4,2nd cross; 8th main,1211.9,-3321.3,cross_account_inferred,75.0
+AD000733,AC000568,T1,visits_disagree,2852.5,-2271.8,6th cross; 5th main,1651.3,-547.4,cross_account_inferred,75.0
+AD000748,AC000580,T1,baseline_coarse,1006.3,-132.4,5th main,832.6,-2618.4,cross_account_inferred,75.0
+AD000757,AC000587,T2,baseline_coarse,2708.9,-1379.3,gali no. 12,1500.5,-1602.1,cross_account_inferred,75.0
+AD000760,AC000590,T1,baseline_coarse,2680.7,-1810.8,3rd cross; 5th main,2746.4,-2472.3,cross_account_inferred,75.0
+AD000778,AC000603,T1,baseline_coarse,1918.1,-847.5,6th main,2937.0,-2465.7,cross_account_inferred,75.0
+AD000780,AC000604,T1,baseline_coarse,752.0,-3188.0,3rd; 5th main,1792.9,-2883.6,cross_account_inferred,75.0
+AD000806,AC000623,T2,baseline_coarse,2291.9,1878.5,gali no. 3,583.8,2597.4,cross_account_inferred,75.0
+AD000815,AC000631,T3,visits_disagree,3122.7,-2480.5,5th rd,3556.8,-2221.6,cross_account_inferred,75.0
+AD000835,AC000648,T2,baseline_coarse,983.4,37.0,gali no. 3,1650.6,-2312.0,cross_account_inferred,75.0
+AD000837,AC000650,T1,baseline_coarse,-1934.8,-2593.9,2nd main,-1248.8,-2714.3,cross_account_inferred,75.0
+AD000873,AC000678,T1,baseline_coarse,-2816.1,1289.1,3rd cross,-2585.4,997.2,cross_account_inferred,75.0
+AD000878,AC000683,T1,baseline_coarse,-1777.9,2511.4,5th cross; 5th main,2769.9,-2321.9,cross_account_inferred,75.0
+AD000889,AC000691,T1,baseline_coarse,2682.0,-2208.9,4th cross; 7th main,3004.2,-2511.3,cross_account_inferred,75.0
+AD000914,AC000708,T2,baseline_coarse,1353.7,-2306.1,gali no. 4,1805.9,-2198.5,cross_account_inferred,75.0
+AD000917,AC000711,T2,visits_disagree,910.4,2357.5,gali 2,2820.9,142.7,cross_account_inferred,75.0
+AD000929,AC000720,T1,baseline_coarse,1743.6,-1726.8,12th cross; 1st main,2145.7,-1099.4,cross_account_inferred,75.0
+AD000939,AC000728,T1,baseline_coarse,2364.6,1132.3,12th cross; 6th main,2670.5,1450.1,cross_account_inferred,75.0
+AD000953,AC000739,T2,visits_disagree,206.2,-3171.4,gali 6,1731.3,-2056.6,cross_account_inferred,75.0
+AD000965,AC000748,T1,baseline_coarse,-2237.6,-2477.1,3rd,-1137.4,-3087.3,cross_account_inferred,75.0
+AD000968,AC000750,T3,baseline_coarse,-2360.1,1644.4,6th road,-2369.7,1821.9,cross_account_inferred,75.0
+AD000979,AC000759,T2,baseline_coarse,834.5,2612.0,gali 7,774.3,3008.7,cross_account_inferred,75.0
+AD001003,AC000777,T2,visits_disagree,858.4,1148.4,gali no. 9,-1485.0,-2454.1,cross_account_inferred,75.0
+AD001010,AC000784,T2,baseline_coarse,1180.4,36.7,gali 2,1606.0,-2314.7,cross_account_inferred,75.0
+AD001019,AC000791,T2,baseline_coarse,3099.8,579.9,gali 10,748.0,3086.7,cross_account_inferred,75.0
+AD001028,AC000798,T2,baseline_coarse,1160.8,2302.5,gali no. 9,1215.8,2770.1,cross_account_inferred,75.0
+AD001041,AC000809,T1,baseline_coarse,1771.0,1594.8,6th cross; 5th main,422.0,2330.8,cross_account_inferred,75.0
+AD001052,AC000817,T1,baseline_coarse,2817.7,-2277.3,1st cross; 6th main,953.1,-3421.1,cross_account_inferred,75.0
+AD001062,AC000824,T3,baseline_coarse,3539.0,502.8,3rd road,3796.8,101.1,cross_account_inferred,75.0
+AD001078,AC000837,T3,visits_disagree,3062.5,-1860.1,d block; 1st road,-958.6,-432.0,cross_account_inferred,75.0
+AD001081,AC000839,T2,baseline_coarse,1086.5,-83.6,gali 5,1202.9,-2121.8,cross_account_inferred,75.0
+AD001086,AC000842,T3,baseline_coarse,-778.5,-484.3,f block; 4th rd,-2323.0,-92.2,cross_account_inferred,75.0
+AD001095,AC000849,T2,baseline_coarse,1186.1,-1723.2,gali 1,744.8,-3429.1,cross_account_inferred,75.0
+AD001105,AC000857,T1,visits_disagree,2911.7,-2515.3,6th cross; 5th main,1616.3,-547.4,cross_account_inferred,75.0
+AD001116,AC000864,T3,visits_disagree,3117.3,-1946.3,2nd rd,1016.3,-699.4,cross_account_inferred,75.0
+AD001123,AC000870,T3,baseline_coarse,-2723.5,-234.0,d block; 6th rd,-938.9,-200.5,cross_account_inferred,75.0
+AD001128,AC000874,T3,visits_disagree,780.7,-1352.6,1st road,1360.8,-1116.6,cross_account_inferred,75.0
+AD001142,AC000883,T3,baseline_coarse,-689.3,-604.3,d block; 6th rd,-938.9,-200.5,cross_account_inferred,75.0
+AD001145,AC000886,T1,visits_disagree,595.6,2301.8,5th cross; 6th main,2644.2,931.7,cross_account_inferred,75.0
+AD001166,AC000903,T1,baseline_coarse,-2805.7,1404.6,9th cross; 7th main,-2656.2,1426.5,cross_account_inferred,75.0
+AD001190,AC000921,T2,baseline_coarse,1036.4,-39.7,gali no. 11,1432.7,-1741.7,cross_account_inferred,75.0
+AD001196,AC000925,T1,baseline_coarse,2124.8,-1743.3,9th cross; 2nd main,2625.7,-1926.4,cross_account_inferred,75.0
+AD001199,AC000928,T1,baseline_coarse,990.6,-358.9,5th main,807.6,-2618.4,cross_account_inferred,75.0
+AD001211,AC000936,T2,baseline_coarse,1016.8,19.7,gali no. 12,1535.5,-1602.1,cross_account_inferred,75.0
+AD001226,AC000947,T2,baseline_coarse,1123.4,722.1,gali no. 1,1854.7,1201.2,cross_account_inferred,75.0
+AD001283,AC000994,T3,baseline_coarse,3799.3,510.2,4th road,-827.8,-3726.7,cross_account_inferred,75.0
+AD001284,AC000995,T2,baseline_coarse,1487.9,-2023.2,gali no. 6,1222.6,-2133.9,cross_account_inferred,75.0
+AD001288,AC000997,T1,baseline_coarse,1109.7,-68.9,4th cross; 4th main,2676.2,-2364.4,cross_account_inferred,75.0
+AD001296,AC001004,T2,baseline_coarse,3000.4,647.0,gali 7,774.3,3008.7,cross_account_inferred,75.0
+AD001327,AC001027,T2,baseline_coarse,1460.0,-1918.0,gali 10,1849.3,-1566.7,cross_account_inferred,75.0
+AD001332,AC001030,T3,baseline_coarse,-1153.3,-2028.0,d block; 6th rd,-938.9,-200.5,cross_account_inferred,75.0
+AD001342,AC001039,T2,baseline_coarse,2906.1,710.1,gali 3,3101.5,303.7,cross_account_inferred,75.0
+AD001344,AC001041,T3,baseline_coarse,-1311.8,-1762.3,e block; 5th road,-2489.0,-42.4,cross_account_inferred,75.0
+AD001348,AC001043,T1,baseline_coarse,2614.3,-2334.9,6th main,2907.0,-2465.7,cross_account_inferred,75.0
+AD001388,AC001073,T1,baseline_coarse,2001.7,-1434.8,2nd cross,2972.8,-2655.8,cross_account_inferred,75.0
+AD001390,AC001075,T3,baseline_coarse,-518.2,-3678.9,5th road,-1420.8,-1915.4,cross_account_inferred,75.0
+AD001395,AC001079,T3,visits_disagree,1352.5,-1064.7,1st road,1335.8,-1116.6,cross_account_inferred,75.0
+AD001401,AC001082,T1,baseline_coarse,-1177.5,-3196.8,3rd cross; 3rd main,-636.4,-2820.8,cross_account_inferred,75.0
+AD001402,AC001082,T1,baseline_coarse,304.3,2577.8,9th cross; 2nd main,2198.1,936.3,cross_account_inferred,75.0
+AD001403,AC001083,T2,baseline_coarse,1207.7,-44.5,gali no. 5,1039.3,-72.9,cross_account_inferred,75.0
+AD001424,AC001096,T2,visits_disagree,562.2,2345.4,gali no. 3,598.8,2597.4,cross_account_inferred,75.0
+AD001468,AC001131,T1,baseline_coarse,444.8,-2899.2,4th cross; 1st main,2672.5,-2098.5,cross_account_inferred,75.0
+AD001497,AC001153,T2,baseline_coarse,1543.4,-2177.2,gali no. 7,1531.6,-2033.5,cross_account_inferred,75.0
+AD001502,AC001157,T3,baseline_coarse,-2367.3,-1426.6,5th rd,-635.7,-485.5,cross_account_inferred,75.0
+AD001506,AC001160,T2,baseline_coarse,-827.7,3017.0,gali no. 10,-749.2,3343.4,cross_account_inferred,75.0
+AD001513,AC001166,T3,baseline_coarse,581.0,1779.9,5th road,3833.0,198.6,cross_account_inferred,75.0
+AD001520,AC001172,T3,visits_disagree,-563.5,-3727.2,5th road,-1415.8,-1915.4,cross_account_inferred,75.0
+AD001528,AC001177,T2,visits_disagree,1355.5,-2520.2,gali no. 1,1247.7,-1454.1,cross_account_inferred,75.0
+AD001532,AC001179,T1,baseline_coarse,-1496.3,-2003.2,1st main,-1140.6,-2244.0,cross_account_inferred,75.0
+AD001548,AC001191,T1,baseline_coarse,1756.3,-925.5,3rd; 2nd main,2491.1,-2359.1,cross_account_inferred,75.0
+AD001551,AC001193,T2,visits_disagree,1742.2,-2436.0,gali 1,769.8,-3429.1,cross_account_inferred,75.0
+AD001559,AC001200,T2,baseline_coarse,2796.5,-1444.2,3 gali,874.6,-3087.8,cross_account_inferred,75.0
+AD001568,AC001207,T1,baseline_coarse,2578.3,-2244.7,5th main,797.6,-2618.4,cross_account_inferred,75.0
+AD001578,AC001216,T3,visits_disagree,-2264.9,1710.3,4th road,-787.8,-3726.7,cross_account_inferred,75.0
+AD001586,AC001223,T2,visits_disagree,1559.2,-1825.0,gali 10,1844.3,-1566.7,cross_account_inferred,75.0
+AD001601,AC001236,T2,baseline_coarse,-31.0,1658.0,gali 8,1321.6,-2375.5,cross_account_inferred,75.0
+AD001602,AC001237,T1,baseline_coarse,1778.7,-2199.5,9th cross; 1st main,1464.0,-2380.5,cross_account_inferred,75.0
+AD001623,AC001254,T1,baseline_coarse,2840.8,-2207.2,8th main,2212.9,-2655.7,cross_account_inferred,75.0
+AD001647,AC001272,T2,visits_disagree,-1642.2,-2907.1,gali no. 5,-1482.4,-2857.9,cross_account_inferred,75.0
+AD001684,AC001296,T2,baseline_coarse,1011.4,2568.5,gali 11,1838.8,1776.0,cross_account_inferred,75.0
+AD001726,AC001331,T2,visits_disagree,2920.8,881.2,gali 11,1828.8,1776.0,cross_account_inferred,75.0
+AD001730,AC001334,T1,baseline_coarse,-3044.6,1147.2,3rd cross,-2600.4,997.2,cross_account_inferred,75.0
+AD001746,AC001348,T1,visits_disagree,3024.4,-2191.4,10th cross; 6th main,904.5,-2897.9,cross_account_inferred,75.0
+AD001769,AC001367,T2,baseline_coarse,971.4,3.1,gali 9,1931.6,-460.6,cross_account_inferred,75.0
+AD001775,AC001372,T1,visits_disagree,2904.3,-2377.4,6th main,2907.0,-2465.7,cross_account_inferred,75.0
+AD001800,AC001393,T1,visits_disagree,2544.1,-2210.8,5th cross; 2nd main,2577.5,-2211.9,cross_account_inferred,75.0
+AD001834,AC001422,T1,baseline_coarse,533.8,-3112.4,4th cross; 7th main,3014.2,-2511.3,cross_account_inferred,75.0
+AD001858,AC001440,T2,baseline_coarse,1813.9,-1555.0,gali no. 6,1222.6,-2133.9,cross_account_inferred,75.0
+AD001873,AC001451,T3,visits_disagree,-497.8,-2076.0,c block; 4th road,-1465.8,-695.9,cross_account_inferred,75.0
+AD001877,AC001454,T2,baseline_coarse,2445.4,-1146.5,gali 12,1805.4,-1218.9,cross_account_inferred,75.0
+AD001889,AC001464,T1,baseline_coarse,-2291.8,-2415.0,6th cross; 5th main,-2132.8,-2396.2,cross_account_inferred,75.0
+AD001903,AC001475,T1,baseline_coarse,1655.8,1952.0,3rd main,2367.5,921.3,cross_account_inferred,75.0
+AD001911,AC001482,T2,baseline_coarse,1949.1,-1374.0,gali 2,1611.0,-2314.7,cross_account_inferred,75.0
+AD001923,AC001491,T2,visits_disagree,1048.9,3212.1,gali 10,743.0,3086.7,cross_account_inferred,75.0
+AD001941,AC001503,T1,baseline_coarse,138.1,2504.1,1st main,1091.1,1818.2,cross_account_inferred,75.0
+AD001945,AC001507,T1,visits_disagree,-3019.0,711.5,2nd main,-3051.2,1458.2,cross_account_inferred,75.0
+AD001949,AC001511,T1,baseline_coarse,2656.3,-2082.9,6th main,2907.0,-2465.7,cross_account_inferred,75.0
+AD001963,AC001524,T2,visits_disagree,-311.7,-731.2,gali 2,-1855.9,-3256.5,cross_account_inferred,75.0
+AD001967,AC001527,T1,baseline_coarse,-1769.9,2444.6,2nd main,-3006.2,1458.2,cross_account_inferred,75.0
+AD001971,AC001531,T2,visits_disagree,2814.3,-1269.6,gali 8,1326.6,-2375.5,cross_account_inferred,75.0
+AD001973,AC001533,T1,visits_disagree,884.2,-405.4,4th cross,1509.8,-2718.0,cross_account_inferred,75.0
+AD001987,AC001542,T2,baseline_coarse,1517.4,-1353.2,gali no. 1,1247.7,-1454.1,cross_account_inferred,75.0
+AD001996,AC001549,T2,visits_disagree,1639.8,-1767.4,3 gali,864.6,-3087.8,cross_account_inferred,75.0
+AD002013,AC001560,T1,baseline_coarse,2475.8,874.1,4th cross; 4th main,-2839.6,995.5,cross_account_inferred,75.0
+AD002024,AC001568,T1,baseline_coarse,1676.3,-977.3,10th cross,3126.3,-2076.5,cross_account_inferred,75.0
+AD002034,AC001577,T2,visits_disagree,2324.5,-1041.8,gali no. 5,1019.3,-72.9,cross_account_inferred,75.0
+AD002045,AC001587,T2,visits_disagree,-944.8,-686.1,gali 2,-1855.9,-3256.5,cross_account_inferred,75.0
+AD002054,AC001594,T2,baseline_coarse,1317.3,21.4,gali 6,1731.3,-2056.6,cross_account_inferred,75.0
+AD002059,AC001597,T2,visits_disagree,1215.2,-2024.6,gali no. 8,1072.9,-1837.5,cross_account_inferred,75.0
+AD002067,AC001605,T1,visits_disagree,1039.2,-371.8,3rd main,2649.3,-1818.2,cross_account_inferred,75.0
+AD002075,AC001611,T2,baseline_coarse,1545.6,-1946.4,gali no. 3,1630.6,-2312.0,cross_account_inferred,75.0
+AD002077,AC001612,T3,baseline_coarse,1656.2,-2345.5,2nd road,889.8,-778.8,cross_account_inferred,75.0
+AD002080,AC001613,T1,baseline_coarse,819.1,-2905.5,8th cross; 3rd main,751.8,-1503.8,cross_account_inferred,75.0
+AD002121,AC001644,T1,baseline_coarse,2706.6,-2248.4,5th main,832.6,-2618.4,cross_account_inferred,75.0
+AD002122,AC001645,T3,baseline_coarse,1034.1,-864.9,4th road,1286.5,688.5,cross_account_inferred,75.0
+AD002123,AC001646,T2,visits_disagree,1130.4,550.9,gali 11,1752.9,-1212.7,cross_account_inferred,75.0
+AD002175,AC001682,T3,baseline_coarse,971.9,-924.3,2nd road,889.8,-778.8,cross_account_inferred,75.0
+AD002185,AC001689,T3,baseline_coarse,-2566.2,1751.2,6th road,-2369.7,1821.9,cross_account_inferred,75.0
+AD002197,AC001700,T2,visits_disagree,947.5,-268.5,gali 3,1279.5,-1953.1,cross_account_inferred,75.0
+AD002222,AC001719,T1,baseline_coarse,-1826.1,1487.7,1st main,783.6,-216.0,cross_account_inferred,75.0
+AD002227,AC001722,T3,baseline_coarse,-767.6,-523.6,1st road,-3730.4,-780.0,cross_account_inferred,75.0
+AD002262,AC001753,T2,visits_disagree,2644.2,-1668.2,gali 1,744.8,-3429.1,cross_account_inferred,75.0
+AD002267,AC001757,T2,baseline_coarse,767.4,2788.3,gali 8,1808.1,620.5,cross_account_inferred,75.0
+AD002271,AC001760,T2,baseline_coarse,1344.0,-2078.0,gali no. 1,1262.7,-1454.1,cross_account_inferred,75.0
+AD002283,AC001767,T3,baseline_coarse,-443.2,-3363.8,3rd road,-1699.9,-1954.7,cross_account_inferred,75.0
+AD002321,AC001799,T3,visits_disagree,3390.2,-1727.9,2nd rd,1041.3,-699.4,cross_account_inferred,75.0
+AD002340,AC001812,T2,baseline_coarse,2711.6,1801.6,gali no. 8,2964.1,730.1,cross_account_inferred,75.0
+AD002343,AC001815,T3,baseline_coarse,-1250.8,2119.2,c block; 3rd road,-286.4,2831.5,cross_account_inferred,75.0
+AD002344,AC001816,T2,baseline_coarse,2054.9,1624.7,gali 10,783.0,3086.7,cross_account_inferred,75.0
+AD002345,AC001817,T2,baseline_coarse,1165.2,1227.4,gali 11,1782.9,-1212.7,cross_account_inferred,75.0
+AD002359,AC001828,T2,visits_disagree,1650.9,-1604.4,gali 12,1820.4,-1218.9,cross_account_inferred,75.0
+AD002363,AC001831,T3,baseline_coarse,3183.8,-2047.9,f block; 3rd road,3934.9,720.8,cross_account_inferred,75.0
+AD002369,AC001836,T2,baseline_coarse,-1672.1,-2840.5,gali no. 9,1478.7,-14.1,cross_account_inferred,75.0
+AD002385,AC001851,T2,baseline_coarse,-609.3,-752.7,gali 6,-465.0,-534.0,cross_account_inferred,75.0
+AD002388,AC001852,T2,baseline_coarse,1829.7,-1850.6,gali no. 9,1493.7,-14.1,cross_account_inferred,75.0
+AD002404,AC001865,T1,visits_disagree,3073.5,-1959.2,6th main,2907.0,-2465.7,cross_account_inferred,75.0
+AD002410,AC001869,T3,baseline_coarse,805.6,-676.1,1st road,1325.8,-1116.6,cross_account_inferred,75.0
+AD002416,AC001873,T3,visits_disagree,-151.1,-3827.1,4th road,-2517.6,-528.6,cross_account_inferred,75.0
+AD002418,AC001874,T1,baseline_coarse,1080.6,-1354.2,1st cross; 6th main,963.1,-3421.1,cross_account_inferred,75.0
+AD002429,AC001883,T1,baseline_coarse,2322.2,1169.7,3rd,-1137.4,-3087.3,cross_account_inferred,75.0
+AD002452,AC001896,T1,baseline_coarse,-1278.7,-3243.6,3rd cross; 1st main,-751.8,-1700.8,cross_account_inferred,75.0
+AD002458,AC001901,T2,visits_disagree,1029.8,-3120.0,gali no. 4,1805.9,-2198.5,cross_account_inferred,75.0
+AD002464,AC001906,T2,baseline_coarse,3192.8,669.8,gali 2,1606.0,-2314.7,cross_account_inferred,75.0
+AD002531,AC001958,T2,visits_disagree,1169.2,99.1,gali no. 9,1458.7,-14.1,cross_account_inferred,75.0
+AD002534,AC001960,T2,baseline_coarse,902.8,-40.9,gali no. 5,1029.3,-72.9,cross_account_inferred,75.0
+AD002537,AC001963,T1,visits_disagree,2749.4,-2398.2,5th main,792.6,-2618.4,cross_account_inferred,75.0
+AD002558,AC001980,T1,visits_disagree,2403.9,-2167.4,4th cross; 3rd main,2115.5,-547.2,cross_account_inferred,75.0
+AD002573,AC001994,T1,baseline_coarse,-2766.1,1133.6,5th cross; 5th main,2769.9,-2321.9,cross_account_inferred,75.0
+AD002606,AC002018,T1,visits_disagree,1223.5,-171.9,6th cross; 5th main,1661.3,-547.4,cross_account_inferred,75.0
+AD002621,AC002031,T1,visits_disagree,815.7,-3138.9,5th cross; 5th main,1069.2,-1693.4,cross_account_inferred,75.0
+AD002639,AC002044,T2,baseline_coarse,1007.7,2661.1,gali 11,1828.8,1776.0,cross_account_inferred,75.0
+AD002657,AC002058,T2,baseline_coarse,1421.0,-2053.7,gali 1,744.8,-3429.1,cross_account_inferred,75.0
+AD002663,AC002064,T2,visits_disagree,1583.8,-1942.1,gali no. 8,1032.9,-1837.5,cross_account_inferred,75.0
+AD002672,AC002071,T1,baseline_coarse,2314.7,1011.9,3rd cross; 1st main,2107.0,762.7,cross_account_inferred,75.0
+AD002691,AC002086,T1,visits_disagree,3180.6,-2089.7,10th cross; 7th main,1021.1,-2735.6,cross_account_inferred,75.0
+AD002711,AC002102,T1,visits_disagree,1179.8,-3168.1,4th cross; 8th main,2185.6,-2799.9,cross_account_inferred,75.0
+AD002716,AC002106,T2,baseline_coarse,-1166.5,-2153.3,gali no. 1,-1029.1,-1913.0,cross_account_inferred,75.0
+AD002725,AC002114,T2,baseline_coarse,748.1,2560.2,gali 10,743.0,3086.7,cross_account_inferred,75.0
+AD002758,AC002138,T3,baseline_coarse,-2657.2,-346.2,a block; 4th road,1925.8,-1812.5,cross_account_inferred,75.0
+AD002764,AC002142,T1,visits_disagree,739.8,-3457.8,3rd cross; 2nd main,2510.7,-2342.9,cross_account_inferred,75.0
+AD002781,AC002155,T1,baseline_coarse,2689.0,-2009.5,2nd cross; 8th main,1186.9,-3321.3,cross_account_inferred,75.0
+AD002808,AC002175,T1,visits_disagree,2797.3,-2267.7,4th cross,1509.8,-2718.0,cross_account_inferred,75.0
+AD002815,AC002180,T1,baseline_coarse,1681.8,-2023.3,10th cross; 5th main,767.4,-2763.0,cross_account_inferred,75.0
+AD002840,AC002200,T1,baseline_coarse,1037.0,-227.0,3rd main,2634.3,-1818.2,cross_account_inferred,75.0
+AD002857,AC002215,T3,baseline_coarse,1010.0,-874.3,c block; 2nd road,3569.6,-2276.7,cross_account_inferred,75.0
+AD002860,AC002218,T3,baseline_coarse,3771.7,597.6,c block; 5th road,678.0,1291.3,cross_account_inferred,75.0
+AD002881,AC002237,T1,baseline_coarse,1983.5,1458.4,3rd main,2377.5,921.3,cross_account_inferred,75.0
+AD002883,AC002239,T1,baseline_coarse,686.8,-2860.7,4th cross; 7th main,3034.2,-2511.3,cross_account_inferred,75.0
+AD002910,AC002259,T1,baseline_coarse,-622.1,-1083.7,2nd main,-1238.8,-2714.3,cross_account_inferred,75.0
+AD002911,AC002260,T1,visits_disagree,2903.8,-2208.0,7th cross,1861.0,-2659.3,cross_account_inferred,75.0
+AD002922,AC002269,T1,visits_disagree,779.9,-2691.0,5th main,792.6,-2618.4,cross_account_inferred,75.0
+AD002953,AC002293,T2,visits_disagree,2417.7,-1777.4,gali no. 1,1282.7,-1454.1,cross_account_inferred,75.0
+AD002958,AC002296,T2,baseline_coarse,1758.6,1911.0,gali no. 4,941.3,1123.1,cross_account_inferred,75.0
+AD002984,AC002319,T2,baseline_coarse,823.3,2671.5,gali no. 8,2989.1,730.1,cross_account_inferred,75.0
+AD003014,AC002342,T2,visits_disagree,3311.4,640.9,gali 7,809.3,3008.7,cross_account_inferred,75.0
+AD003044,AC002364,T2,visits_disagree,1215.5,-2555.7,gali no. 1,1267.7,-1454.1,cross_account_inferred,75.0
+AD003056,AC002374,T1,baseline_coarse,-2496.9,-2499.0,7th cross; 7th main,-724.9,-3104.0,cross_account_inferred,75.0
+AD003069,AC002383,T2,baseline_coarse,1072.8,1320.5,gali 3,3091.5,303.7,cross_account_inferred,75.0
+AD003077,AC002389,T2,visits_disagree,2936.0,-1523.8,gali no. 6,1222.6,-2133.9,cross_account_inferred,75.0
+AD003082,AC002393,T2,baseline_coarse,3071.4,663.7,gali 9,1006.0,1450.3,cross_account_inferred,75.0
+AD003088,AC002399,T3,baseline_coarse,3327.9,-2012.0,e block; 4th road,3666.8,552.3,cross_account_inferred,75.0
+AD003117,AC000977,T1,baseline_coarse,566.7,-1323.1,1st cross; 8th main,2945.5,-2722.3,cross_account_inferred,75.0
