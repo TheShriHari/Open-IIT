@@ -407,55 +407,96 @@ def run_integrated_pipeline(
 
     # 4. CROSS-ACCOUNT STREET-LEVEL KNOWLEDGE GRAPH
     print("Building Street-Level Knowledge Graph...")
-    # Verified Street Anchors from visits_agree and visit_1
-    anchors = m_df[m_df.tier.isin(["visits_agree", "visit_1"]) & (m_df.clean_street != "") & (m_df.clean_pincode != "")]
-    street_graph = anchors.groupby(["town_id", "clean_pincode", "clean_street"])[["px", "py"]].median().reset_index()
-    street_anchor_map = {
-        (r.town_id, str(r.clean_pincode), r.clean_street): (r.px, r.py)
-        for _, r in street_graph.iterrows()
+    # Verified Street Anchors compiled from accounts in tiers visits_agree and visit_1
+    anchors = m_df[m_df.tier.isin(["visits_agree", "visit_1"]) & (m_df.clean_street != "") & (m_df.clean_pincode != "")].copy()
+    
+    # Extract numeric door numbers for anchor accounts where available
+    def get_door_num(d_str):
+        nums = re.findall(r"\d+", str(d_str))
+        return int(nums[0]) if nums else None
+    anchors["door_num"] = anchors["clean_door_no"].apply(get_door_num)
+
+    # Locality-specific anchors: (town_id, pincode, locality, street)
+    loc_anchors = anchors[anchors.clean_locality != ""].groupby(["town_id", "clean_pincode", "clean_locality", "clean_street"]).agg(
+        px=("px", "median"),
+        py=("py", "median"),
+        door_num=("door_num", "median")
+    ).reset_index()
+    loc_anchor_map = {
+        (r.town_id, str(r.clean_pincode), r.clean_locality, r.clean_street): (r.px, r.py, r.door_num)
+        for _, r in loc_anchors.iterrows()
     }
-    print(f"Compiled {len(street_anchor_map)} verified street anchors from {len(anchors)} ground-visited accounts.")
+
+    # General street anchors (only where street is spatially contiguous/unambiguous: spread <= 100m)
+    gen_anchor_map = {}
+    for (tid, pcode, street), g in anchors.groupby(["town_id", "clean_pincode", "clean_street"]):
+        med_x, med_y = g.px.median(), g.py.median()
+        max_dist = np.hypot(g.px - med_x, g.py - med_y).max()
+        if max_dist <= 100.0:
+            med_door = g.door_num.median() if g.door_num.notna().any() else None
+            gen_anchor_map[(tid, str(pcode), street)] = (med_x, med_y, med_door)
+
+    print(f"Compiled {len(loc_anchor_map)} locality-specific anchors and {len(gen_anchor_map)} unambiguous street anchors from {len(anchors)} ground-visited accounts.")
 
     promotions = []
     for idx, r in m_df.iterrows():
         if r["tier"] in ("baseline_coarse", "visits_disagree") and r["clean_street"] and r["clean_pincode"]:
-            key = (r["town_id"], str(r["clean_pincode"]), r["clean_street"])
-            if key in street_anchor_map:
-                ax, ay = street_anchor_map[key]
-                # Door number linear interpolation offset if numeric
-                dx_door = 0.0
-                if r["clean_door_no"]:
-                    nums = re.findall(r"\d+", str(r["clean_door_no"]))
-                    if nums:
-                        d_num = int(nums[0])
-                        dx_door = (d_num % 10) * 5.0  # structured ordinal shift
+            loc_key = (r["town_id"], str(r["clean_pincode"]), r["clean_locality"], r["clean_street"])
+            gen_key = (r["town_id"], str(r["clean_pincode"]), r["clean_street"])
 
-                old_t = r["tier"]
-                old_x, old_y = r["px"], r["py"]
-                new_x, new_y = ax + dx_door, ay
+            anchor_data = None
+            if loc_key in loc_anchor_map:
+                anchor_data = loc_anchor_map[loc_key]
+            elif (not r["clean_locality"]) and (gen_key in gen_anchor_map):
+                anchor_data = gen_anchor_map[gen_key]
 
-                m_df.at[idx, "px"] = new_x
-                m_df.at[idx, "py"] = new_y
-                m_df.at[idx, "tier"] = "cross_account_inferred"
+            if anchor_data is not None:
+                ax, ay, a_door = anchor_data
+                dist_to_anchor = math.hypot(ax - r["px"], ay - r["py"])
 
-                promotions.append({
-                    "address_id": r["address_id"],
-                    "account_id": r["account_id"],
-                    "town_id": r["town_id"],
-                    "old_tier": old_t,
-                    "old_px": round(old_x, 1),
-                    "old_py": round(old_y, 1),
-                    "street_info": r["clean_street"],
-                    "new_px": round(new_x, 1),
-                    "new_py": round(new_y, 1),
-                    "new_tier": "cross_account_inferred",
-                    "promoted_r90": CROSS_ACCOUNT_R90
-                })
+                # Gating: baseline_coarse has zero field visits -> always promote.
+                # visits_disagree has real physical visits -> only promote if anchor is concordant (<= 150m)
+                should_promote = False
+                if r["tier"] == "baseline_coarse":
+                    should_promote = True
+                elif r["tier"] == "visits_disagree" and dist_to_anchor <= 150.0:
+                    should_promote = True
+
+                if should_promote:
+                    # Door number linear interpolation offset along street axis (10m per door ordinal diff)
+                    dx_door = 0.0
+                    cand_door = get_door_num(r["clean_door_no"])
+                    if cand_door is not None and a_door is not None and not math.isnan(a_door):
+                        diff = max(-5, min(5, cand_door - int(a_door)))
+                        dx_door = diff * 10.0
+
+                    old_t = r["tier"]
+                    old_x, old_y = r["px"], r["py"]
+                    new_x, new_y = ax + dx_door, ay
+
+                    m_df.at[idx, "px"] = new_x
+                    m_df.at[idx, "py"] = new_y
+                    m_df.at[idx, "tier"] = "cross_account_inferred"
+
+                    promotions.append({
+                        "address_id": r["address_id"],
+                        "account_id": r["account_id"],
+                        "town_id": r["town_id"],
+                        "old_tier": old_t,
+                        "old_px": round(old_x, 1),
+                        "old_py": round(old_y, 1),
+                        "street_info": r["clean_street"],
+                        "new_px": round(new_x, 1),
+                        "new_py": round(new_y, 1),
+                        "new_tier": "cross_account_inferred",
+                        "promoted_r90": CROSS_ACCOUNT_R90
+                    })
 
     promo_df = pd.DataFrame(promotions)
     promo_df.to_csv(OUT / "cross_account_promotions.csv", index=False)
     print(f"Promoted {len(promo_df)} accounts to 'cross_account_inferred' (R90=75m) -> Saved to output/cross_account_promotions.csv")
-    print(f"Breakdown of promoted tiers:\n{promo_df['old_tier'].value_counts().to_string()}")
+    if len(promo_df):
+        print(f"Breakdown of promoted tiers:\n{promo_df['old_tier'].value_counts().to_string()}")
 
     # 5. Navigational Hints (200m cutoff)
     poi_by_town = {tid: g for tid, g in pois.groupby("town_id")}
@@ -519,10 +560,10 @@ def run_subsystem6_contracts(m_df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
         "address_id": m_df["address_id"],
         "account_id": m_df["account_id"],
         "town_id": m_df["town_id"],
-        "clean_door_no": m_df["clean_door_no"],
+        "clean_door_no": m_df["clean_door_no"].astype(str).str.replace(r"\.0$", "", regex=True).replace(["nan", "None"], ""),
         "clean_street": m_df["clean_street"],
         "clean_locality": m_df["clean_locality"],
-        "clean_pincode": m_df["clean_pincode"],
+        "clean_pincode": m_df["clean_pincode"].astype(str).str.replace(r"\.0$", "", regex=True).replace(["nan", "None"], ""),
         "final_pin_x": m_df["px"].round(1),
         "final_pin_y": m_df["py"].round(1),
         "evidence_tier": m_df["tier"],

@@ -5,7 +5,7 @@ AC000002,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000003,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000004,FIELD_FORCE,471.9,-3260.2,357.8,STANDARD_PTP,Confirm if premises is located near Behind Ration Shop (pin is a guess near this landmark)
 AC000005,FIELD_FORCE,107.8,1245.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
-AC000006,FIELD_FORCE,783.6,-216.0,75.0,STANDARD_PTP,
+AC000006,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000007,FIELD_FORCE,3055.6,-2277.8,77.4,STANDARD_PTP,
 AC000007,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000008,FIELD_FORCE,3051.1,-2317.6,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Milk Dairy (pin is a guess near this landmark)
@@ -13,7 +13,7 @@ AC000009,FIELD_FORCE,-653.5,-548.1,47.9,STANDARD_PTP,
 AC000010,FIELD_FORCE,-1016.5,2852.7,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Water Tank (pin is a guess near this landmark)
 AC000011,FIELD_FORCE,-1054.7,2946.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000012,FIELD_FORCE,1208.0,-178.9,77.4,STANDARD_PTP,
-AC000013,FIELD_FORCE,2850.9,142.7,75.0,STANDARD_PTP,
+AC000013,FIELD_FORCE,749.7,2395.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000014,FIELD_FORCE,-1058.4,2983.7,47.9,STANDARD_PTP,
 AC000015,FIELD_FORCE,646.1,2392.9,47.9,STANDARD_PTP,
 AC000016,FIELD_FORCE,-3064.3,177.9,77.4,STANDARD_PTP,
@@ -23,18 +23,18 @@ AC000019,FIELD_FORCE,1516.8,-353.6,162.1,STANDARD_PTP,Confirm if premises is loc
 AC000020,FIELD_FORCE,-2953.6,-18.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000021,FIELD_FORCE,-2110.2,1617.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC000021,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000022,FIELD_FORCE,-2656.2,1426.5,75.0,STANDARD_PTP,
+AC000022,FIELD_FORCE,-2691.2,1426.5,75.0,STANDARD_PTP,
 AC000023,FIELD_FORCE,907.5,2916.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000024,FIELD_FORCE,-723.2,-1600.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000025,FIELD_FORCE,-1016.5,2852.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC000026,FIELD_FORCE,2944.0,-1697.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000027,FIELD_FORCE,2970.1,-2451.2,47.9,STANDARD_PTP,
-AC000028,FIELD_FORCE,1463.7,-14.1,75.0,STANDARD_PTP,
+AC000028,FIELD_FORCE,1768.2,-1816.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000029,FIELD_FORCE,2426.3,941.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000029,FIELD_FORCE,916.1,-109.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC000030,FIELD_FORCE,3051.1,-2317.6,357.8,STANDARD_PTP,Confirm if premises is located near Behind Milk Dairy (pin is a guess near this landmark)
 AC000031,FIELD_FORCE,3305.3,491.5,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Community Hall (about 90 m from pin)
-AC000032,FIELD_FORCE,1509.8,-2718.0,75.0,STANDARD_PTP,
+AC000032,FIELD_FORCE,544.5,-3234.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000033,FIELD_FORCE,-580.8,2531.2,47.9,STANDARD_PTP,
 AC000034,FIELD_FORCE,829.8,-2924.8,77.4,STANDARD_PTP,
 AC000034,FIELD_FORCE,-608.9,-1093.3,77.4,STANDARD_PTP,
@@ -49,8 +49,8 @@ AC000041,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000042,FIELD_FORCE,386.5,-2773.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000043,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000043,FIELD_FORCE,-3155.2,823.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
-AC000044,FIELD_FORCE,1325.8,-1116.6,75.0,STANDARD_PTP,
-AC000044,FIELD_FORCE,-2522.6,-528.6,75.0,STANDARD_PTP,
+AC000044,FIELD_FORCE,1275.8,-1116.6,75.0,STANDARD_PTP,
+AC000044,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000045,FIELD_FORCE,-2505.6,-92.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000046,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000047,FIELD_FORCE,-763.9,167.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -68,9 +68,9 @@ AC000057,FIELD_FORCE,858.3,-3936.9,162.1,STANDARD_PTP,Confirm if premises is loc
 AC000058,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000059,FIELD_FORCE,988.4,868.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000059,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000060,FIELD_FORCE,1064.2,-1693.4,75.0,STANDARD_PTP,
+AC000060,FIELD_FORCE,2769.6,-2331.1,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Hanuman Temple (about 100 m from pin)
 AC000061,FIELD_FORCE,986.0,1450.3,77.4,STANDARD_PTP,
-AC000062,FIELD_FORCE,1031.3,-699.4,75.0,STANDARD_PTP,
+AC000062,FIELD_FORCE,1056.3,-699.4,75.0,STANDARD_PTP,
 AC000063,FIELD_FORCE,-2535.1,-132.9,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Govt School (about 50 m from pin)
 AC000064,FIELD_FORCE,986.8,-1191.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000064,FIELD_FORCE,4327.2,439.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -90,7 +90,7 @@ AC000073,FIELD_FORCE,-661.1,3190.5,357.8,STANDARD_PTP,Confirm if premises is loc
 AC000074,FIELD_FORCE,-2657.2,-180.7,47.9,STANDARD_PTP,
 AC000075,FIELD_FORCE,3366.7,542.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000076,FIELD_FORCE,-4072.0,-1017.3,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Water Tank (pin is a guess near this landmark)
-AC000077,FIELD_FORCE,-452.0,2927.4,75.0,STANDARD_PTP,
+AC000077,FIELD_FORCE,-2492.9,1358.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000078,FIELD_FORCE,-351.8,-418.6,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000079,FIELD_FORCE,2817.3,-2082.9,47.9,STANDARD_PTP,
 AC000080,FIELD_FORCE,-2378.1,1427.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
@@ -119,18 +119,18 @@ AC000099,FIELD_FORCE,3788.5,411.2,357.8,STANDARD_PTP,Confirm if premises is loca
 AC000100,FIELD_FORCE,909.3,-3205.0,47.9,STANDARD_PTP,
 AC000101,FIELD_FORCE,731.9,-1039.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000102,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000103,FIELD_FORCE,988.3,-2664.9,75.0,STANDARD_PTP,
+AC000103,FIELD_FORCE,3228.4,-1945.3,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000104,FIELD_FORCE,1690.6,-1164.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
 AC000105,FIELD_FORCE,1014.3,-406.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC000105,FIELD_FORCE,-3978.6,-1286.0,162.1,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (about 200 m from pin)
 AC000106,FIELD_FORCE,1143.9,2406.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000107,FIELD_FORCE,817.6,-2618.4,75.0,STANDARD_PTP,
+AC000107,FIELD_FORCE,732.5,-2683.6,75.0,STANDARD_PTP,
 AC000108,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000109,FIELD_FORCE,-2368.4,-530.6,47.9,STANDARD_PTP,
 AC000110,FIELD_FORCE,621.5,-3082.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000111,FIELD_FORCE,751.7,-2626.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000111,FIELD_FORCE,-643.5,1512.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Petrol Bunk (pin is a guess near this landmark)
-AC000112,FIELD_FORCE,1805.9,-2198.5,75.0,STANDARD_PTP,
+AC000112,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000113,FIELD_FORCE,3978.1,778.9,47.9,STANDARD_PTP,
 AC000114,FIELD_FORCE,-800.4,3450.6,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Bus Stop (pin is a guess near this landmark)
 AC000115,FIELD_FORCE,-853.4,-708.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
@@ -166,7 +166,7 @@ AC000139,FIELD_FORCE,1774.9,-2196.7,77.4,STANDARD_PTP,
 AC000140,FIELD_FORCE,856.1,-2704.4,47.9,STANDARD_PTP,
 AC000141,FIELD_FORCE,-487.5,2891.6,77.4,STANDARD_PTP,
 AC000142,FIELD_FORCE,1113.4,169.5,47.9,STANDARD_PTP,
-AC000143,FIELD_FORCE,1628.6,2206.9,75.0,STANDARD_PTP,
+AC000143,FIELD_FORCE,2694.5,1454.5,75.0,STANDARD_PTP,
 AC000144,FIELD_FORCE,-2231.4,-2703.7,77.4,STANDARD_PTP,
 AC000145,FIELD_FORCE,2949.1,651.6,77.4,STANDARD_PTP,
 AC000146,FIELD_FORCE,1097.3,2655.1,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Bus Stop (pin is a guess near this landmark)
@@ -200,8 +200,8 @@ AC000169,FIELD_FORCE,-978.6,-432.0,75.0,STANDARD_PTP,
 AC000169,FIELD_FORCE,1457.6,-3638.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000170,FIELD_FORCE,667.9,-3156.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000171,FIELD_FORCE,522.3,-3013.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000172,FIELD_FORCE,1429.0,-2380.5,75.0,STANDARD_PTP,
-AC000173,FIELD_FORCE,-604.4,-3778.5,75.0,STANDARD_PTP,
+AC000172,FIELD_FORCE,364.7,-2881.9,75.0,STANDARD_PTP,
+AC000173,FIELD_FORCE,-4073.8,-1012.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000174,FIELD_FORCE,1097.3,2655.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000175,FIELD_FORCE,-2847.1,-569.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000176,FIELD_FORCE,1451.0,-468.0,47.9,STANDARD_PTP,
@@ -211,8 +211,8 @@ AC000179,FIELD_FORCE,1930.1,-2161.8,387.8,STANDARD_PTP,Confirm if premises is lo
 AC000180,FIELD_FORCE,1482.8,285.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000181,FIELD_FORCE,2390.0,1082.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000181,FIELD_FORCE,-1122.4,327.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
-AC000182,FIELD_FORCE,1330.8,-1116.6,75.0,STANDARD_PTP,
-AC000183,FIELD_FORCE,-496.6,-3728.1,75.0,STANDARD_PTP,
+AC000182,FIELD_FORCE,1158.8,-1192.6,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
+AC000183,FIELD_FORCE,3808.8,-113.1,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000184,FIELD_FORCE,-232.8,-956.2,357.8,STANDARD_PTP,Confirm if premises is located near Behind Govt School (pin is a guess near this landmark)
 AC000185,FIELD_FORCE,3391.3,470.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (pin is a guess near this landmark)
 AC000186,FIELD_FORCE,205.1,2583.6,47.9,STANDARD_PTP,
@@ -229,7 +229,7 @@ AC000193,FIELD_FORCE,1150.8,812.1,162.1,STANDARD_PTP,Confirm if premises is loca
 AC000193,FIELD_FORCE,2715.6,1452.3,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Park (pin is at this landmark)
 AC000194,FIELD_FORCE,1206.9,-744.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000194,FIELD_FORCE,-3921.2,-577.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (pin is a guess near this landmark)
-AC000195,FIELD_FORCE,1052.4,-1066.8,75.0,STANDARD_PTP,
+AC000195,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000195,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000196,FIELD_FORCE,817.6,-579.6,47.9,STANDARD_PTP,
 AC000197,FIELD_FORCE,1448.4,-3612.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
@@ -245,9 +245,9 @@ AC000204,FIELD_FORCE,3054.1,-2283.8,387.8,STANDARD_PTP,Confirm if premises is lo
 AC000205,FIELD_FORCE,-672.1,-3401.8,47.9,STANDARD_PTP,
 AC000206,FIELD_FORCE,2834.8,-2357.2,77.4,STANDARD_PTP,
 AC000207,FIELD_FORCE,1032.4,-449.6,47.9,STANDARD_PTP,
-AC000208,FIELD_FORCE,899.6,-3087.8,75.0,STANDARD_PTP,
+AC000208,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000209,FIELD_FORCE,940.8,2546.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
-AC000209,FIELD_FORCE,3061.5,303.7,75.0,STANDARD_PTP,
+AC000209,FIELD_FORCE,2946.9,261.8,75.0,STANDARD_PTP,
 AC000210,FIELD_FORCE,2825.6,744.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000211,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000212,FIELD_FORCE,2464.8,-1135.8,77.4,STANDARD_PTP,
@@ -282,14 +282,14 @@ AC000235,FIELD_FORCE,25.4,2765.6,162.1,STANDARD_PTP,Confirm if premises is locat
 AC000236,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000237,FIELD_FORCE,-2878.1,1621.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC000238,FIELD_FORCE,-669.0,-472.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
-AC000239,FIELD_FORCE,730.4,-3301.6,75.0,STANDARD_PTP,
+AC000239,FIELD_FORCE,895.5,-469.7,75.0,STANDARD_PTP,
 AC000240,FIELD_FORCE,3577.4,623.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000241,FIELD_FORCE,492.6,2650.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (pin is a guess near this landmark)
 AC000242,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000243,FIELD_FORCE,3788.5,411.2,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Bus Stop (pin is a guess near this landmark)
 AC000244,FIELD_FORCE,-2945.2,1006.0,162.1,STANDARD_PTP,Confirm if premises is located near Near Post Office (about 180 m from pin)
 AC000245,FIELD_FORCE,3788.5,411.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
-AC000246,FIELD_FORCE,2634.3,-1818.2,75.0,STANDARD_PTP,
+AC000246,FIELD_FORCE,2775.7,-1817.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000247,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000248,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000249,FIELD_FORCE,431.5,1548.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
@@ -297,12 +297,12 @@ AC000249,FIELD_FORCE,-2279.5,-487.4,357.8,STANDARD_PTP,Confirm if premises is lo
 AC000250,FIELD_FORCE,2527.7,-2131.0,47.9,STANDARD_PTP,
 AC000250,FIELD_FORCE,-1021.5,-3266.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000251,FIELD_FORCE,2397.2,-2149.3,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000251,FIELD_FORCE,-2544.1,1094.6,75.0,STANDARD_PTP,
-AC000252,FIELD_FORCE,1616.3,-547.4,75.0,STANDARD_PTP,
+AC000251,FIELD_FORCE,-2569.1,1094.6,75.0,STANDARD_PTP,
+AC000252,FIELD_FORCE,1210.3,-177.6,75.0,STANDARD_PTP,
 AC000253,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000253,FIELD_FORCE,2022.3,-917.1,77.4,STANDARD_PTP,
 AC000254,FIELD_FORCE,-2350.3,-2317.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
-AC000255,FIELD_FORCE,2212.9,-2655.7,75.0,STANDARD_PTP,
+AC000255,FIELD_FORCE,3013.6,-2444.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000256,FIELD_FORCE,-2525.3,1863.1,47.9,STANDARD_PTP,
 AC000257,FIELD_FORCE,-2643.8,1719.1,47.9,STANDARD_PTP,
 AC000257,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -328,7 +328,7 @@ AC000274,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000275,FIELD_FORCE,-1574.7,217.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000276,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000277,FIELD_FORCE,-834.7,-870.0,77.4,STANDARD_PTP,
-AC000278,FIELD_FORCE,946.3,1123.1,75.0,STANDARD_PTP,
+AC000278,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000278,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000279,FIELD_FORCE,-100.7,2693.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000280,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -349,9 +349,9 @@ AC000292,FIELD_FORCE,1540.8,326.1,162.1,STANDARD_PTP,Confirm if premises is loca
 AC000293,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000293,FIELD_FORCE,-2463.3,1582.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000294,FIELD_FORCE,719.6,-3219.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000294,FIELD_FORCE,1212.1,201.9,75.0,STANDARD_PTP,
-AC000295,FIELD_FORCE,2746.4,-2472.3,75.0,STANDARD_PTP,
-AC000296,FIELD_FORCE,730.4,-3301.6,75.0,STANDARD_PTP,
+AC000294,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC000295,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC000296,FIELD_FORCE,569.6,-3313.7,75.0,STANDARD_PTP,
 AC000297,FIELD_FORCE,1076.6,-1210.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000297,FIELD_FORCE,-741.8,-2128.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000298,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -359,7 +359,7 @@ AC000299,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000300,FIELD_FORCE,-933.7,-1407.2,162.1,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (about 130 m from pin)
 AC000301,FIELD_FORCE,-1948.3,-2521.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000302,FIELD_FORCE,-2878.1,1621.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
-AC000303,FIELD_FORCE,1232.9,-2121.8,75.0,STANDARD_PTP,
+AC000303,FIELD_FORCE,403.0,-3213.0,75.0,STANDARD_PTP,
 AC000304,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000305,FIELD_FORCE,287.4,1293.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000306,FIELD_FORCE,-2350.3,-2317.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
@@ -370,7 +370,7 @@ AC000309,FIELD_FORCE,951.3,-1098.8,162.1,STANDARD_PTP,Confirm if premises is loc
 AC000310,FIELD_FORCE,2833.5,-1777.0,47.9,STANDARD_PTP,
 AC000311,FIELD_FORCE,1982.8,-1241.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC000311,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000312,FIELD_FORCE,1891.6,-460.6,75.0,STANDARD_PTP,
+AC000312,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000313,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000314,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000315,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -410,22 +410,22 @@ AC000340,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000341,FIELD_FORCE,4116.0,116.3,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000342,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000343,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000344,FIELD_FORCE,3674.9,471.6,75.0,STANDARD_PTP,
+AC000344,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000345,FIELD_FORCE,-609.5,3293.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000346,FIELD_FORCE,1859.7,1201.2,75.0,STANDARD_PTP,
+AC000346,FIELD_FORCE,828.3,2297.6,75.0,STANDARD_PTP,
 AC000346,FIELD_FORCE,1309.5,290.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
-AC000347,FIELD_FORCE,2848.5,-1819.5,75.0,STANDARD_PTP,
+AC000347,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000348,FIELD_FORCE,2564.7,924.2,77.4,STANDARD_PTP,
 AC000348,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000349,FIELD_FORCE,1768.7,-1819.2,47.9,STANDARD_PTP,
 AC000349,FIELD_FORCE,2629.1,-1674.2,77.4,STANDARD_PTP,
 AC000350,FIELD_FORCE,2566.5,-1661.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000351,FIELD_FORCE,-619.4,-3778.5,77.4,STANDARD_PTP,
-AC000352,FIELD_FORCE,128.2,2571.4,75.0,STANDARD_PTP,
+AC000352,FIELD_FORCE,178.2,2571.4,75.0,STANDARD_PTP,
 AC000353,FIELD_FORCE,-639.9,-3367.2,357.8,STANDARD_PTP,Confirm if premises is located near Behind Hanuman Temple (pin is a guess near this landmark)
 AC000354,FIELD_FORCE,-3740.4,-780.0,77.4,STANDARD_PTP,
-AC000355,FIELD_FORCE,1316.6,-2375.5,75.0,STANDARD_PTP,
-AC000356,FIELD_FORCE,3413.0,-1378.0,75.0,STANDARD_PTP,
+AC000355,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC000356,FIELD_FORCE,-3736.7,-775.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000357,FIELD_FORCE,731.9,-1039.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000358,FIELD_FORCE,-2910.2,-36.3,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Water Tank (pin is a guess near this landmark)
 AC000359,FIELD_FORCE,-310.8,990.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
@@ -436,9 +436,9 @@ AC000363,FIELD_FORCE,-1625.7,-2955.8,357.8,STANDARD_PTP,Confirm if premises is l
 AC000364,FIELD_FORCE,2832.6,-1282.3,47.9,STANDARD_PTP,
 AC000364,FIELD_FORCE,2958.1,214.7,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Community Hall (pin is a guess near this landmark)
 AC000365,FIELD_FORCE,-880.5,-1288.3,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
-AC000366,FIELD_FORCE,3200.4,-2340.5,75.0,STANDARD_PTP,
+AC000366,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000367,FIELD_FORCE,-2655.6,-56.4,47.9,STANDARD_PTP,
-AC000368,FIELD_FORCE,1052.4,-1066.8,75.0,STANDARD_PTP,
+AC000368,FIELD_FORCE,1052.4,-57.6,75.0,STANDARD_PTP,
 AC000369,FIELD_FORCE,-881.1,-3312.0,77.4,STANDARD_PTP,
 AC000370,FIELD_FORCE,-386.8,3422.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC000371,FIELD_FORCE,767.4,-2763.0,77.4,STANDARD_PTP,
@@ -447,7 +447,7 @@ AC000373,FIELD_FORCE,-318.7,-105.8,387.8,STANDARD_PTP,Confirm if premises is loc
 AC000374,FIELD_FORCE,1420.8,-1894.5,47.9,STANDARD_PTP,
 AC000375,FIELD_FORCE,2585.7,-2240.3,387.8,STANDARD_PTP,Confirm if premises is located near Near Park (about 190 m from pin)
 AC000376,FIELD_FORCE,-2082.0,-2042.8,47.9,STANDARD_PTP,
-AC000376,FIELD_FORCE,2247.9,-2655.7,75.0,STANDARD_PTP,
+AC000376,FIELD_FORCE,1169.7,-3104.3,75.0,STANDARD_PTP,
 AC000377,FIELD_FORCE,-1869.6,-2662.9,357.8,STANDARD_PTP,Confirm if premises is located near Behind Govt School (pin is a guess near this landmark)
 AC000378,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000379,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -469,7 +469,7 @@ AC000391,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000391,FIELD_FORCE,-559.1,-3059.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000392,FIELD_FORCE,-933.1,-1915.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC000393,FIELD_FORCE,1676.5,-2505.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000394,FIELD_FORCE,1805.9,-2198.5,75.0,STANDARD_PTP,
+AC000394,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000395,FIELD_FORCE,2932.3,-2068.3,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000396,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000397,FIELD_FORCE,3316.4,425.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -502,10 +502,10 @@ AC000416,FIELD_FORCE,3704.3,109.3,47.9,STANDARD_PTP,
 AC000417,FIELD_FORCE,-3085.4,1269.4,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Ration Shop (about 40 m from pin)
 AC000417,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000418,FIELD_FORCE,1285.7,-1764.8,47.9,STANDARD_PTP,
-AC000418,FIELD_FORCE,1468.7,-14.1,75.0,STANDARD_PTP,
+AC000418,FIELD_FORCE,2579.8,-1025.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000419,FIELD_FORCE,1211.7,1315.1,162.1,STANDARD_PTP,Confirm if premises is located near Near Medical Store (about 160 m from pin)
 AC000420,FIELD_FORCE,2596.2,-2480.5,47.9,STANDARD_PTP,
-AC000421,FIELD_FORCE,-2618.8,1719.1,75.0,STANDARD_PTP,
+AC000421,FIELD_FORCE,-2693.8,1719.1,75.0,STANDARD_PTP,
 AC000422,FIELD_FORCE,546.3,-2981.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000423,FIELD_FORCE,-391.5,-1246.1,162.1,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (about 160 m from pin)
 AC000424,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -519,7 +519,7 @@ AC000430,FIELD_FORCE,1664.2,-1600.1,77.4,STANDARD_PTP,
 AC000431,FIELD_FORCE,823.0,-420.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC000431,FIELD_FORCE,-107.4,3568.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC000432,FIELD_FORCE,3816.8,200.9,77.4,STANDARD_PTP,
-AC000433,FIELD_FORCE,2634.3,-1818.2,75.0,STANDARD_PTP,
+AC000433,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000434,FIELD_FORCE,2577.3,-1320.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC000435,FIELD_FORCE,1291.6,-2463.5,47.9,STANDARD_PTP,
 AC000436,FIELD_FORCE,-637.1,-3108.0,77.4,STANDARD_PTP,
@@ -536,7 +536,7 @@ AC000445,FIELD_FORCE,1644.8,-1693.6,47.9,STANDARD_PTP,
 AC000446,FIELD_FORCE,-67.0,-3856.9,77.4,STANDARD_PTP,
 AC000446,FIELD_FORCE,883.9,-3762.9,77.4,STANDARD_PTP,
 AC000447,FIELD_FORCE,-481.5,-3675.9,387.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (about 90 m from pin)
-AC000447,FIELD_FORCE,-1385.8,-1915.4,75.0,STANDARD_PTP,
+AC000447,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000448,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000449,FIELD_FORCE,-406.6,-628.5,47.9,STANDARD_PTP,
 AC000450,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -552,7 +552,7 @@ AC000459,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000459,FIELD_FORCE,-764.5,-471.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
 AC000460,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000461,FIELD_FORCE,-1117.6,27.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000462,FIELD_FORCE,-2575.4,997.2,75.0,STANDARD_PTP,
+AC000462,FIELD_FORCE,-2600.4,997.2,75.0,STANDARD_PTP,
 AC000463,FIELD_FORCE,-2089.0,1133.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000464,FIELD_FORCE,683.3,-704.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000464,FIELD_FORCE,3443.4,-1945.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
@@ -565,7 +565,7 @@ AC000470,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000471,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000472,FIELD_FORCE,-2596.7,-457.9,77.4,STANDARD_PTP,
 AC000473,FIELD_FORCE,-570.2,3293.1,77.4,STANDARD_PTP,
-AC000474,FIELD_FORCE,-807.8,-3859.5,75.0,STANDARD_PTP,
+AC000474,FIELD_FORCE,-802.8,-3859.5,75.0,STANDARD_PTP,
 AC000475,FIELD_FORCE,919.9,-3347.4,47.9,STANDARD_PTP,
 AC000476,FIELD_FORCE,-1625.7,-2955.8,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Milk Dairy (pin is a guess near this landmark)
 AC000476,FIELD_FORCE,2138.7,2240.0,162.1,STANDARD_PTP,Confirm if premises is located near Near Govt School (about 160 m from pin)
@@ -594,7 +594,7 @@ AC000492,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000493,FIELD_FORCE,1819.2,-1570.2,47.9,STANDARD_PTP,
 AC000494,FIELD_FORCE,1481.3,-684.1,77.4,STANDARD_PTP,
 AC000494,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000495,FIELD_FORCE,2659.3,-1818.2,75.0,STANDARD_PTP,
+AC000495,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000496,FIELD_FORCE,2401.9,-1290.9,77.4,STANDARD_PTP,
 AC000497,FIELD_FORCE,1090.0,-962.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000498,FIELD_FORCE,3146.3,-2165.3,77.4,STANDARD_PTP,
@@ -603,7 +603,7 @@ AC000500,FIELD_FORCE,-2910.2,-36.3,357.8,STANDARD_PTP,Confirm if premises is loc
 AC000501,FIELD_FORCE,3546.7,-88.8,47.9,STANDARD_PTP,
 AC000502,FIELD_FORCE,2440.0,-2255.2,77.4,STANDARD_PTP,
 AC000503,FIELD_FORCE,-173.7,-3339.8,77.4,STANDARD_PTP,
-AC000503,FIELD_FORCE,-1420.8,-1915.4,75.0,STANDARD_PTP,
+AC000503,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000504,FIELD_FORCE,-2689.4,959.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000505,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000505,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -653,13 +653,13 @@ AC000540,FIELD_FORCE,674.9,1444.0,357.8,STANDARD_PTP,Confirm if premises is loca
 AC000541,FIELD_FORCE,3204.7,-2025.5,77.4,STANDARD_PTP,
 AC000542,FIELD_FORCE,53.2,2377.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000543,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000544,FIELD_FORCE,2735.5,-2575.4,75.0,STANDARD_PTP,
+AC000544,FIELD_FORCE,2738.1,-2555.3,75.0,STANDARD_PTP,
 AC000545,FIELD_FORCE,1277.3,150.4,77.4,STANDARD_PTP,
-AC000546,FIELD_FORCE,1247.7,-1454.1,75.0,STANDARD_PTP,
+AC000546,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000547,FIELD_FORCE,3295.5,-2213.7,77.4,STANDARD_PTP,
 AC000547,FIELD_FORCE,-270.5,3172.4,162.1,STANDARD_PTP,Confirm if premises is located near Near Water Tank (about 140 m from pin)
 AC000548,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000549,FIELD_FORCE,2860.9,142.7,75.0,STANDARD_PTP,
+AC000549,FIELD_FORCE,2770.9,142.7,75.0,STANDARD_PTP,
 AC000549,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000550,FIELD_FORCE,1208.5,1049.0,77.4,STANDARD_PTP,
 AC000551,FIELD_FORCE,772.0,2468.5,387.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (about 190 m from pin)
@@ -677,9 +677,9 @@ AC000562,FIELD_FORCE,-926.8,2620.3,162.1,STANDARD_PTP,Confirm if premises is loc
 AC000563,FIELD_FORCE,-2688.2,-487.8,47.9,STANDARD_PTP,
 AC000564,FIELD_FORCE,-657.4,-3343.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000565,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000566,FIELD_FORCE,1211.9,-3321.3,75.0,STANDARD_PTP,
+AC000566,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000567,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000568,FIELD_FORCE,1651.3,-547.4,75.0,STANDARD_PTP,
+AC000568,FIELD_FORCE,2852.5,-2271.8,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Community Hall (about 160 m from pin)
 AC000569,FIELD_FORCE,3880.1,627.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000570,FIELD_FORCE,2676.2,-2364.4,47.9,STANDARD_PTP,
 AC000571,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -693,7 +693,7 @@ AC000576,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000577,FIELD_FORCE,1325.8,-1116.6,77.4,STANDARD_PTP,
 AC000578,FIELD_FORCE,-1528.9,-2813.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC000579,FIELD_FORCE,2717.5,908.5,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Ration Shop (about 190 m from pin)
-AC000580,FIELD_FORCE,832.6,-2618.4,75.0,STANDARD_PTP,
+AC000580,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000581,FIELD_FORCE,-178.4,-3427.7,47.9,STANDARD_PTP,
 AC000581,FIELD_FORCE,-52.2,3155.0,77.4,STANDARD_PTP,
 AC000582,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -702,10 +702,10 @@ AC000583,FIELD_FORCE,2836.7,-2601.8,47.9,STANDARD_PTP,
 AC000584,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000585,FIELD_FORCE,647.5,-2633.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
 AC000586,FIELD_FORCE,1348.2,-2073.0,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Milk Dairy (about 80 m from pin)
-AC000587,FIELD_FORCE,1500.5,-1602.1,75.0,STANDARD_PTP,
+AC000587,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000588,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000589,FIELD_FORCE,3138.7,562.4,47.9,STANDARD_PTP,
-AC000590,FIELD_FORCE,2746.4,-2472.3,75.0,STANDARD_PTP,
+AC000590,FIELD_FORCE,2780.6,-2484.4,75.0,STANDARD_PTP,
 AC000590,FIELD_FORCE,2695.1,1080.9,77.4,STANDARD_PTP,
 AC000591,FIELD_FORCE,-2604.3,-560.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000591,FIELD_FORCE,3205.8,-1685.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
@@ -722,9 +722,9 @@ AC000599,FIELD_FORCE,1346.4,-2520.7,357.8,STANDARD_PTP,Confirm if premises is lo
 AC000600,FIELD_FORCE,-2664.2,1728.2,47.9,STANDARD_PTP,
 AC000601,FIELD_FORCE,-635.7,-339.6,77.4,STANDARD_PTP,
 AC000602,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000603,FIELD_FORCE,2937.0,-2465.7,75.0,STANDARD_PTP,
+AC000603,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000604,FIELD_FORCE,2201.8,847.3,387.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (about 90 m from pin)
-AC000604,FIELD_FORCE,1792.9,-2883.6,75.0,STANDARD_PTP,
+AC000604,FIELD_FORCE,779.0,-3288.8,75.0,STANDARD_PTP,
 AC000605,FIELD_FORCE,3755.4,504.7,47.9,STANDARD_PTP,
 AC000606,FIELD_FORCE,652.9,-2631.4,47.9,STANDARD_PTP,
 AC000606,FIELD_FORCE,772.4,-2604.8,77.4,STANDARD_PTP,
@@ -748,7 +748,7 @@ AC000621,FIELD_FORCE,1576.0,-242.5,47.9,STANDARD_PTP,
 AC000621,FIELD_FORCE,-354.0,-1397.5,77.4,STANDARD_PTP,
 AC000622,FIELD_FORCE,-2333.0,-3.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000622,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000623,FIELD_FORCE,583.8,2597.4,75.0,STANDARD_PTP,
+AC000623,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000624,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000625,FIELD_FORCE,-711.1,3387.9,47.9,STANDARD_PTP,
 AC000626,FIELD_FORCE,671.4,81.3,47.9,STANDARD_PTP,
@@ -756,7 +756,7 @@ AC000627,FIELD_FORCE,1147.2,-3177.1,47.9,STANDARD_PTP,
 AC000628,FIELD_FORCE,-1248.8,-2714.3,47.9,STANDARD_PTP,
 AC000629,FIELD_FORCE,3057.6,-2283.1,47.9,STANDARD_PTP,
 AC000630,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000631,FIELD_FORCE,3556.8,-2221.6,75.0,STANDARD_PTP,
+AC000631,FIELD_FORCE,3122.7,-2480.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000632,FIELD_FORCE,1097.3,2655.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000633,FIELD_FORCE,1299.6,-1924.1,387.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (about 120 m from pin)
 AC000634,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -776,9 +776,9 @@ AC000644,FIELD_FORCE,-1522.9,552.2,162.1,STANDARD_PTP,Confirm if premises is loc
 AC000645,FIELD_FORCE,3288.8,-2147.0,77.4,STANDARD_PTP,
 AC000646,FIELD_FORCE,-2847.1,-569.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000647,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000648,FIELD_FORCE,1650.6,-2312.0,75.0,STANDARD_PTP,
+AC000648,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000649,FIELD_FORCE,821.2,-588.2,47.9,STANDARD_PTP,
-AC000650,FIELD_FORCE,-1248.8,-2714.3,75.0,STANDARD_PTP,
+AC000650,FIELD_FORCE,-1298.8,-2714.3,75.0,STANDARD_PTP,
 AC000650,FIELD_FORCE,-2559.7,1431.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000651,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000652,FIELD_FORCE,3083.1,-2465.6,47.9,STANDARD_PTP,
@@ -813,12 +813,12 @@ AC000675,FIELD_FORCE,-2048.6,1559.5,387.8,STANDARD_PTP,Confirm if premises is lo
 AC000676,FIELD_FORCE,3333.9,-2400.5,47.9,STANDARD_PTP,
 AC000677,FIELD_FORCE,2441.1,-1253.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000677,FIELD_FORCE,2110.1,2097.2,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Govt School (about 40 m from pin)
-AC000678,FIELD_FORCE,-2585.4,997.2,75.0,STANDARD_PTP,
+AC000678,FIELD_FORCE,-2600.4,997.2,75.0,STANDARD_PTP,
 AC000679,FIELD_FORCE,-3861.3,-583.6,47.9,STANDARD_PTP,
 AC000680,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000681,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000682,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000683,FIELD_FORCE,2769.9,-2321.9,75.0,STANDARD_PTP,
+AC000683,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000684,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000685,FIELD_FORCE,2323.4,-2387.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC000686,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -828,7 +828,7 @@ AC000688,FIELD_FORCE,935.3,2747.0,77.4,STANDARD_PTP,
 AC000689,FIELD_FORCE,3200.4,-2340.5,77.4,STANDARD_PTP,
 AC000690,FIELD_FORCE,748.2,117.3,77.4,STANDARD_PTP,
 AC000691,FIELD_FORCE,740.2,-3077.2,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Community Hall (pin is a guess near this landmark)
-AC000691,FIELD_FORCE,3004.2,-2511.3,75.0,STANDARD_PTP,
+AC000691,FIELD_FORCE,3049.2,-2511.3,75.0,STANDARD_PTP,
 AC000692,FIELD_FORCE,-661.4,3352.0,162.1,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (about 130 m from pin)
 AC000692,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000693,FIELD_FORCE,-272.4,-3176.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -850,10 +850,10 @@ AC000705,FIELD_FORCE,2538.0,-2371.9,162.1,STANDARD_PTP,Confirm if premises is lo
 AC000705,FIELD_FORCE,-548.4,-1445.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Park (pin is a guess near this landmark)
 AC000706,FIELD_FORCE,1443.0,-1665.7,77.4,STANDARD_PTP,
 AC000707,FIELD_FORCE,629.3,-841.6,77.4,STANDARD_PTP,
-AC000708,FIELD_FORCE,1805.9,-2198.5,75.0,STANDARD_PTP,
+AC000708,FIELD_FORCE,1720.5,-2200.0,75.0,STANDARD_PTP,
 AC000709,FIELD_FORCE,-740.9,-771.4,47.9,STANDARD_PTP,
 AC000710,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000711,FIELD_FORCE,2820.9,142.7,75.0,STANDARD_PTP,
+AC000711,FIELD_FORCE,910.4,2357.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000711,FIELD_FORCE,2135.7,1706.9,47.9,STANDARD_PTP,
 AC000712,FIELD_FORCE,3005.0,-2518.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000712,FIELD_FORCE,-1419.5,580.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -865,7 +865,7 @@ AC000716,FIELD_FORCE,1210.5,-1699.2,162.1,STANDARD_PTP,Confirm if premises is lo
 AC000717,FIELD_FORCE,1127.1,-622.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000718,FIELD_FORCE,2577.3,-1320.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC000719,FIELD_FORCE,2843.8,757.1,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Ration Shop (pin is a guess near this landmark)
-AC000720,FIELD_FORCE,2145.7,-1099.4,75.0,STANDARD_PTP,
+AC000720,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000721,FIELD_FORCE,-2604.8,1544.8,77.4,STANDARD_PTP,
 AC000722,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000723,FIELD_FORCE,1440.8,-1984.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Church (pin is a guess near this landmark)
@@ -874,7 +874,7 @@ AC000725,FIELD_FORCE,-241.5,-3420.1,162.1,STANDARD_PTP,Confirm if premises is lo
 AC000726,FIELD_FORCE,1009.2,-2966.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000727,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000728,FIELD_FORCE,1982.8,-1241.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
-AC000728,FIELD_FORCE,2670.5,1450.1,75.0,STANDARD_PTP,
+AC000728,FIELD_FORCE,2580.5,1450.1,75.0,STANDARD_PTP,
 AC000729,FIELD_FORCE,320.8,-3029.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000730,FIELD_FORCE,796.1,3231.9,47.9,STANDARD_PTP,
 AC000731,FIELD_FORCE,-2594.8,-473.2,77.4,STANDARD_PTP,
@@ -887,7 +887,7 @@ AC000736,FIELD_FORCE,-764.5,-471.1,357.8,STANDARD_PTP,Confirm if premises is loc
 AC000737,FIELD_FORCE,-3018.4,-239.4,47.9,STANDARD_PTP,
 AC000738,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000738,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000739,FIELD_FORCE,1731.3,-2056.6,75.0,STANDARD_PTP,
+AC000739,FIELD_FORCE,206.2,-3171.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000740,FIELD_FORCE,-2490.9,1182.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000741,FIELD_FORCE,3141.2,-1919.2,47.9,STANDARD_PTP,
 AC000742,FIELD_FORCE,2783.3,134.2,77.4,STANDARD_PTP,
@@ -897,7 +897,7 @@ AC000744,FIELD_FORCE,2844.3,775.5,357.8,STANDARD_PTP,Confirm if premises is loca
 AC000745,FIELD_FORCE,2695.2,272.0,77.4,STANDARD_PTP,
 AC000746,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000747,FIELD_FORCE,1032.9,-1837.5,47.9,STANDARD_PTP,
-AC000748,FIELD_FORCE,-1137.4,-3087.3,75.0,STANDARD_PTP,
+AC000748,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000749,FIELD_FORCE,-2477.9,-542.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC000750,FIELD_FORCE,-2369.7,1821.9,75.0,STANDARD_PTP,
 AC000751,FIELD_FORCE,2188.3,971.9,47.9,STANDARD_PTP,
@@ -932,14 +932,14 @@ AC000774,FIELD_FORCE,-33.6,-3535.7,77.4,STANDARD_PTP,
 AC000775,FIELD_FORCE,2249.6,-1284.1,77.4,STANDARD_PTP,
 AC000776,FIELD_FORCE,3615.9,595.1,77.4,STANDARD_PTP,
 AC000776,FIELD_FORCE,-2110.2,1617.4,357.8,STANDARD_PTP,Confirm if premises is located near Behind Ganesh Temple (pin is a guess near this landmark)
-AC000777,FIELD_FORCE,-1485.0,-2454.1,75.0,STANDARD_PTP,
+AC000777,FIELD_FORCE,858.4,1148.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000778,FIELD_FORCE,1092.3,-419.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC000779,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000780,FIELD_FORCE,1203.0,-1158.9,77.4,STANDARD_PTP,
 AC000781,FIELD_FORCE,-2813.1,992.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000782,FIELD_FORCE,-2159.4,2328.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000783,FIELD_FORCE,1639.0,-2308.5,77.4,STANDARD_PTP,
-AC000784,FIELD_FORCE,1606.0,-2314.7,75.0,STANDARD_PTP,
+AC000784,FIELD_FORCE,1003.6,-353.0,75.0,STANDARD_PTP,
 AC000785,FIELD_FORCE,-868.8,3100.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC000786,FIELD_FORCE,802.2,-3287.1,47.9,STANDARD_PTP,
 AC000787,FIELD_FORCE,1336.7,-2068.8,47.9,STANDARD_PTP,
@@ -947,7 +947,7 @@ AC000788,FIELD_FORCE,3288.5,210.8,162.1,STANDARD_PTP,Confirm if premises is loca
 AC000788,FIELD_FORCE,518.8,1925.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC000789,FIELD_FORCE,-934.6,-724.5,77.4,STANDARD_PTP,
 AC000790,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000791,FIELD_FORCE,748.0,3086.7,75.0,STANDARD_PTP,
+AC000791,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000792,FIELD_FORCE,2497.3,-1687.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000793,FIELD_FORCE,-280.8,-1189.1,77.4,STANDARD_PTP,
 AC000793,FIELD_FORCE,1982.8,-1241.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
@@ -956,7 +956,7 @@ AC000795,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000796,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000797,FIELD_FORCE,762.5,2302.7,47.9,STANDARD_PTP,
 AC000797,FIELD_FORCE,900.0,3101.3,357.8,STANDARD_PTP,Confirm if premises is located near Near Petrol Bunk (pin is a guess near this landmark)
-AC000798,FIELD_FORCE,1215.8,2770.1,75.0,STANDARD_PTP,
+AC000798,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000799,FIELD_FORCE,907.5,2586.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000800,FIELD_FORCE,1435.4,-2121.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000801,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -977,7 +977,7 @@ AC000814,FIELD_FORCE,2720.7,-1705.7,162.1,STANDARD_PTP,Confirm if premises is lo
 AC000814,FIELD_FORCE,2672.5,-2098.5,77.4,STANDARD_PTP,
 AC000815,FIELD_FORCE,-1031.2,-536.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000816,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000817,FIELD_FORCE,953.1,-3421.1,75.0,STANDARD_PTP,
+AC000817,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000818,FIELD_FORCE,898.7,-720.3,47.9,STANDARD_PTP,
 AC000819,FIELD_FORCE,-99.3,2792.3,77.4,STANDARD_PTP,
 AC000820,FIELD_FORCE,353.0,-3213.0,47.9,STANDARD_PTP,
@@ -999,21 +999,21 @@ AC000833,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000834,FIELD_FORCE,2543.4,-1879.0,77.4,STANDARD_PTP,
 AC000835,FIELD_FORCE,-3292.4,1100.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000836,FIELD_FORCE,-513.7,-242.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
-AC000837,FIELD_FORCE,-958.6,-432.0,75.0,STANDARD_PTP,
+AC000837,FIELD_FORCE,3062.5,-1860.1,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000838,FIELD_FORCE,-2456.8,-94.9,47.9,STANDARD_PTP,
 AC000838,FIELD_FORCE,-2348.7,-175.3,47.9,STANDARD_PTP,
-AC000839,FIELD_FORCE,1202.9,-2121.8,75.0,STANDARD_PTP,
+AC000839,FIELD_FORCE,743.8,-130.6,75.0,STANDARD_PTP,
 AC000839,FIELD_FORCE,940.8,2546.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC000840,FIELD_FORCE,789.0,-3288.8,47.9,STANDARD_PTP,
 AC000841,FIELD_FORCE,-1869.6,-2662.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
-AC000842,FIELD_FORCE,-2323.0,-92.2,75.0,STANDARD_PTP,
+AC000842,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000843,FIELD_FORCE,988.3,-2664.9,47.9,STANDARD_PTP,
 AC000844,FIELD_FORCE,1333.5,-221.9,47.9,STANDARD_PTP,
 AC000845,FIELD_FORCE,3509.8,540.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC000846,FIELD_FORCE,-3691.6,-718.5,77.4,STANDARD_PTP,
 AC000847,FIELD_FORCE,-1031.2,-536.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000848,FIELD_FORCE,-2466.7,1761.1,47.9,STANDARD_PTP,
-AC000849,FIELD_FORCE,744.8,-3429.1,75.0,STANDARD_PTP,
+AC000849,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000850,FIELD_FORCE,2709.2,939.1,47.9,STANDARD_PTP,
 AC000850,FIELD_FORCE,1982.8,-1241.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC000851,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1023,7 +1023,7 @@ AC000854,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000855,FIELD_FORCE,1097.3,2655.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000856,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000856,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000857,FIELD_FORCE,1616.3,-547.4,75.0,STANDARD_PTP,
+AC000857,FIELD_FORCE,2911.7,-2515.3,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Hanuman Temple (about 170 m from pin)
 AC000858,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000858,FIELD_FORCE,314.7,2540.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000859,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1032,19 +1032,19 @@ AC000861,FIELD_FORCE,-1138.4,-1991.8,357.8,STANDARD_PTP,Confirm if premises is l
 AC000861,FIELD_FORCE,603.1,-747.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC000862,FIELD_FORCE,2577.3,-1320.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC000863,FIELD_FORCE,-532.5,3389.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
-AC000864,FIELD_FORCE,1016.3,-699.4,75.0,STANDARD_PTP,
+AC000864,FIELD_FORCE,3117.3,-1946.3,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000865,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000866,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000866,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000867,FIELD_FORCE,-3990.5,-1086.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC000868,FIELD_FORCE,3735.4,644.0,47.9,STANDARD_PTP,
 AC000869,FIELD_FORCE,3385.9,511.3,47.9,STANDARD_PTP,
-AC000870,FIELD_FORCE,-938.9,-200.5,75.0,STANDARD_PTP,
+AC000870,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000871,FIELD_FORCE,1209.5,-1669.2,77.4,STANDARD_PTP,
 AC000872,FIELD_FORCE,1275.4,1129.1,162.1,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (about 110 m from pin)
 AC000872,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000873,FIELD_FORCE,625.5,-3386.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC000874,FIELD_FORCE,1360.8,-1116.6,75.0,STANDARD_PTP,
+AC000874,FIELD_FORCE,780.7,-1352.6,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000875,FIELD_FORCE,-707.4,3230.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000876,FIELD_FORCE,-766.9,-3323.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000877,FIELD_FORCE,1122.4,-1730.6,47.9,STANDARD_PTP,
@@ -1061,7 +1061,7 @@ AC000883,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000883,FIELD_FORCE,-938.9,-200.5,75.0,STANDARD_PTP,
 AC000884,FIELD_FORCE,3231.2,-1663.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC000885,FIELD_FORCE,-613.2,-1231.1,162.1,STANDARD_PTP,Confirm if premises is located near Near Church (about 170 m from pin)
-AC000886,FIELD_FORCE,2644.2,931.7,75.0,STANDARD_PTP,
+AC000886,FIELD_FORCE,595.6,2301.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000887,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000888,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000889,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1081,7 +1081,7 @@ AC000899,FIELD_FORCE,-145.9,-3531.5,77.4,STANDARD_PTP,
 AC000900,FIELD_FORCE,-1869.6,-2662.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC000901,FIELD_FORCE,-764.5,-471.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
 AC000902,FIELD_FORCE,-186.5,2836.7,77.4,STANDARD_PTP,
-AC000903,FIELD_FORCE,-2656.2,1426.5,75.0,STANDARD_PTP,
+AC000903,FIELD_FORCE,-2691.2,1426.5,75.0,STANDARD_PTP,
 AC000904,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000905,FIELD_FORCE,-280.8,-278.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC000906,FIELD_FORCE,3658.8,-1915.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -1102,16 +1102,16 @@ AC000918,FIELD_FORCE,2858.0,-2029.8,387.8,STANDARD_PTP,Confirm if premises is lo
 AC000919,FIELD_FORCE,1378.5,-297.9,47.9,STANDARD_PTP,
 AC000920,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000921,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000921,FIELD_FORCE,1432.7,-1741.7,75.0,STANDARD_PTP,
+AC000921,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000922,FIELD_FORCE,374.6,2792.3,77.4,STANDARD_PTP,
 AC000922,FIELD_FORCE,-1409.6,-2935.6,357.8,STANDARD_PTP,Confirm if premises is located near Behind Masjid (pin is a guess near this landmark)
 AC000923,FIELD_FORCE,-170.1,3207.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC000924,FIELD_FORCE,2469.1,-1329.6,357.8,STANDARD_PTP,Confirm if premises is located near Behind Hanuman Temple (pin is a guess near this landmark)
 AC000924,FIELD_FORCE,2447.4,-1191.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
-AC000925,FIELD_FORCE,2625.7,-1926.4,75.0,STANDARD_PTP,
+AC000925,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000926,FIELD_FORCE,814.2,-1252.3,77.4,STANDARD_PTP,
 AC000927,FIELD_FORCE,566.9,-2780.6,77.4,STANDARD_PTP,
-AC000928,FIELD_FORCE,807.6,-2618.4,75.0,STANDARD_PTP,
+AC000928,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000929,FIELD_FORCE,-2824.0,845.6,47.9,STANDARD_PTP,
 AC000929,FIELD_FORCE,659.7,-2621.2,77.4,STANDARD_PTP,
 AC000930,FIELD_FORCE,-1528.9,-2813.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
@@ -1122,7 +1122,7 @@ AC000934,FIELD_FORCE,2484.2,922.5,47.9,STANDARD_PTP,
 AC000934,FIELD_FORCE,1596.3,-1026.8,77.4,STANDARD_PTP,
 AC000935,FIELD_FORCE,-1034.4,3134.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000936,FIELD_FORCE,900.0,3101.3,357.8,STANDARD_PTP,Confirm if premises is located near Near Petrol Bunk (pin is a guess near this landmark)
-AC000936,FIELD_FORCE,1535.5,-1602.1,75.0,STANDARD_PTP,
+AC000936,FIELD_FORCE,1540.5,366.4,75.0,STANDARD_PTP,
 AC000937,FIELD_FORCE,-2965.1,1347.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000937,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000938,FIELD_FORCE,2804.4,-1616.0,77.4,STANDARD_PTP,
@@ -1136,7 +1136,7 @@ AC000943,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000944,FIELD_FORCE,712.6,-3001.2,47.9,STANDARD_PTP,
 AC000945,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000946,FIELD_FORCE,331.0,-3084.2,357.8,STANDARD_PTP,Confirm if premises is located near Behind Ganesh Temple (pin is a guess near this landmark)
-AC000947,FIELD_FORCE,1854.7,1201.2,75.0,STANDARD_PTP,
+AC000947,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000948,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000949,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000950,FIELD_FORCE,1168.9,1631.0,162.1,STANDARD_PTP,Confirm if premises is located near Near Medical Store (about 170 m from pin)
@@ -1190,18 +1190,18 @@ AC000991,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000992,FIELD_FORCE,1555.6,-2329.4,77.4,STANDARD_PTP,
 AC000993,FIELD_FORCE,658.2,-1125.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC000994,FIELD_FORCE,-827.8,-3726.7,75.0,STANDARD_PTP,
-AC000995,FIELD_FORCE,1222.6,-2133.9,75.0,STANDARD_PTP,
+AC000995,FIELD_FORCE,1680.3,-2133.9,75.0,STANDARD_PTP,
 AC000995,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000996,FIELD_FORCE,1543.3,-4088.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000996,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC000997,FIELD_FORCE,2676.2,-2364.4,75.0,STANDARD_PTP,
+AC000997,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC000998,FIELD_FORCE,3994.3,668.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC000999,FIELD_FORCE,978.5,-1033.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001000,FIELD_FORCE,894.6,-787.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001001,FIELD_FORCE,-938.9,-200.5,77.4,STANDARD_PTP,
 AC001002,FIELD_FORCE,2712.3,-2460.1,47.9,STANDARD_PTP,
 AC001003,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001004,FIELD_FORCE,774.3,3008.7,75.0,STANDARD_PTP,
+AC001004,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001004,FIELD_FORCE,2335.2,1476.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC001005,FIELD_FORCE,-846.0,-3041.6,77.4,STANDARD_PTP,
 AC001005,FIELD_FORCE,-563.2,-1389.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Church (pin is a guess near this landmark)
@@ -1231,12 +1231,12 @@ AC001024,FIELD_FORCE,681.3,-2735.2,77.4,STANDARD_PTP,
 AC001025,FIELD_FORCE,2631.4,-1926.4,47.9,STANDARD_PTP,
 AC001026,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001026,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001027,FIELD_FORCE,1849.3,-1566.7,75.0,STANDARD_PTP,
+AC001027,FIELD_FORCE,1207.0,-1878.5,75.0,STANDARD_PTP,
 AC001027,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001028,FIELD_FORCE,1014.3,-406.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC001029,FIELD_FORCE,-2352.8,-530.8,47.9,STANDARD_PTP,
 AC001030,FIELD_FORCE,-2937.9,-64.3,77.4,STANDARD_PTP,
-AC001030,FIELD_FORCE,-938.9,-200.5,75.0,STANDARD_PTP,
+AC001030,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001031,FIELD_FORCE,-2772.6,-349.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Petrol Bunk (pin is a guess near this landmark)
 AC001032,FIELD_FORCE,868.7,-2937.9,77.4,STANDARD_PTP,
 AC001033,FIELD_FORCE,2695.9,-1797.1,47.9,STANDARD_PTP,
@@ -1245,9 +1245,9 @@ AC001035,FIELD_FORCE,2848.0,623.8,47.9,STANDARD_PTP,
 AC001036,FIELD_FORCE,723.5,2835.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001037,FIELD_FORCE,1097.3,2655.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC001038,FIELD_FORCE,-980.8,-1755.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001039,FIELD_FORCE,3101.5,303.7,75.0,STANDARD_PTP,
+AC001039,FIELD_FORCE,2896.9,261.8,75.0,STANDARD_PTP,
 AC001040,FIELD_FORCE,-1269.1,-501.1,77.4,STANDARD_PTP,
-AC001041,FIELD_FORCE,-2489.0,-42.4,75.0,STANDARD_PTP,
+AC001041,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001042,FIELD_FORCE,-797.5,-721.5,77.4,STANDARD_PTP,
 AC001043,FIELD_FORCE,2907.0,-2465.7,75.0,STANDARD_PTP,
 AC001044,FIELD_FORCE,2041.4,-1312.6,162.1,STANDARD_PTP,Confirm if premises is located near Behind Hanuman Temple (about 90 m from pin)
@@ -1287,20 +1287,20 @@ AC001071,FIELD_FORCE,-2724.5,-495.2,47.9,STANDARD_PTP,
 AC001071,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001072,FIELD_FORCE,-400.2,-3395.7,47.9,STANDARD_PTP,
 AC001073,FIELD_FORCE,3330.8,-2001.4,47.9,STANDARD_PTP,
-AC001073,FIELD_FORCE,2972.8,-2655.8,75.0,STANDARD_PTP,
+AC001073,FIELD_FORCE,2992.8,-2655.8,75.0,STANDARD_PTP,
 AC001074,FIELD_FORCE,598.5,2374.0,77.4,STANDARD_PTP,
-AC001075,FIELD_FORCE,-1420.8,-1915.4,75.0,STANDARD_PTP,
+AC001075,FIELD_FORCE,-173.7,-3339.8,75.0,STANDARD_PTP,
 AC001076,FIELD_FORCE,-2632.1,-59.9,47.9,STANDARD_PTP,
 AC001076,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001077,FIELD_FORCE,-1365.3,538.5,77.4,STANDARD_PTP,
 AC001078,FIELD_FORCE,3051.1,-2317.6,357.8,STANDARD_PTP,Confirm if premises is located near Behind Milk Dairy (pin is a guess near this landmark)
-AC001079,FIELD_FORCE,1335.8,-1116.6,75.0,STANDARD_PTP,
+AC001079,FIELD_FORCE,1275.8,-1116.6,75.0,STANDARD_PTP,
 AC001079,FIELD_FORCE,-651.7,-3390.5,77.4,STANDARD_PTP,
 AC001080,FIELD_FORCE,1694.8,-1675.7,47.9,STANDARD_PTP,
 AC001081,FIELD_FORCE,-2006.2,1866.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001082,FIELD_FORCE,-636.4,-2820.8,75.0,STANDARD_PTP,
-AC001082,FIELD_FORCE,2198.1,936.3,75.0,STANDARD_PTP,
-AC001083,FIELD_FORCE,1039.3,-72.9,75.0,STANDARD_PTP,
+AC001082,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC001082,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC001083,FIELD_FORCE,1014.3,-72.9,75.0,STANDARD_PTP,
 AC001083,FIELD_FORCE,-1605.8,-2971.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001084,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001084,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1319,7 +1319,7 @@ AC001093,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001093,FIELD_FORCE,-2042.0,-2085.1,77.4,STANDARD_PTP,
 AC001094,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001095,FIELD_FORCE,3301.2,1357.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001096,FIELD_FORCE,598.8,2597.4,75.0,STANDARD_PTP,
+AC001096,FIELD_FORCE,562.2,2345.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001096,FIELD_FORCE,859.9,-3302.3,77.4,STANDARD_PTP,
 AC001097,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001098,FIELD_FORCE,732.3,-1067.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Church (pin is a guess near this landmark)
@@ -1359,7 +1359,7 @@ AC001127,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001128,FIELD_FORCE,-785.3,-747.2,47.9,STANDARD_PTP,
 AC001129,FIELD_FORCE,2336.7,-763.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001130,FIELD_FORCE,3205.8,-1685.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
-AC001131,FIELD_FORCE,2672.5,-2098.5,75.0,STANDARD_PTP,
+AC001131,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001132,FIELD_FORCE,-2622.3,1441.4,47.9,STANDARD_PTP,
 AC001132,FIELD_FORCE,293.1,2048.2,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Ration Shop (about 130 m from pin)
 AC001133,FIELD_FORCE,3049.4,-2157.6,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Ration Shop (pin is a guess near this landmark)
@@ -1387,38 +1387,38 @@ AC001150,FIELD_FORCE,659.9,-2908.5,47.9,STANDARD_PTP,
 AC001150,FIELD_FORCE,726.5,-3044.8,77.4,STANDARD_PTP,
 AC001151,FIELD_FORCE,1256.3,-1853.0,47.9,STANDARD_PTP,
 AC001152,FIELD_FORCE,1816.3,-1306.1,77.4,STANDARD_PTP,
-AC001153,FIELD_FORCE,1531.6,-2033.5,75.0,STANDARD_PTP,
+AC001153,FIELD_FORCE,1496.6,-2033.5,75.0,STANDARD_PTP,
 AC001154,FIELD_FORCE,2792.5,-2125.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (pin is a guess near this landmark)
 AC001155,FIELD_FORCE,3518.4,-3.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001156,FIELD_FORCE,-2717.6,1319.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001156,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001157,FIELD_FORCE,-635.7,-485.5,75.0,STANDARD_PTP,
+AC001157,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001158,FIELD_FORCE,2895.2,-1487.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001159,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001160,FIELD_FORCE,1065.9,2652.1,47.9,STANDARD_PTP,
-AC001160,FIELD_FORCE,-749.2,3343.4,75.0,STANDARD_PTP,
+AC001160,FIELD_FORCE,-799.2,3343.4,75.0,STANDARD_PTP,
 AC001161,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001162,FIELD_FORCE,-2184.5,-2407.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC001163,FIELD_FORCE,3103.3,-2566.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001164,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001165,FIELD_FORCE,674.9,1444.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
 AC001166,FIELD_FORCE,-764.5,-471.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
-AC001166,FIELD_FORCE,3833.0,198.6,75.0,STANDARD_PTP,
+AC001166,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001167,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001168,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001169,FIELD_FORCE,673.3,-2631.2,47.9,STANDARD_PTP,
 AC001170,FIELD_FORCE,1171.6,-2988.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001171,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001172,FIELD_FORCE,-1415.8,-1915.4,75.0,STANDARD_PTP,
+AC001172,FIELD_FORCE,-563.5,-3727.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001173,FIELD_FORCE,-736.2,3289.8,47.9,STANDARD_PTP,
 AC001174,FIELD_FORCE,2946.9,261.8,47.9,STANDARD_PTP,
 AC001175,FIELD_FORCE,4233.2,156.3,47.9,STANDARD_PTP,
 AC001175,FIELD_FORCE,-877.2,-824.3,162.1,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (about 120 m from pin)
 AC001176,FIELD_FORCE,1007.8,-2813.1,77.4,STANDARD_PTP,
-AC001177,FIELD_FORCE,1247.7,-1454.1,75.0,STANDARD_PTP,
+AC001177,FIELD_FORCE,1355.5,-2520.2,387.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is at this landmark)
 AC001178,FIELD_FORCE,1158.1,-342.6,77.4,STANDARD_PTP,
 AC001178,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001179,FIELD_FORCE,-1140.6,-2244.0,75.0,STANDARD_PTP,
+AC001179,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001180,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001181,FIELD_FORCE,-2578.7,-188.5,47.9,STANDARD_PTP,
 AC001181,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1433,9 +1433,9 @@ AC001188,FIELD_FORCE,2577.3,-1320.1,357.8,STANDARD_PTP,Confirm if premises is lo
 AC001189,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001189,FIELD_FORCE,3550.4,-2296.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Park (pin is a guess near this landmark)
 AC001190,FIELD_FORCE,-1282.3,-3534.8,77.4,STANDARD_PTP,
-AC001191,FIELD_FORCE,2491.1,-2359.1,75.0,STANDARD_PTP,
+AC001191,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001192,FIELD_FORCE,2297.9,-1306.9,47.9,STANDARD_PTP,
-AC001193,FIELD_FORCE,769.8,-3429.1,75.0,STANDARD_PTP,
+AC001193,FIELD_FORCE,1742.2,-2436.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001194,FIELD_FORCE,2843.8,757.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC001195,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001196,FIELD_FORCE,2634.3,-2180.4,47.9,STANDARD_PTP,
@@ -1443,7 +1443,7 @@ AC001197,FIELD_FORCE,-2590.9,1784.7,387.8,STANDARD_PTP,Confirm if premises is lo
 AC001198,FIELD_FORCE,1034.0,2590.8,47.9,STANDARD_PTP,
 AC001199,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001199,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001200,FIELD_FORCE,874.6,-3087.8,75.0,STANDARD_PTP,
+AC001200,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001201,FIELD_FORCE,-3990.5,-1086.5,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Hanuman Temple (pin is a guess near this landmark)
 AC001202,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001203,FIELD_FORCE,-705.2,-739.2,47.9,STANDARD_PTP,
@@ -1451,7 +1451,7 @@ AC001204,FIELD_FORCE,-639.9,-3367.2,357.8,STANDARD_PTP,Confirm if premises is lo
 AC001204,FIELD_FORCE,-3731.2,-771.6,77.4,STANDARD_PTP,
 AC001205,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001206,FIELD_FORCE,2860.6,-2181.8,387.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (about 90 m from pin)
-AC001207,FIELD_FORCE,797.6,-2618.4,75.0,STANDARD_PTP,
+AC001207,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001208,FIELD_FORCE,3388.0,-1378.0,77.4,STANDARD_PTP,
 AC001209,FIELD_FORCE,2622.4,1233.6,77.4,STANDARD_PTP,
 AC001210,FIELD_FORCE,2200.4,1114.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -1461,14 +1461,14 @@ AC001212,FIELD_FORCE,3958.9,64.4,387.8,STANDARD_PTP,Confirm if premises is locat
 AC001213,FIELD_FORCE,923.9,-2681.1,77.4,STANDARD_PTP,
 AC001214,FIELD_FORCE,842.8,-3221.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001215,FIELD_FORCE,922.3,400.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001216,FIELD_FORCE,-787.8,-3726.7,75.0,STANDARD_PTP,
+AC001216,FIELD_FORCE,-2264.9,1710.3,387.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (about 180 m from pin)
 AC001217,FIELD_FORCE,2515.4,-2361.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001218,FIELD_FORCE,2734.8,-1810.6,47.9,STANDARD_PTP,
 AC001219,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001220,FIELD_FORCE,-791.9,-718.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC001221,FIELD_FORCE,1277.0,-2001.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001222,FIELD_FORCE,1014.3,-406.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
-AC001223,FIELD_FORCE,1844.3,-1566.7,75.0,STANDARD_PTP,
+AC001223,FIELD_FORCE,1559.2,-1825.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001224,FIELD_FORCE,-867.0,2979.6,47.9,STANDARD_PTP,
 AC001225,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001226,FIELD_FORCE,691.9,3116.3,47.9,STANDARD_PTP,
@@ -1481,8 +1481,8 @@ AC001232,FIELD_FORCE,745.6,-3225.4,47.9,STANDARD_PTP,
 AC001233,FIELD_FORCE,331.0,-3084.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC001234,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001235,FIELD_FORCE,1268.9,-2044.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
-AC001236,FIELD_FORCE,1321.6,-2375.5,75.0,STANDARD_PTP,
-AC001237,FIELD_FORCE,1464.0,-2380.5,75.0,STANDARD_PTP,
+AC001236,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC001237,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001237,FIELD_FORCE,1255.7,47.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC001238,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001239,FIELD_FORCE,3646.8,552.3,47.9,STANDARD_PTP,
@@ -1503,7 +1503,7 @@ AC001250,FIELD_FORCE,2655.2,-1086.0,47.9,STANDARD_PTP,
 AC001251,FIELD_FORCE,-19.2,-3368.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001252,FIELD_FORCE,-60.0,3221.6,77.4,STANDARD_PTP,
 AC001253,FIELD_FORCE,965.5,-1048.4,77.4,STANDARD_PTP,
-AC001254,FIELD_FORCE,2212.9,-2655.7,75.0,STANDARD_PTP,
+AC001254,FIELD_FORCE,3256.0,-2207.1,75.0,STANDARD_PTP,
 AC001254,FIELD_FORCE,-2799.4,893.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
 AC001255,FIELD_FORCE,-2806.4,1241.3,77.4,STANDARD_PTP,
 AC001255,FIELD_FORCE,-738.6,-3032.5,77.4,STANDARD_PTP,
@@ -1525,7 +1525,7 @@ AC001269,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001270,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001271,FIELD_FORCE,2218.1,-1962.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001271,FIELD_FORCE,1238.0,225.5,162.1,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (about 180 m from pin)
-AC001272,FIELD_FORCE,-1482.4,-2857.9,75.0,STANDARD_PTP,
+AC001272,FIELD_FORCE,-1507.4,-2857.9,75.0,STANDARD_PTP,
 AC001273,FIELD_FORCE,2322.5,-2438.3,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001274,FIELD_FORCE,-603.4,-2923.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001275,FIELD_FORCE,1214.2,-2491.6,77.4,STANDARD_PTP,
@@ -1555,7 +1555,7 @@ AC001293,FIELD_FORCE,1469.0,-2457.8,162.1,STANDARD_PTP,Confirm if premises is lo
 AC001294,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001295,FIELD_FORCE,-644.9,-310.4,47.9,STANDARD_PTP,
 AC001296,FIELD_FORCE,2701.0,-1377.4,47.9,STANDARD_PTP,
-AC001296,FIELD_FORCE,1838.8,1776.0,75.0,STANDARD_PTP,
+AC001296,FIELD_FORCE,956.7,3025.5,75.0,STANDARD_PTP,
 AC001297,FIELD_FORCE,431.5,1548.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC001297,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001298,FIELD_FORCE,-2791.4,1253.0,77.4,STANDARD_PTP,
@@ -1595,7 +1595,7 @@ AC001327,FIELD_FORCE,-2241.1,1296.9,387.8,STANDARD_PTP,Confirm if premises is lo
 AC001328,FIELD_FORCE,820.1,-1302.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001329,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001330,FIELD_FORCE,2966.5,-2159.9,77.4,STANDARD_PTP,
-AC001331,FIELD_FORCE,1828.8,1776.0,75.0,STANDARD_PTP,
+AC001331,FIELD_FORCE,2920.8,881.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001332,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001333,FIELD_FORCE,-1376.9,-1789.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001334,FIELD_FORCE,-2600.4,997.2,75.0,STANDARD_PTP,
@@ -1613,7 +1613,7 @@ AC001344,FIELD_FORCE,-1436.9,-3083.4,47.9,STANDARD_PTP,
 AC001345,FIELD_FORCE,1259.9,2807.9,47.9,STANDARD_PTP,
 AC001346,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001347,FIELD_FORCE,-569.5,-3510.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001348,FIELD_FORCE,904.5,-2897.9,75.0,STANDARD_PTP,
+AC001348,FIELD_FORCE,3024.4,-2191.4,387.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (about 40 m from pin)
 AC001349,FIELD_FORCE,-917.2,-1650.1,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001350,FIELD_FORCE,3899.6,139.2,47.9,STANDARD_PTP,
 AC001350,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1635,7 +1635,7 @@ AC001363,FIELD_FORCE,2258.7,-1091.5,47.9,STANDARD_PTP,
 AC001364,FIELD_FORCE,2324.9,-760.3,77.4,STANDARD_PTP,
 AC001365,FIELD_FORCE,1008.4,2298.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001366,FIELD_FORCE,778.3,2297.6,77.4,STANDARD_PTP,
-AC001367,FIELD_FORCE,1931.6,-460.6,75.0,STANDARD_PTP,
+AC001367,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001368,FIELD_FORCE,2505.8,-2358.2,47.9,STANDARD_PTP,
 AC001369,FIELD_FORCE,933.9,299.4,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Post Office (pin is a guess near this landmark)
 AC001370,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1664,7 +1664,7 @@ AC001389,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001390,FIELD_FORCE,2323.4,-2387.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC001391,FIELD_FORCE,-3966.5,-1075.6,77.4,STANDARD_PTP,
 AC001392,FIELD_FORCE,3191.3,-2187.0,47.9,STANDARD_PTP,
-AC001393,FIELD_FORCE,2577.5,-2211.9,75.0,STANDARD_PTP,
+AC001393,FIELD_FORCE,2587.5,-2211.9,75.0,STANDARD_PTP,
 AC001394,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001395,FIELD_FORCE,3259.5,-1718.5,47.9,STANDARD_PTP,
 AC001396,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1694,7 +1694,7 @@ AC001418,FIELD_FORCE,1063.5,2914.7,47.9,STANDARD_PTP,
 AC001419,FIELD_FORCE,-1609.2,2422.2,162.1,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is at this landmark)
 AC001420,FIELD_FORCE,4121.1,97.2,47.9,STANDARD_PTP,
 AC001421,FIELD_FORCE,1534.0,-2417.4,47.9,STANDARD_PTP,
-AC001422,FIELD_FORCE,3014.2,-2511.3,75.0,STANDARD_PTP,
+AC001422,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001423,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001424,FIELD_FORCE,-2691.2,1426.5,77.4,STANDARD_PTP,
 AC001424,FIELD_FORCE,-1550.8,2318.4,47.9,STANDARD_PTP,
@@ -1717,7 +1717,7 @@ AC001436,FIELD_FORCE,875.7,-804.5,47.9,STANDARD_PTP,
 AC001437,FIELD_FORCE,2433.1,-1204.8,47.9,STANDARD_PTP,
 AC001438,FIELD_FORCE,-1015.7,-302.2,77.4,STANDARD_PTP,
 AC001439,FIELD_FORCE,1647.4,-2230.3,47.9,STANDARD_PTP,
-AC001440,FIELD_FORCE,1222.6,-2133.9,75.0,STANDARD_PTP,
+AC001440,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001441,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001442,FIELD_FORCE,-2544.4,-605.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001442,FIELD_FORCE,2845.9,-1843.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -1731,11 +1731,11 @@ AC001448,FIELD_FORCE,-2223.6,-169.6,387.8,STANDARD_PTP,Confirm if premises is lo
 AC001449,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001450,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001451,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001451,FIELD_FORCE,-1465.8,-695.9,75.0,STANDARD_PTP,
+AC001451,FIELD_FORCE,-497.8,-2076.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001452,FIELD_FORCE,-600.4,-539.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
 AC001453,FIELD_FORCE,2883.9,-1878.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001453,FIELD_FORCE,2450.4,1996.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
-AC001454,FIELD_FORCE,1805.4,-1218.9,75.0,STANDARD_PTP,
+AC001454,FIELD_FORCE,2488.4,-707.2,75.0,STANDARD_PTP,
 AC001455,FIELD_FORCE,-2799.4,893.5,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Post Office (pin is a guess near this landmark)
 AC001456,FIELD_FORCE,575.1,-2853.0,47.9,STANDARD_PTP,
 AC001457,FIELD_FORCE,3490.8,125.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -1759,7 +1759,7 @@ AC001472,FIELD_FORCE,3016.5,-2614.8,77.4,STANDARD_PTP,
 AC001473,FIELD_FORCE,700.6,-2697.6,47.9,STANDARD_PTP,
 AC001474,FIELD_FORCE,-3658.0,-785.0,47.9,STANDARD_PTP,
 AC001474,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001475,FIELD_FORCE,2367.5,921.3,75.0,STANDARD_PTP,
+AC001475,FIELD_FORCE,2382.5,921.3,75.0,STANDARD_PTP,
 AC001476,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001477,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001478,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1767,7 +1767,7 @@ AC001479,FIELD_FORCE,2919.8,-1638.7,162.1,STANDARD_PTP,Confirm if premises is lo
 AC001480,FIELD_FORCE,-2501.8,-107.0,162.1,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is at this landmark)
 AC001481,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001481,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001482,FIELD_FORCE,1611.0,-2314.7,75.0,STANDARD_PTP,
+AC001482,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001483,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001483,FIELD_FORCE,-1475.0,-2762.9,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Hanuman Temple (about 70 m from pin)
 AC001484,FIELD_FORCE,868.1,985.6,47.9,STANDARD_PTP,
@@ -1778,7 +1778,7 @@ AC001487,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001488,FIELD_FORCE,3583.6,624.9,387.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (about 80 m from pin)
 AC001489,FIELD_FORCE,1014.3,-406.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC001490,FIELD_FORCE,-827.8,-3726.7,77.4,STANDARD_PTP,
-AC001491,FIELD_FORCE,743.0,3086.7,75.0,STANDARD_PTP,
+AC001491,FIELD_FORCE,1048.9,3212.1,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001491,FIELD_FORCE,1388.1,1115.9,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Bus Stop (pin is a guess near this landmark)
 AC001492,FIELD_FORCE,-786.5,-3777.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001492,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1795,11 +1795,11 @@ AC001500,FIELD_FORCE,743.0,3086.7,47.9,STANDARD_PTP,
 AC001501,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001502,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001503,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001503,FIELD_FORCE,1091.1,1818.2,75.0,STANDARD_PTP,
+AC001503,FIELD_FORCE,-46.1,2664.5,75.0,STANDARD_PTP,
 AC001504,FIELD_FORCE,-280.8,-278.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC001505,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001506,FIELD_FORCE,2488.4,-707.2,47.9,STANDARD_PTP,
-AC001507,FIELD_FORCE,-3051.2,1458.2,75.0,STANDARD_PTP,
+AC001507,FIELD_FORCE,-3019.0,711.5,387.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (about 180 m from pin)
 AC001508,FIELD_FORCE,-791.9,-718.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
 AC001509,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001510,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1817,17 +1817,17 @@ AC001520,FIELD_FORCE,2107.2,-1380.9,162.1,STANDARD_PTP,Confirm if premises is lo
 AC001521,FIELD_FORCE,2650.5,-2041.7,77.4,STANDARD_PTP,
 AC001522,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001523,FIELD_FORCE,1397.2,-1976.3,47.9,STANDARD_PTP,
-AC001524,FIELD_FORCE,-1855.9,-3256.5,75.0,STANDARD_PTP,
+AC001524,FIELD_FORCE,-311.7,-731.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001525,FIELD_FORCE,3205.8,-1685.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (pin is a guess near this landmark)
 AC001526,FIELD_FORCE,1240.7,1472.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
 AC001526,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001527,FIELD_FORCE,-3006.2,1458.2,75.0,STANDARD_PTP,
+AC001527,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001528,FIELD_FORCE,2844.3,775.5,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Water Tank (pin is a guess near this landmark)
 AC001529,FIELD_FORCE,-1282.8,-3078.7,77.4,STANDARD_PTP,
 AC001530,FIELD_FORCE,-3155.2,823.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
-AC001531,FIELD_FORCE,1326.6,-2375.5,75.0,STANDARD_PTP,
+AC001531,FIELD_FORCE,2814.3,-1269.6,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001532,FIELD_FORCE,698.4,-2849.0,47.9,STANDARD_PTP,
-AC001533,FIELD_FORCE,1509.8,-2718.0,75.0,STANDARD_PTP,
+AC001533,FIELD_FORCE,884.2,-405.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001534,FIELD_FORCE,875.6,1283.5,162.1,STANDARD_PTP,Confirm if premises is located near Near Govt School (about 140 m from pin)
 AC001535,FIELD_FORCE,3437.0,-1759.5,77.4,STANDARD_PTP,
 AC001536,FIELD_FORCE,3714.2,480.5,47.9,STANDARD_PTP,
@@ -1838,7 +1838,7 @@ AC001540,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001540,FIELD_FORCE,-933.1,-1915.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC001541,FIELD_FORCE,-31.9,-3138.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
 AC001541,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001542,FIELD_FORCE,1247.7,-1454.1,75.0,STANDARD_PTP,
+AC001542,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001543,FIELD_FORCE,-1968.0,1774.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001543,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001544,FIELD_FORCE,-2911.8,1541.5,77.4,STANDARD_PTP,
@@ -1847,7 +1847,7 @@ AC001546,FIELD_FORCE,3049.4,-2157.6,357.8,STANDARD_PTP,Confirm if premises is lo
 AC001546,FIELD_FORCE,1210.4,-3329.8,77.4,STANDARD_PTP,
 AC001547,FIELD_FORCE,3264.6,-2505.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001548,FIELD_FORCE,1016.0,-691.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001549,FIELD_FORCE,864.6,-3087.8,75.0,STANDARD_PTP,
+AC001549,FIELD_FORCE,1639.8,-1767.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001550,FIELD_FORCE,2722.3,1738.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001551,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001552,FIELD_FORCE,-2847.1,-569.9,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Bus Stop (pin is a guess near this landmark)
@@ -1869,7 +1869,7 @@ AC001564,FIELD_FORCE,1144.7,-1961.5,77.4,STANDARD_PTP,
 AC001565,FIELD_FORCE,3148.6,-2466.4,77.4,STANDARD_PTP,
 AC001566,FIELD_FORCE,-853.4,-708.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC001567,FIELD_FORCE,-2776.4,1751.9,47.9,STANDARD_PTP,
-AC001568,FIELD_FORCE,3126.3,-2076.5,75.0,STANDARD_PTP,
+AC001568,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001569,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001570,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001571,FIELD_FORCE,-383.8,-632.5,47.9,STANDARD_PTP,
@@ -1878,7 +1878,7 @@ AC001573,FIELD_FORCE,2698.2,1455.5,47.9,STANDARD_PTP,
 AC001574,FIELD_FORCE,2698.3,1438.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Park (pin is a guess near this landmark)
 AC001575,FIELD_FORCE,4043.4,873.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001576,FIELD_FORCE,-2897.4,-529.4,77.4,STANDARD_PTP,
-AC001577,FIELD_FORCE,1019.3,-72.9,75.0,STANDARD_PTP,
+AC001577,FIELD_FORCE,2324.5,-1041.8,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Post Office (about 190 m from pin)
 AC001578,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001579,FIELD_FORCE,-1239.1,-2298.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Church (pin is a guess near this landmark)
 AC001580,FIELD_FORCE,778.1,-3852.1,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Petrol Bunk (pin is a guess near this landmark)
@@ -1888,7 +1888,7 @@ AC001583,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001584,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001585,FIELD_FORCE,2921.0,104.9,47.9,STANDARD_PTP,
 AC001586,FIELD_FORCE,3234.5,-2187.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001587,FIELD_FORCE,-1855.9,-3256.5,75.0,STANDARD_PTP,
+AC001587,FIELD_FORCE,-944.8,-686.1,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001588,FIELD_FORCE,-1012.0,-3546.4,47.9,STANDARD_PTP,
 AC001589,FIELD_FORCE,-2910.2,-36.3,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC001590,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -1897,11 +1897,11 @@ AC001591,FIELD_FORCE,-868.8,3100.8,357.8,STANDARD_PTP,Confirm if premises is loc
 AC001592,FIELD_FORCE,-278.4,-3857.6,77.4,STANDARD_PTP,
 AC001593,FIELD_FORCE,-643.5,1512.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Petrol Bunk (pin is a guess near this landmark)
 AC001593,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001594,FIELD_FORCE,1731.3,-2056.6,75.0,STANDARD_PTP,
+AC001594,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001594,FIELD_FORCE,2665.0,509.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC001595,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001596,FIELD_FORCE,1020.1,2902.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001597,FIELD_FORCE,1072.9,-1837.5,75.0,STANDARD_PTP,
+AC001597,FIELD_FORCE,1123.5,-1925.7,75.0,STANDARD_PTP,
 AC001598,FIELD_FORCE,760.4,-353.0,47.9,STANDARD_PTP,
 AC001599,FIELD_FORCE,796.9,-2981.5,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001600,FIELD_FORCE,901.9,-88.1,47.9,STANDARD_PTP,
@@ -1909,7 +1909,7 @@ AC001601,FIELD_FORCE,1063.8,-332.3,357.8,STANDARD_PTP,Confirm if premises is loc
 AC001602,FIELD_FORCE,231.4,-3246.2,47.9,STANDARD_PTP,
 AC001603,FIELD_FORCE,2763.3,856.4,162.1,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (about 170 m from pin)
 AC001604,FIELD_FORCE,1418.9,-2285.7,47.9,STANDARD_PTP,
-AC001605,FIELD_FORCE,2649.3,-1818.2,75.0,STANDARD_PTP,
+AC001605,FIELD_FORCE,970.8,-299.1,75.0,STANDARD_PTP,
 AC001606,FIELD_FORCE,-2063.1,1511.4,47.9,STANDARD_PTP,
 AC001607,FIELD_FORCE,3835.3,530.0,47.9,STANDARD_PTP,
 AC001607,FIELD_FORCE,2322.5,-755.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -1917,11 +1917,11 @@ AC001608,FIELD_FORCE,3708.7,-2280.2,162.1,STANDARD_PTP,Confirm if premises is lo
 AC001608,FIELD_FORCE,-639.9,-3367.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC001609,FIELD_FORCE,-2333.0,-2349.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001610,FIELD_FORCE,1754.7,-1655.7,47.9,STANDARD_PTP,
-AC001611,FIELD_FORCE,1630.6,-2312.0,75.0,STANDARD_PTP,
-AC001612,FIELD_FORCE,889.8,-778.8,75.0,STANDARD_PTP,
+AC001611,FIELD_FORCE,1675.5,-2294.5,75.0,STANDARD_PTP,
+AC001612,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001612,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001613,FIELD_FORCE,-1959.0,-1971.3,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
-AC001613,FIELD_FORCE,751.8,-1503.8,75.0,STANDARD_PTP,
+AC001613,FIELD_FORCE,581.6,-2919.4,75.0,STANDARD_PTP,
 AC001614,FIELD_FORCE,914.7,-1261.8,77.4,STANDARD_PTP,
 AC001614,FIELD_FORCE,2953.8,-2431.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001615,FIELD_FORCE,-447.1,-3969.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -1959,9 +1959,9 @@ AC001641,FIELD_FORCE,1922.2,1715.5,357.8,STANDARD_PTP,Confirm if premises is loc
 AC001642,FIELD_FORCE,1722.9,-2340.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
 AC001643,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001643,FIELD_FORCE,721.1,2768.6,77.4,STANDARD_PTP,
-AC001644,FIELD_FORCE,832.6,-2618.4,75.0,STANDARD_PTP,
-AC001645,FIELD_FORCE,1286.5,688.5,75.0,STANDARD_PTP,
-AC001646,FIELD_FORCE,1752.9,-1212.7,75.0,STANDARD_PTP,
+AC001644,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC001645,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC001646,FIELD_FORCE,1130.4,550.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001647,FIELD_FORCE,2369.6,-2293.4,47.9,STANDARD_PTP,
 AC001647,FIELD_FORCE,1234.4,-247.1,77.4,STANDARD_PTP,
 AC001648,FIELD_FORCE,2245.3,-1539.3,47.9,STANDARD_PTP,
@@ -2031,7 +2031,7 @@ AC001696,FIELD_FORCE,1440.8,-1984.6,357.8,STANDARD_PTP,Confirm if premises is lo
 AC001697,FIELD_FORCE,1720.8,-1749.8,47.9,STANDARD_PTP,
 AC001698,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001699,FIELD_FORCE,209.9,2274.6,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001700,FIELD_FORCE,1279.5,-1953.1,75.0,STANDARD_PTP,
+AC001700,FIELD_FORCE,812.2,-240.4,75.0,STANDARD_PTP,
 AC001701,FIELD_FORCE,2749.9,-2528.7,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001701,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001702,FIELD_FORCE,2825.4,497.5,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -2058,7 +2058,7 @@ AC001719,FIELD_FORCE,1268.8,49.0,357.8,STANDARD_PTP,Confirm if premises is locat
 AC001720,FIELD_FORCE,1643.9,-1857.5,77.4,STANDARD_PTP,
 AC001720,FIELD_FORCE,-933.4,-616.7,47.9,STANDARD_PTP,
 AC001721,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001722,FIELD_FORCE,-3730.4,-780.0,75.0,STANDARD_PTP,
+AC001722,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001723,FIELD_FORCE,-720.2,2971.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Church (pin is a guess near this landmark)
 AC001724,FIELD_FORCE,-2343.3,1313.3,77.4,STANDARD_PTP,
 AC001725,FIELD_FORCE,3395.4,-1819.6,47.9,STANDARD_PTP,
@@ -2093,15 +2093,15 @@ AC001749,FIELD_FORCE,1102.4,-945.3,162.1,STANDARD_PTP,Confirm if premises is loc
 AC001750,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001751,FIELD_FORCE,1604.3,-1239.8,77.4,STANDARD_PTP,
 AC001752,FIELD_FORCE,2678.3,244.1,47.9,STANDARD_PTP,
-AC001753,FIELD_FORCE,744.8,-3429.1,75.0,STANDARD_PTP,
+AC001753,FIELD_FORCE,2644.2,-1668.2,387.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (about 140 m from pin)
 AC001754,FIELD_FORCE,1686.4,-2440.2,77.4,STANDARD_PTP,
 AC001755,FIELD_FORCE,948.0,2160.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001756,FIELD_FORCE,356.0,-3098.1,77.4,STANDARD_PTP,
 AC001756,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001757,FIELD_FORCE,1808.1,620.5,75.0,STANDARD_PTP,
+AC001757,FIELD_FORCE,732.6,2936.6,75.0,STANDARD_PTP,
 AC001758,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001759,FIELD_FORCE,581.6,-2919.4,47.9,STANDARD_PTP,
-AC001760,FIELD_FORCE,1262.7,-1454.1,75.0,STANDARD_PTP,
+AC001760,FIELD_FORCE,1736.4,-2440.2,75.0,STANDARD_PTP,
 AC001761,FIELD_FORCE,2665.0,509.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC001761,FIELD_FORCE,2577.3,-1320.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC001762,FIELD_FORCE,637.8,-2832.5,162.1,STANDARD_PTP,Confirm if premises is located near Near Medical Store (about 200 m from pin)
@@ -2113,7 +2113,7 @@ AC001765,FIELD_FORCE,-649.6,-1534.5,162.1,STANDARD_PTP,Confirm if premises is lo
 AC001765,FIELD_FORCE,677.7,-2777.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC001766,FIELD_FORCE,-2600.4,997.2,47.9,STANDARD_PTP,
 AC001767,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001767,FIELD_FORCE,-1699.9,-1954.7,75.0,STANDARD_PTP,
+AC001767,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001768,FIELD_FORCE,679.6,-22.7,77.4,STANDARD_PTP,
 AC001769,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001770,FIELD_FORCE,1656.5,-1998.2,47.9,STANDARD_PTP,
@@ -2147,7 +2147,7 @@ AC001795,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001796,FIELD_FORCE,-2383.7,-2020.9,47.9,STANDARD_PTP,
 AC001797,FIELD_FORCE,-73.6,894.1,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001798,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001799,FIELD_FORCE,1041.3,-699.4,75.0,STANDARD_PTP,
+AC001799,FIELD_FORCE,3390.2,-1727.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001800,FIELD_FORCE,1097.3,2655.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC001801,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001801,FIELD_FORCE,-1698.8,-2329.8,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Masjid (pin is a guess near this landmark)
@@ -2162,12 +2162,12 @@ AC001809,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001810,FIELD_FORCE,3926.9,760.4,77.4,STANDARD_PTP,
 AC001811,FIELD_FORCE,1972.0,1560.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001812,FIELD_FORCE,1102.2,2984.7,47.9,STANDARD_PTP,
-AC001812,FIELD_FORCE,2964.1,730.1,75.0,STANDARD_PTP,
+AC001812,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001813,FIELD_FORCE,-755.7,2722.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001814,FIELD_FORCE,2072.1,2097.3,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC001815,FIELD_FORCE,-286.4,2831.5,75.0,STANDARD_PTP,
-AC001816,FIELD_FORCE,783.0,3086.7,75.0,STANDARD_PTP,
-AC001817,FIELD_FORCE,1782.9,-1212.7,75.0,STANDARD_PTP,
+AC001816,FIELD_FORCE,2389.3,2156.4,75.0,STANDARD_PTP,
+AC001817,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001818,FIELD_FORCE,603.1,-747.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
 AC001818,FIELD_FORCE,-136.4,-3781.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC001819,FIELD_FORCE,1058.3,-2743.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -2181,17 +2181,17 @@ AC001825,FIELD_FORCE,3049.4,-2157.6,357.8,STANDARD_PTP,Confirm if premises is lo
 AC001825,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001826,FIELD_FORCE,1031.3,309.6,47.9,STANDARD_PTP,
 AC001827,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001828,FIELD_FORCE,1820.4,-1218.9,75.0,STANDARD_PTP,
+AC001828,FIELD_FORCE,1650.9,-1604.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001829,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001829,FIELD_FORCE,331.0,-3084.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC001830,FIELD_FORCE,2514.1,-2119.6,47.9,STANDARD_PTP,
-AC001831,FIELD_FORCE,3934.9,720.8,75.0,STANDARD_PTP,
+AC001831,FIELD_FORCE,3929.9,720.8,75.0,STANDARD_PTP,
 AC001832,FIELD_FORCE,2471.8,2057.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
 AC001833,FIELD_FORCE,938.1,-632.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001833,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001834,FIELD_FORCE,2107.0,762.7,47.9,STANDARD_PTP,
 AC001835,FIELD_FORCE,1251.7,-476.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001836,FIELD_FORCE,1478.7,-14.1,75.0,STANDARD_PTP,
+AC001836,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001837,FIELD_FORCE,-2124.1,1805.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001838,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001839,FIELD_FORCE,2890.7,-1617.2,77.4,STANDARD_PTP,
@@ -2208,7 +2208,7 @@ AC001849,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001850,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001851,FIELD_FORCE,-465.0,-534.0,75.0,STANDARD_PTP,
 AC001852,FIELD_FORCE,-1646.6,-2357.3,77.4,STANDARD_PTP,
-AC001852,FIELD_FORCE,1493.7,-14.1,75.0,STANDARD_PTP,
+AC001852,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001853,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001854,FIELD_FORCE,-37.5,3542.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC001855,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2223,19 +2223,19 @@ AC001861,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001862,FIELD_FORCE,612.3,-3466.4,47.9,STANDARD_PTP,
 AC001863,FIELD_FORCE,-276.8,-3851.7,47.9,STANDARD_PTP,
 AC001864,FIELD_FORCE,2332.5,921.3,77.4,STANDARD_PTP,
-AC001865,FIELD_FORCE,2907.0,-2465.7,75.0,STANDARD_PTP,
+AC001865,FIELD_FORCE,3073.5,-1959.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001866,FIELD_FORCE,-957.2,-951.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001867,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001868,FIELD_FORCE,-1224.0,26.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001869,FIELD_FORCE,1325.8,-1116.6,75.0,STANDARD_PTP,
+AC001869,FIELD_FORCE,1375.8,-1116.6,75.0,STANDARD_PTP,
 AC001869,FIELD_FORCE,1196.7,-1234.8,77.4,STANDARD_PTP,
 AC001870,FIELD_FORCE,-2671.0,-140.2,387.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (about 170 m from pin)
 AC001871,FIELD_FORCE,2966.4,-1910.8,47.9,STANDARD_PTP,
 AC001872,FIELD_FORCE,2907.6,-1791.0,47.9,STANDARD_PTP,
 AC001873,FIELD_FORCE,-2685.0,-53.1,387.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (about 180 m from pin)
-AC001873,FIELD_FORCE,-2517.6,-528.6,75.0,STANDARD_PTP,
+AC001873,FIELD_FORCE,-151.1,-3827.1,387.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (about 50 m from pin)
 AC001874,FIELD_FORCE,-288.4,-1601.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
-AC001874,FIELD_FORCE,963.1,-3421.1,75.0,STANDARD_PTP,
+AC001874,FIELD_FORCE,923.1,-3421.1,75.0,STANDARD_PTP,
 AC001875,FIELD_FORCE,2769.9,-2321.9,47.9,STANDARD_PTP,
 AC001876,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001877,FIELD_FORCE,644.8,-3711.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
@@ -2265,17 +2265,17 @@ AC001894,FIELD_FORCE,-3748.3,-772.2,77.4,STANDARD_PTP,
 AC001895,FIELD_FORCE,2083.6,1623.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (pin is a guess near this landmark)
 AC001895,FIELD_FORCE,1124.4,-231.7,162.1,STANDARD_PTP,Confirm if premises is located near Near Park (about 120 m from pin)
 AC001896,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC001896,FIELD_FORCE,-751.8,-1700.8,75.0,STANDARD_PTP,
+AC001896,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001897,FIELD_FORCE,1373.7,-1855.5,77.4,STANDARD_PTP,
 AC001898,FIELD_FORCE,-2201.3,1392.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (pin is a guess near this landmark)
 AC001899,FIELD_FORCE,2355.2,-1204.1,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001900,FIELD_FORCE,2446.7,-1848.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001901,FIELD_FORCE,1805.9,-2198.5,75.0,STANDARD_PTP,
+AC001901,FIELD_FORCE,1029.8,-3120.0,387.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (about 30 m from pin)
 AC001902,FIELD_FORCE,1662.0,-2149.6,47.9,STANDARD_PTP,
 AC001903,FIELD_FORCE,2481.5,-2348.5,77.4,STANDARD_PTP,
 AC001904,FIELD_FORCE,2463.1,-2441.7,77.4,STANDARD_PTP,
 AC001905,FIELD_FORCE,708.4,-3319.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Bus Stop (pin is a guess near this landmark)
-AC001906,FIELD_FORCE,1606.0,-2314.7,75.0,STANDARD_PTP,
+AC001906,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001906,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001907,FIELD_FORCE,1858.4,-2104.3,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001908,FIELD_FORCE,2972.7,-2040.1,77.4,STANDARD_PTP,
@@ -2340,13 +2340,13 @@ AC001954,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001955,FIELD_FORCE,-3004.8,-622.0,77.4,STANDARD_PTP,
 AC001956,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001957,FIELD_FORCE,2880.4,-2281.7,47.9,STANDARD_PTP,
-AC001958,FIELD_FORCE,1458.7,-14.1,75.0,STANDARD_PTP,
+AC001958,FIELD_FORCE,1169.2,99.1,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001959,FIELD_FORCE,-2593.4,1742.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001960,FIELD_FORCE,923.2,2845.6,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC001960,FIELD_FORCE,1029.3,-72.9,75.0,STANDARD_PTP,
+AC001960,FIELD_FORCE,1064.3,-72.9,75.0,STANDARD_PTP,
 AC001961,FIELD_FORCE,2992.5,986.7,47.9,STANDARD_PTP,
 AC001962,FIELD_FORCE,2843.3,705.2,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Ration Shop (about 50 m from pin)
-AC001963,FIELD_FORCE,792.6,-2618.4,75.0,STANDARD_PTP,
+AC001963,FIELD_FORCE,2749.4,-2398.2,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001964,FIELD_FORCE,-2488.6,1258.9,77.4,STANDARD_PTP,
 AC001965,FIELD_FORCE,2478.6,-1586.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001966,FIELD_FORCE,1285.0,155.3,387.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (about 140 m from pin)
@@ -2365,7 +2365,7 @@ AC001976,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC001977,FIELD_FORCE,2271.6,-1213.4,47.9,STANDARD_PTP,
 AC001978,FIELD_FORCE,-548.4,-1445.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Park (pin is a guess near this landmark)
 AC001979,FIELD_FORCE,1448.4,-3612.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
-AC001980,FIELD_FORCE,2115.5,-547.2,75.0,STANDARD_PTP,
+AC001980,FIELD_FORCE,2403.9,-2167.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC001980,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001981,FIELD_FORCE,3212.9,712.1,77.4,STANDARD_PTP,
 AC001982,FIELD_FORCE,-508.0,1565.4,162.1,STANDARD_PTP,Confirm if premises is located near Near Petrol Bunk (about 150 m from pin)
@@ -2380,7 +2380,7 @@ AC001990,FIELD_FORCE,562.7,2959.4,77.4,STANDARD_PTP,
 AC001991,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001992,FIELD_FORCE,-2132.8,-2396.2,77.4,STANDARD_PTP,
 AC001993,FIELD_FORCE,1240.7,1472.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Medical Store (pin is a guess near this landmark)
-AC001994,FIELD_FORCE,2769.9,-2321.9,75.0,STANDARD_PTP,
+AC001994,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC001995,FIELD_FORCE,1801.2,-2200.0,47.9,STANDARD_PTP,
 AC001996,FIELD_FORCE,2577.3,-1320.1,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC001997,FIELD_FORCE,1446.4,-2346.3,47.9,STANDARD_PTP,
@@ -2410,7 +2410,7 @@ AC002014,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002015,FIELD_FORCE,-919.9,-745.9,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002016,FIELD_FORCE,3721.9,118.8,47.9,STANDARD_PTP,
 AC002017,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002018,FIELD_FORCE,1661.3,-547.4,75.0,STANDARD_PTP,
+AC002018,FIELD_FORCE,1210.3,-177.6,75.0,STANDARD_PTP,
 AC002019,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002019,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002020,FIELD_FORCE,1100.3,-494.5,47.9,STANDARD_PTP,
@@ -2425,7 +2425,7 @@ AC002027,FIELD_FORCE,-2175.6,1173.5,77.4,STANDARD_PTP,
 AC002028,FIELD_FORCE,2906.2,-1243.7,77.4,STANDARD_PTP,
 AC002029,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002030,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002031,FIELD_FORCE,1069.2,-1693.4,75.0,STANDARD_PTP,
+AC002031,FIELD_FORCE,834.0,-3139.7,75.0,STANDARD_PTP,
 AC002032,FIELD_FORCE,-651.2,-773.0,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC002033,FIELD_FORCE,2907.9,-1794.7,47.9,STANDARD_PTP,
 AC002034,FIELD_FORCE,524.4,-3473.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -2441,7 +2441,7 @@ AC002042,FIELD_FORCE,3240.6,-2179.1,387.8,STANDARD_PTP,Confirm if premises is lo
 AC002042,FIELD_FORCE,-2397.3,1687.6,77.4,STANDARD_PTP,
 AC002043,FIELD_FORCE,-1092.5,-3242.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002044,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002044,FIELD_FORCE,1828.8,1776.0,75.0,STANDARD_PTP,
+AC002044,FIELD_FORCE,956.7,3025.5,75.0,STANDARD_PTP,
 AC002045,FIELD_FORCE,566.8,-2961.3,162.1,STANDARD_PTP,Confirm if premises is located near Opposite Bus Stop (about 30 m from pin)
 AC002046,FIELD_FORCE,-2819.7,847.0,387.8,STANDARD_PTP,Confirm if premises is located near Near Post Office (about 50 m from pin)
 AC002047,FIELD_FORCE,2744.1,-1552.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -2457,13 +2457,13 @@ AC002054,FIELD_FORCE,527.6,1498.2,162.1,STANDARD_PTP,Confirm if premises is loca
 AC002055,FIELD_FORCE,3818.0,198.6,77.4,STANDARD_PTP,
 AC002056,FIELD_FORCE,-2986.9,22.9,47.9,STANDARD_PTP,
 AC002057,FIELD_FORCE,-2309.7,2065.2,77.4,STANDARD_PTP,
-AC002058,FIELD_FORCE,744.8,-3429.1,75.0,STANDARD_PTP,
+AC002058,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002059,FIELD_FORCE,-1156.0,-798.4,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002060,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002061,FIELD_FORCE,-2350.3,-2317.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC002062,FIELD_FORCE,1758.3,-1730.7,47.9,STANDARD_PTP,
 AC002063,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002064,FIELD_FORCE,1032.9,-1837.5,75.0,STANDARD_PTP,
+AC002064,FIELD_FORCE,1583.8,-1942.1,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002065,FIELD_FORCE,1228.3,-2396.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002065,FIELD_FORCE,-141.3,1123.1,77.4,STANDARD_PTP,
 AC002066,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2488,7 +2488,7 @@ AC002083,FIELD_FORCE,80.2,2638.4,77.4,STANDARD_PTP,
 AC002084,FIELD_FORCE,1675.5,-2292.3,47.9,STANDARD_PTP,
 AC002084,FIELD_FORCE,-1869.6,-2662.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
 AC002085,FIELD_FORCE,1588.4,-2083.8,47.9,STANDARD_PTP,
-AC002086,FIELD_FORCE,1021.1,-2735.6,75.0,STANDARD_PTP,
+AC002086,FIELD_FORCE,3180.6,-2089.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002087,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002088,FIELD_FORCE,-347.0,-84.0,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Hanuman Temple (pin is a guess near this landmark)
 AC002089,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2508,12 +2508,12 @@ AC002098,FIELD_FORCE,2476.1,-2350.5,47.9,STANDARD_PTP,
 AC002099,FIELD_FORCE,-1176.8,-615.8,47.9,STANDARD_PTP,
 AC002100,FIELD_FORCE,2436.2,-2363.7,77.4,STANDARD_PTP,
 AC002101,FIELD_FORCE,-1138.4,-1991.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
-AC002102,FIELD_FORCE,2185.6,-2799.9,75.0,STANDARD_PTP,
+AC002102,FIELD_FORCE,1197.2,-3177.1,75.0,STANDARD_PTP,
 AC002103,FIELD_FORCE,-751.7,-3733.0,47.9,STANDARD_PTP,
 AC002103,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002104,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002105,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002106,FIELD_FORCE,-1029.1,-1913.0,75.0,STANDARD_PTP,
+AC002106,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002106,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002107,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002108,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2522,7 +2522,7 @@ AC002110,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002111,FIELD_FORCE,-730.1,-3768.2,77.4,STANDARD_PTP,
 AC002112,FIELD_FORCE,-1202.7,-2722.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002113,FIELD_FORCE,-1900.6,-3183.8,77.4,STANDARD_PTP,
-AC002114,FIELD_FORCE,743.0,3086.7,75.0,STANDARD_PTP,
+AC002114,FIELD_FORCE,717.5,3101.5,75.0,STANDARD_PTP,
 AC002114,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002115,FIELD_FORCE,823.7,159.2,77.4,STANDARD_PTP,
 AC002116,FIELD_FORCE,774.3,3008.7,47.9,STANDARD_PTP,
@@ -2553,13 +2553,13 @@ AC002134,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002135,FIELD_FORCE,-3815.9,-1048.1,77.4,STANDARD_PTP,
 AC002136,FIELD_FORCE,-2546.7,1414.7,47.9,STANDARD_PTP,
 AC002137,FIELD_FORCE,2395.0,-2151.1,47.9,STANDARD_PTP,
-AC002138,FIELD_FORCE,1925.8,-1812.5,75.0,STANDARD_PTP,
+AC002138,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002138,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002139,FIELD_FORCE,-460.7,-3589.7,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC002139,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002140,FIELD_FORCE,-1259.3,67.6,77.4,STANDARD_PTP,
 AC002141,FIELD_FORCE,1799.6,-2199.7,47.9,STANDARD_PTP,
-AC002142,FIELD_FORCE,2510.7,-2342.9,75.0,STANDARD_PTP,
+AC002142,FIELD_FORCE,739.8,-3457.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002142,FIELD_FORCE,895.5,-469.7,77.4,STANDARD_PTP,
 AC002143,FIELD_FORCE,2782.0,-1914.5,47.9,STANDARD_PTP,
 AC002144,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2575,7 +2575,7 @@ AC002151,FIELD_FORCE,-933.1,-1915.8,357.8,STANDARD_PTP,Confirm if premises is lo
 AC002152,FIELD_FORCE,982.9,751.3,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002153,FIELD_FORCE,-542.4,2993.3,77.4,STANDARD_PTP,
 AC002154,FIELD_FORCE,-2184.5,-2407.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Govt School (pin is a guess near this landmark)
-AC002155,FIELD_FORCE,1186.9,-3321.3,75.0,STANDARD_PTP,
+AC002155,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002156,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002157,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002158,FIELD_FORCE,-651.2,-773.0,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Masjid (pin is a guess near this landmark)
@@ -2599,7 +2599,7 @@ AC002172,FIELD_FORCE,-85.8,-1467.4,357.8,STANDARD_PTP,Confirm if premises is loc
 AC002173,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002174,FIELD_FORCE,2866.0,-1819.5,47.9,STANDARD_PTP,
 AC002174,FIELD_FORCE,1594.5,-1005.6,77.4,STANDARD_PTP,
-AC002175,FIELD_FORCE,1509.8,-2718.0,75.0,STANDARD_PTP,
+AC002175,FIELD_FORCE,2797.3,-2267.7,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002176,FIELD_FORCE,2177.2,-922.9,47.9,STANDARD_PTP,
 AC002177,FIELD_FORCE,-754.5,2722.1,77.4,STANDARD_PTP,
 AC002178,FIELD_FORCE,-1044.9,-1004.8,47.9,STANDARD_PTP,
@@ -2630,7 +2630,7 @@ AC002197,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002198,FIELD_FORCE,-1475.9,764.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Community Hall (pin is a guess near this landmark)
 AC002199,FIELD_FORCE,2783.3,-1094.2,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002199,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002200,FIELD_FORCE,2634.3,-1818.2,75.0,STANDARD_PTP,
+AC002200,FIELD_FORCE,1070.8,-299.1,75.0,STANDARD_PTP,
 AC002201,FIELD_FORCE,2379.6,-621.7,47.9,STANDARD_PTP,
 AC002202,FIELD_FORCE,-864.0,-2.0,77.4,STANDARD_PTP,
 AC002203,FIELD_FORCE,-125.2,-570.8,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
@@ -2647,10 +2647,10 @@ AC002211,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002212,FIELD_FORCE,1440.8,-1984.6,357.8,STANDARD_PTP,Confirm if premises is located near Near Church (pin is a guess near this landmark)
 AC002213,FIELD_FORCE,2627.8,962.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
 AC002214,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002215,FIELD_FORCE,3569.6,-2276.7,75.0,STANDARD_PTP,
+AC002215,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002216,FIELD_FORCE,1162.8,-2870.4,47.9,STANDARD_PTP,
 AC002217,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002218,FIELD_FORCE,678.0,1291.3,75.0,STANDARD_PTP,
+AC002218,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002219,FIELD_FORCE,128.2,2571.4,77.4,STANDARD_PTP,
 AC002220,FIELD_FORCE,3382.4,-1869.9,77.4,STANDARD_PTP,
 AC002221,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2671,9 +2671,9 @@ AC002233,FIELD_FORCE,-630.2,-485.3,77.4,STANDARD_PTP,
 AC002234,FIELD_FORCE,2467.5,-710.3,47.9,STANDARD_PTP,
 AC002235,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002236,FIELD_FORCE,-452.0,2927.4,47.9,STANDARD_PTP,
-AC002237,FIELD_FORCE,2377.5,921.3,75.0,STANDARD_PTP,
+AC002237,FIELD_FORCE,2382.5,921.3,75.0,STANDARD_PTP,
 AC002238,FIELD_FORCE,1201.6,-327.0,47.9,STANDARD_PTP,
-AC002239,FIELD_FORCE,3034.2,-2511.3,75.0,STANDARD_PTP,
+AC002239,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002240,FIELD_FORCE,-379.8,-3305.2,77.4,STANDARD_PTP,
 AC002241,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002241,FIELD_FORCE,2627.8,962.2,357.8,STANDARD_PTP,Confirm if premises is located near Near Masjid (pin is a guess near this landmark)
@@ -2696,8 +2696,8 @@ AC002256,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002257,FIELD_FORCE,-341.5,-653.2,77.4,STANDARD_PTP,
 AC002257,FIELD_FORCE,940.8,2546.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC002258,FIELD_FORCE,2637.8,-2240.0,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC002259,FIELD_FORCE,-1238.8,-2714.3,75.0,STANDARD_PTP,
-AC002260,FIELD_FORCE,1861.0,-2659.3,75.0,STANDARD_PTP,
+AC002259,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
+AC002260,FIELD_FORCE,2903.8,-2208.0,387.8,STANDARD_PTP,Confirm if premises is located near Behind Community Hall (about 140 m from pin)
 AC002261,FIELD_FORCE,2340.3,423.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002261,FIELD_FORCE,-491.4,1504.2,77.4,STANDARD_PTP,
 AC002262,FIELD_FORCE,-590.4,-1779.8,77.4,STANDARD_PTP,
@@ -2707,7 +2707,7 @@ AC002265,FIELD_FORCE,-834.6,-2978.5,357.8,STANDARD_PTP,Confirm if premises is lo
 AC002266,FIELD_FORCE,2739.7,-2130.3,357.8,STANDARD_PTP,Confirm if premises is located near Near Park (pin is a guess near this landmark)
 AC002267,FIELD_FORCE,2738.1,-2555.3,47.9,STANDARD_PTP,
 AC002268,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002269,FIELD_FORCE,792.6,-2618.4,75.0,STANDARD_PTP,
+AC002269,FIELD_FORCE,782.5,-2683.6,75.0,STANDARD_PTP,
 AC002270,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002271,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002272,FIELD_FORCE,2588.2,-1986.4,47.9,STANDARD_PTP,
@@ -2735,12 +2735,12 @@ AC002290,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002290,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002291,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002292,FIELD_FORCE,1631.8,-800.8,357.8,STANDARD_PTP,Confirm if premises is located near Near Milk Dairy (pin is a guess near this landmark)
-AC002293,FIELD_FORCE,1282.7,-1454.1,75.0,STANDARD_PTP,
+AC002293,FIELD_FORCE,2417.7,-1777.4,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002294,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002294,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002295,FIELD_FORCE,-3034.2,-201.5,47.9,STANDARD_PTP,
 AC002296,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002296,FIELD_FORCE,941.3,1123.1,75.0,STANDARD_PTP,
+AC002296,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002297,FIELD_FORCE,-2450.1,-537.9,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Masjid (about 30 m from pin)
 AC002298,FIELD_FORCE,-432.7,-3506.1,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002299,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2765,7 +2765,7 @@ AC002315,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002316,FIELD_FORCE,3925.0,539.3,47.9,STANDARD_PTP,
 AC002317,FIELD_FORCE,3064.5,-2330.8,47.9,STANDARD_PTP,
 AC002318,FIELD_FORCE,-2815.2,848.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC002319,FIELD_FORCE,2989.1,730.1,75.0,STANDARD_PTP,
+AC002319,FIELD_FORCE,1353.4,2759.7,75.0,STANDARD_PTP,
 AC002320,FIELD_FORCE,3789.2,102.4,77.4,STANDARD_PTP,
 AC002321,FIELD_FORCE,730.4,-3301.6,77.4,STANDARD_PTP,
 AC002322,FIELD_FORCE,3128.2,-2406.1,77.4,STANDARD_PTP,
@@ -2792,7 +2792,7 @@ AC002340,FIELD_FORCE,-1120.2,-3087.4,47.9,STANDARD_PTP,
 AC002340,FIELD_FORCE,1741.0,-632.8,77.4,STANDARD_PTP,
 AC002341,FIELD_FORCE,-652.7,-3836.1,47.9,STANDARD_PTP,
 AC002342,FIELD_FORCE,1526.1,-2484.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
-AC002342,FIELD_FORCE,809.3,3008.7,75.0,STANDARD_PTP,
+AC002342,FIELD_FORCE,3311.4,640.9,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002343,FIELD_FORCE,972.1,2461.3,47.9,STANDARD_PTP,
 AC002344,FIELD_FORCE,2451.5,629.0,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002345,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2819,7 +2819,7 @@ AC002361,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002362,FIELD_FORCE,783.6,-216.0,47.9,STANDARD_PTP,
 AC002362,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002363,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002364,FIELD_FORCE,1267.7,-1454.1,75.0,STANDARD_PTP,
+AC002364,FIELD_FORCE,1215.5,-2555.7,387.8,STANDARD_PTP,Confirm if premises is located near Opposite Masjid (about 140 m from pin)
 AC002365,FIELD_FORCE,2943.3,-1265.5,47.9,STANDARD_PTP,
 AC002366,FIELD_FORCE,-3990.5,-1086.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Hanuman Temple (pin is a guess near this landmark)
 AC002366,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
@@ -2843,7 +2843,7 @@ AC002381,FIELD_FORCE,699.6,2863.9,47.9,STANDARD_PTP,
 AC002381,FIELD_FORCE,2376.9,-1178.1,47.9,STANDARD_PTP,
 AC002382,FIELD_FORCE,1402.7,-1827.3,47.9,STANDARD_PTP,
 AC002382,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002383,FIELD_FORCE,3091.5,303.7,75.0,STANDARD_PTP,
+AC002383,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002384,FIELD_FORCE,2335.2,1476.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Ration Shop (pin is a guess near this landmark)
 AC002385,FIELD_FORCE,-668.5,-3901.1,162.1,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002385,FIELD_FORCE,-804.9,-831.0,77.4,STANDARD_PTP,
@@ -2851,17 +2851,17 @@ AC002386,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC002387,FIELD_FORCE,1499.5,-2117.0,47.9,STANDARD_PTP,
 AC002388,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002388,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002389,FIELD_FORCE,1222.6,-2133.9,75.0,STANDARD_PTP,
+AC002389,FIELD_FORCE,2936.0,-1523.8,387.8,STANDARD_PTP,Confirm if premises is located near nearby verified landmark
 AC002390,FIELD_FORCE,2844.3,775.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Water Tank (pin is a guess near this landmark)
 AC002391,FIELD_FORCE,823.0,-420.4,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC002392,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
-AC002393,FIELD_FORCE,1006.0,1450.3,75.0,STANDARD_PTP,
+AC002393,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002394,FIELD_FORCE,-1383.6,-2714.2,47.9,STANDARD_PTP,
 AC002395,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002396,FIELD_FORCE,3334.2,-2080.9,47.9,STANDARD_PTP,
 AC002397,FIELD_FORCE,703.2,-867.4,77.4,STANDARD_PTP,
 AC002398,FIELD_FORCE,2670.5,-1356.2,47.9,STANDARD_PTP,
-AC002399,FIELD_FORCE,3666.8,552.3,75.0,STANDARD_PTP,
+AC002399,FIELD_FORCE,3646.8,552.3,75.0,STANDARD_PTP,
 AC002400,FIELD_FORCE,960.4,-2976.6,47.9,STANDARD_PTP,
 AC001768,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded address could not be verified. Please state your exact cross street, nearby landmark, and house gate color."
 AC002225,FIELD_FORCE,1137.6,-22.3,77.4,STANDARD_PTP,
@@ -2878,4 +2878,4 @@ AC000542,TELE_DIALER,,,3710.3,ADDRESS_VERIFICATION_CAMPAIGN,"Your recorded addre
 AC000602,FIELD_FORCE,-720.2,2971.9,357.8,STANDARD_PTP,Confirm if premises is located near Near Church (pin is a guess near this landmark)
 AC002368,FIELD_FORCE,-1122.4,327.5,357.8,STANDARD_PTP,Confirm if premises is located near Near Ganesh Temple (pin is a guess near this landmark)
 AC001755,FIELD_FORCE,999.8,-3112.8,357.8,STANDARD_PTP,Confirm if premises is located near Opposite Hanuman Temple (pin is a guess near this landmark)
-AC000977,FIELD_FORCE,2945.5,-2722.3,75.0,STANDARD_PTP,
+AC000977,FIELD_FORCE,2975.5,-2722.3,75.0,STANDARD_PTP,
