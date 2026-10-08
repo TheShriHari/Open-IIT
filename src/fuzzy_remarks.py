@@ -267,198 +267,20 @@ def parse_agent_remark(
     checkin_x: Optional[float] = None,
     checkin_y: Optional[float] = None,
 ) -> Dict[str, Any]:
-    """Parses a noisy agent remark into structured spatial evidence with fuzzy confidence.
-    
-    Returns a dictionary matching the required schema:
-    remark_raw, remark_normalized, correction_detected, landmark_type, landmark_name,
-    relation, cross_count, token_match_score, landmark_match_score, correction_confidence,
-    direction_confidence, context_confidence, landmark_confidence, remark_confidence,
-    remark_status, reason.
-    """
-    if not isinstance(remark_text, str) or not remark_text.strip():
-        return {
-            "remark_raw": "",
-            "remark_normalized": "",
-            "correction_detected": False,
-            "landmark_type": None,
-            "landmark_name": None,
-            "relation": None,
-            "cross_count": np.nan,
-            "token_match_score": 0.0,
-            "landmark_match_score": 0.0,
-            "correction_confidence": 0.0,
-            "direction_confidence": 0.0,
-            "context_confidence": 0.0,
-            "landmark_confidence": 0.0,
-            "remark_confidence": 0.0,
-            "remark_status": "UNRESOLVED",
-            "reason": "Empty remark",
-        }
-
-    raw = remark_text.strip()
-    norm = re.sub(r"\s+", " ", raw.lower().replace(";", " ; "))
-
-    # If the remark has a status prefix before semicolon, isolate the spatial cue segment
-    cue_text = norm
-    if ";" in norm:
-        parts = [p.strip() for p in norm.split(";") if p.strip()]
-        for p in parts[1:]:
-            cue_text = p
-            break
-
-    # 1. Fuzzy match correction indicators
-    corr_found = False
-    corr_score = 0.0
-    matched_corr_phrase = None
-    for phrase, weight in CANONICAL_CORRECTIONS:
-        if phrase in norm:
-            corr_found = True
-            corr_score = max(corr_score, weight)
-            matched_corr_phrase = phrase
-            break
-        sim = fuzz.partial_ratio(phrase, norm) / 100.0
-        if sim >= 0.88:
-            corr_found = True
-            corr_score = max(corr_score, sim * weight)
-            matched_corr_phrase = phrase
-            break
-
-    # 2. Fuzzy match landmark categories and POI aliases
-    lm_type, lm_name, lm_score = None, None, 0.0
-    for ltype, alias in CANONICAL_LANDMARKS:
-        if alias in cue_text:
-            lm_type = ltype
-            lm_name = alias.title()
-            lm_score = 1.0
-            break
-        sim = fuzz.partial_ratio(alias, cue_text) / 100.0
-        if sim >= 0.85 and sim > lm_score:
-            lm_type = ltype
-            lm_name = alias.title()
-            lm_score = sim
-
-    # 3. Fuzzy match spatial relations
-    rel_found, rel_score = None, 0.0
-    for rel, alias, weight in CANONICAL_RELATIONS:
-        if alias in cue_text:
-            rel_found = rel
-            rel_score = max(rel_score, weight)
-            break
-        sim = fuzz.partial_ratio(alias, cue_text) / 100.0
-        if sim >= 0.85 and sim * weight > rel_score:
-            rel_found = rel
-            rel_score = sim * weight
-
-    # 4. Extract cross count / lane displacement modifier
-    cross_match = re.search(r"\b(\d+)\s*(?:cross|gali|lanes?|road)\b", cue_text)
-    cross_count = int(cross_match.group(1)) if cross_match else np.nan
-
-    token_match_score = float(max(corr_score, lm_score, rel_score))
-
-    # 5. Evaluate Context Confidence
-    has_lm = lm_type is not None
-    has_rel = rel_found is not None
-    has_mod = not np.isnan(cross_count)
-    if has_lm and has_rel and has_mod:
-        context_score = 1.0
-    elif has_lm and has_rel:
-        context_score = 0.85
-    elif has_lm or (has_rel and has_mod):
-        context_score = 0.65
-    elif has_rel:
-        context_score = 0.45
-    else:
-        context_score = 0.10
-
-    # 6. Direction Confidence
-    direction_score = float(rel_score)
-
-    # 7. Correction Confidence
-    correction_score = float(corr_score) if corr_found else (0.40 if (has_lm and has_rel) else 0.10)
-
-    # 8. Landmark Confidence against landmarks_poi.csv and consistency
-    landmark_confidence = float(lm_score)
-    poi_dist = np.nan
-    poi_in_town = False
-    if has_lm and pois_df is not None and not pois_df.empty:
-        cand = pois_df[pois_df.landmark_type == lm_type]
-        if town_id:
-            cand_town = cand[cand.town_id == town_id]
-            if not cand_town.empty:
-                cand = cand_town
-                poi_in_town = True
-
-        if not cand.empty and pd.notna(checkin_x) and pd.notna(checkin_y):
-            dists = np.hypot(cand.x - checkin_x, cand.y - checkin_y)
-            poi_dist = float(dists.min())
-            if poi_dist <= 350.0:
-                landmark_confidence = min(1.0, landmark_confidence * 1.10)
-            elif poi_dist > 1500.0:
-                landmark_confidence = landmark_confidence * 0.70
-
-    # 9. Evaluate Fuzzy Inference Rules
-    raw_fuzzy_conf = evaluate_fuzzy_rules(
-        lexical_score=token_match_score,
-        context_score=context_score,
-        correction_score=correction_score,
-        landmark_score=landmark_confidence,
-        direction_score=direction_score,
+    """Parses a noisy agent remark using the upgraded Indic NLP + Transliteration + Fuzzy layer."""
+    from indic_address_understanding import process_single_remark
+    res = process_single_remark(
+        remark_raw=remark_text,
+        town_id=town_id,
+        pois_df=pois_df,
+        checkin_x=checkin_x,
+        checkin_y=checkin_y,
     )
-
-    # Consistency Check: detect strong contradiction (>2500m from candidate POI)
-    is_conflicting = False
-    if has_lm and not np.isnan(poi_dist) and poi_dist > 2500.0:
-        is_conflicting = True
-        remark_conf = raw_fuzzy_conf * 0.50
-    else:
-        remark_conf = raw_fuzzy_conf
-
-    # Assign remark status
-    if not has_lm and not has_rel and not corr_found:
-        status = "UNRESOLVED"
-    elif is_conflicting:
-        status = "CONFLICTING"
-    elif corr_found and remark_conf >= 0.70:
-        status = "STRONG_CORRECTION"
-    elif (has_lm or has_rel) and remark_conf >= 0.55:
-        status = "USEFUL_SPATIAL_CUE"
-    else:
-        status = "WEAK_CUE"
-
-    # Human-readable audit reason
-    reasons = []
-    if corr_found:
-        reasons.append(f"Detected correction phrase '{matched_corr_phrase}' (conf={corr_score:.2f})")
-    if rel_found:
-        reasons.append(f"Fuzzy matched relation '{rel_found}' (conf={rel_score:.2f})")
-    if lm_type:
-        reasons.append(f"Landmark '{lm_name}' resolved to category {lm_type} (score={lm_score:.2f})")
-    if not np.isnan(cross_count):
-        reasons.append(f"Displacement constraint: {cross_count} cross/gali/lanes ahead")
-    if is_conflicting:
-        reasons.append(f"Spatial conflict: candidate POI is {poi_dist:.0f}m from checkin GPS (>2500m)")
-
-    reason_str = "; ".join(reasons) if reasons else "No spatial or correction cues recognized"
-
-    return {
-        "remark_raw": raw,
-        "remark_normalized": norm,
-        "correction_detected": bool(corr_found),
-        "landmark_type": lm_type,
-        "landmark_name": lm_name,
-        "relation": rel_found,
-        "cross_count": cross_count,
-        "token_match_score": round(token_match_score, 3),
-        "landmark_match_score": round(lm_score, 3),
-        "correction_confidence": round(correction_score, 3),
-        "direction_confidence": round(direction_score, 3),
-        "context_confidence": round(context_score, 3),
-        "landmark_confidence": round(landmark_confidence, 3),
-        "final_remark_confidence": round(remark_conf, 3),
-        "remark_confidence": round(remark_conf, 3),
-        "remark_status": status,
-        "reason": reason_str,
-    }
+    res["relation"] = res["spatial_relation"]
+    res["cross_count"] = res["cross_number"]
+    res["final_remark_confidence"] = res["remark_confidence"]
+    res["landmark_confidence"] = res["landmark_match_score"]
+    return res
 
 
 # ==============================================================================
@@ -470,57 +292,8 @@ def extract_and_audit_all_remarks(
     output_path: Optional[Path] = None,
 ) -> pd.DataFrame:
     """Processes all remarks in field_visits.csv and creates output/remark_extracted_corrections.csv."""
-    v_path = visits_path or (SHARED / "field_visits.csv")
-    out_path = output_path or (OUT / "remark_extracted_corrections.csv")
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-
-    visits = pd.read_csv(v_path)
-    addr = pd.read_csv(SHARED / "addresses.csv")
-    pois = pd.read_csv(GEO / "landmarks_poi.csv")
-
-    df_merged = visits.merge(addr[["address_id", "town_id"]], on="address_id", how="left")
-
-    parsed_records = []
-    for row in df_merged.itertuples(index=False):
-        res = parse_agent_remark(
-            remark_text=row.remark,
-            town_id=row.town_id,
-            pois_df=pois,
-            checkin_x=row.checkin_x,
-            checkin_y=row.checkin_y,
-        )
-        res["address_id"] = row.address_id
-        res["visit_id"] = row.visit_id
-        res["normalized_text"] = res["remark_normalized"]
-        res["detected_relation"] = res["relation"]
-        res["detected_landmark"] = res["landmark_name"]
-        parsed_records.append(res)
-
-    audit_df = pd.DataFrame(parsed_records)
-
-    # Reorder columns as specified in Section 10
-    cols = [
-        "address_id",
-        "visit_id",
-        "remark_raw",
-        "normalized_text",
-        "correction_detected",
-        "detected_relation",
-        "detected_landmark",
-        "cross_count",
-        "token_match_score",
-        "landmark_match_score",
-        "correction_confidence",
-        "direction_confidence",
-        "context_confidence",
-        "landmark_confidence",
-        "final_remark_confidence",
-        "remark_status",
-        "reason",
-    ]
-    audit_df[cols].to_csv(out_path, index=False, encoding="utf-8-sig")
-    print(f"Created audit trail: {out_path} ({len(audit_df)} records)")
-    return audit_df
+    from indic_address_understanding import generate_upgraded_audit_trail
+    return generate_upgraded_audit_trail(visits_path=visits_path, output_path=output_path)
 
 
 # ==============================================================================
@@ -536,16 +309,19 @@ def get_address_level_remark_evidence(audit_df: pd.DataFrame) -> pd.DataFrame:
                                      "remark_landmark_type", "remark_relation", "has_strong_correction"])
 
     # Rank cues by final_remark_confidence
-    cues = cues.sort_values(["address_id", "final_remark_confidence"], ascending=[True, False])
-    best = cues.groupby("address_id").first().reset_index()
+    conf_col = "remark_confidence" if "remark_confidence" in cues.columns else "final_remark_confidence"
+    lm_col = "landmark_name" if "landmark_name" in cues.columns else "detected_landmark"
+    rel_col = "spatial_relation" if "spatial_relation" in cues.columns else "detected_relation"
+
+    cues = cues.sort_values(["address_id", conf_col], ascending=[True, False])
 
     addr_rows = []
     for aid, g in cues.groupby("address_id"):
         top = g.iloc[0]
         has_strong = (g.remark_status == "STRONG_CORRECTION").any()
-        best_conf = float(g.final_remark_confidence.max())
-        lm_type = top["detected_landmark"]
-        rel = top["detected_relation"]
+        best_conf = float(g[conf_col].max())
+        lm_type = top[lm_col]
+        rel = top[rel_col]
         status = top["remark_status"]
         addr_rows.append({
             "address_id": aid,

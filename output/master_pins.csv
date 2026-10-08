@@ -6,7 +6,7 @@ AD000004,AC000003,T2,2775.9,-1262.8,baseline_coarse,0,,0.0
 AD000005,AC000004,T2,471.9,-3260.2,landmark,0,Behind Ration Shop (pin is a guess near this landmark),0.0
 AD000007,AC000005,T2,107.8,1245.9,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
 AD000008,AC000006,T1,-2950.8,1246.7,baseline_coarse,0,,0.0
-AD000009,AC000007,T1,2971.9,-2299.3,visit_1,1,Near Hanuman Temple (about 110 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD000009,AC000007,T1,2971.9,-2299.3,visit_1,1,Near Hanuman Temple (about 110 m from pin),0.3
 AD000010,AC000007,T1,-2067.2,1732.8,baseline_coarse,0,,0.0
 AD000011,AC000008,T3,3051.1,-2317.6,landmark,0,Opposite Milk Dairy (pin is a guess near this landmark),0.0
 AD000012,AC000009,T2,-676.4,-682.4,visits_disagree,5,Near Masjid (about 90 m from pin) | Remark Cue: Behind Dak Ghar (conf=0.83),0.83
@@ -39,7 +39,7 @@ AD000039,AC000033,T2,-565.7,2542.2,visits_agree,2,Field Remark: Beside Medical S
 AD000040,AC000034,T1,835.0,-2924.7,visit_1,1,,0.2
 AD000041,AC000034,T1,-628.0,-1274.5,visit_1,1,Near Church (about 130 m from pin),0.2
 AD000042,AC000035,T3,3765.0,483.2,baseline_coarse,0,,0.0
-AD000043,AC000036,T3,3920.2,708.2,visits_agree,5,,0.2
+AD000043,AC000036,T3,3920.2,708.4,visits_agree,5,,0.3
 AD000045,AC000037,T3,-2505.6,-92.4,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD000046,AC000037,T3,-842.2,2899.6,landmark,0,Opposite Ration Shop (pin is a guess near this landmark),0.0
 AD000047,AC000038,T1,-2418.3,1132.2,visits_disagree,8,Field Remark: Behind Sarkari Shaale (conf=0.83),0.83
@@ -54,7 +54,7 @@ AD000056,AC000044,T3,-3841.3,-903.0,baseline_coarse,0,,0.0
 AD000057,AC000045,T3,-2505.6,-92.4,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD000058,AC000046,T3,-596.5,-626.0,baseline_coarse,0,,0.0
 AD000059,AC000047,T1,-763.9,167.5,baseline_street,0,,0.0
-AD000060,AC000048,T3,3803.1,106.6,visits_agree,4,,0.3
+AD000060,AC000048,T3,3803.1,106.6,visits_agree,4,,0.2
 AD000061,AC000049,T2,1440.8,-1984.6,landmark,0,Near Church (pin is a guess near this landmark),0.0
 AD000062,AC000050,T1,595.8,-3084.5,visits_disagree,6,Opposite Bus Stop (about 110 m from pin) | Remark Cue: Behind Bus Stop (conf=0.83),0.83
 AD000063,AC000051,T2,3267.0,631.8,baseline_street,0,,0.0
@@ -68,10 +68,10 @@ AD000071,AC000057,T3,858.3,-3936.9,baseline_street,0,Near Petrol Bunk (about 120
 AD000072,AC000058,T3,1600.0,-2585.2,baseline_coarse,0,,0.0
 AD000073,AC000059,T2,988.4,868.5,baseline_street,0,,0.0
 AD000074,AC000059,T2,912.5,2794.6,baseline_coarse,0,,0.0
-AD000075,AC000060,T1,2760.1,-2266.7,visits_disagree,5,Opposite Hanuman Temple (about 140 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD000075,AC000060,T1,2760.1,-2266.7,visits_disagree,5,Opposite Hanuman Temple (about 140 m from pin) | Remark Cue: Near Hanuman Temple (conf=0.82),0.819
 AD000076,AC000061,T2,983.0,1451.1,visit_1,1,,0.2
 AD000077,AC000062,T3,1912.1,-1886.9,baseline_coarse,0,,0.0
-AD000078,AC000063,T3,-2523.9,-129.5,visits_disagree,5,Opposite Govt School (about 40 m from pin),0.2
+AD000078,AC000063,T3,-2529.5,-133.2,visits_disagree,5,Opposite Govt School (about 50 m from pin),0.3
 AD000079,AC000064,T3,1006.2,-1203.7,visits_disagree,3,Field Remark: Behind Church (conf=0.83),0.83
 AD000080,AC000064,T3,4327.2,439.3,baseline_street,0,,0.0
 AD000081,AC000065,T3,-756.1,-862.4,visits_agree,2,Near Milk Dairy (about 150 m from pin),0.2
@@ -92,7 +92,7 @@ AD000096,AC000075,T3,3372.3,548.7,visits_disagree,7,Field Remark: Opposite Kalya
 AD000097,AC000076,T3,-4072.0,-1017.3,landmark,0,Opposite Water Tank (pin is a guess near this landmark),0.0
 AD000098,AC000077,T3,-2492.9,1358.7,visits_disagree,4,,0.2
 AD000099,AC000078,T3,-344.8,-432.1,visits_disagree,5,Field Remark: Opposite Anjaneya Swamy Temple (conf=0.85),0.85
-AD000100,AC000079,T1,2817.3,-2082.9,visits_agree,6,Near Park (about 90 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD000100,AC000079,T1,2817.3,-2082.9,visits_agree,6,Near Park (about 90 m from pin) | Remark Cue: Opposite Medical Shop (conf=0.85),0.85
 AD000101,AC000080,T3,-2378.1,1427.1,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
 AD000102,AC000081,T1,641.8,2525.7,baseline_street,0,,0.0
 AD000103,AC000082,T3,3131.2,-1871.8,baseline_coarse,0,,0.0
@@ -105,7 +105,7 @@ AD000109,AC000088,T1,2046.8,-1272.3,baseline_coarse,0,,0.0
 AD000111,AC000089,T1,2702.3,1144.4,visits_disagree,2,,0.2
 AD000112,AC000089,T1,804.3,-2828.4,baseline_coarse,0,,0.0
 AD000113,AC000090,T3,-768.2,3483.0,landmark,0,Opposite Park (pin is a guess near this landmark),0.0
-AD000114,AC000091,T1,2682.4,-1869.8,visits_agree,5,,0.3
+AD000114,AC000091,T1,2682.4,-1869.8,visits_agree,5,,0.2
 AD000115,AC000092,T3,-474.6,3263.8,baseline_coarse,0,,0.0
 AD000116,AC000093,T3,-2353.1,-1649.3,baseline_coarse,0,,0.0
 AD000117,AC000094,T3,3443.4,-1945.1,landmark,0,Near Bus Stop (pin is a guess near this landmark),0.0
@@ -141,7 +141,7 @@ AD000149,AC000119,T2,898.6,1331.4,baseline_coarse,0,,0.0
 AD000150,AC000120,T2,2467.1,-1135.2,visits_disagree,6,Field Remark: Opposite Dak Ghar (conf=0.85),0.85
 AD000151,AC000120,T2,-749.2,3343.4,visits_agree,2,Field Remark: Opposite Sarkari School (conf=0.85),0.85
 AD000152,AC000121,T2,2653.0,-1080.9,visits_agree,2,Field Remark: Opposite Paani Ki Tanki (conf=0.85),0.85
-AD000153,AC000122,T3,-2351.2,-129.7,visits_disagree,5,Near Govt School (about 160 m from pin),0.3
+AD000153,AC000122,T3,-2351.2,-129.7,visits_disagree,5,Near Govt School (about 160 m from pin),0.2
 AD000154,AC000122,T3,3574.3,-2265.2,visits_agree,3,Near Park (about 40 m from pin) | Remark Cue: Behind Park (conf=0.83),0.83
 AD000155,AC000123,T3,1161.1,-606.8,visits_agree,5,,0.2
 AD000156,AC000124,T1,1982.8,-1241.6,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
@@ -220,9 +220,9 @@ AD000232,AC000186,T1,-581.7,617.7,baseline_street,0,,0.0
 AD000233,AC000187,T3,884.8,-779.9,visits_agree,2,Field Remark: Opposite Sarkari Shaale (conf=0.85),0.85
 AD000234,AC000187,T3,311.7,1955.9,landmark,0,Near Milk Dairy (pin is a guess near this landmark),0.0
 AD000235,AC000188,T3,-3557.8,-771.9,visit_1,1,,0.2
-AD000236,AC000189,T1,2638.8,-1993.3,visit_1,1,,0.3
+AD000236,AC000189,T1,2638.8,-1993.3,visit_1,1,,0.2
 AD000237,AC000189,T1,-3259.5,1123.9,visit_1,1,,0.2
-AD000238,AC000190,T1,-2865.4,991.0,visits_disagree,8,,0.3
+AD000238,AC000190,T1,-2865.4,991.0,visits_disagree,8,,0.2
 AD000239,AC000191,T3,990.2,-713.2,visits_disagree,5,Field Remark: Opposite Masidi (conf=0.85),0.85
 AD000240,AC000192,T2,1351.7,-2043.6,baseline_coarse,0,,0.0
 AD000241,AC000193,T2,1150.8,812.1,baseline_street,0,,0.0
@@ -231,7 +231,7 @@ AD000243,AC000194,T3,1206.9,-744.9,baseline_street,0,,0.0
 AD000244,AC000194,T3,-3921.2,-577.0,landmark,0,Near Community Hall (pin is a guess near this landmark),0.0
 AD000245,AC000195,T1,2315.3,-2045.4,baseline_coarse,0,,0.0
 AD000246,AC000195,T1,-1958.5,2486.1,baseline_coarse,0,,0.0
-AD000247,AC000196,T1,818.4,-568.4,visits_agree,3,Field Remark: Beside Park (conf=0.85),0.85
+AD000247,AC000196,T1,818.4,-568.4,visits_agree,3,Field Remark: Behind Hanuman Temple (conf=0.83),0.83
 AD000248,AC000197,T3,1448.4,-3612.2,landmark,0,Near Medical Store (pin is a guess near this landmark),0.0
 AD000249,AC000198,T3,1309.7,-694.4,baseline_street,0,,0.0
 AD000250,AC000199,T2,879.7,2744.0,baseline_coarse,0,,0.0
@@ -241,7 +241,7 @@ AD000253,AC000202,T1,502.9,-2839.2,visits_agree,3,Near Bus Stop (about 150 m fro
 AD000254,AC000202,T1,-563.2,-1389.8,landmark,0,Opposite Church (pin is a guess near this landmark),0.0
 AD000255,AC000203,T1,2374.4,932.2,visits_agree,3,,0.2
 AD000256,AC000203,T1,-184.5,-1112.1,baseline_street,0,,0.0
-AD000257,AC000204,T1,3139.1,-2096.0,visits_disagree,2,Near Ration Shop (about 110 m from pin),0.3
+AD000257,AC000204,T1,3139.1,-2096.0,visits_disagree,2,Near Ration Shop (about 110 m from pin),0.2
 AD000258,AC000205,T3,-670.9,-3384.7,visits_agree,2,Opposite Hanuman Temple (about 40 m from pin) | Remark Cue: Near Hanuman Temple (conf=0.82),0.819
 AD000259,AC000206,T1,2826.0,-2473.0,visit_1,1,Opposite Hanuman Temple (about 130 m from pin),0.2
 AD000260,AC000207,T1,1037.8,-475.3,visits_agree,2,Near Hanuman Temple (about 80 m from pin),0.2
@@ -308,7 +308,7 @@ AD000324,AC000257,T3,-2641.5,1704.9,visits_disagree,8,Field Remark: Beside Petro
 AD000325,AC000257,T3,-3777.4,-867.7,baseline_coarse,0,,0.0
 AD000326,AC000258,T3,-1868.8,-1311.3,baseline_coarse,0,,0.0
 AD000327,AC000259,T1,1006.3,-146.5,baseline_coarse,0,,0.0
-AD000328,AC000260,T1,319.5,-2871.4,visits_agree,4,,0.2
+AD000328,AC000260,T1,319.5,-2871.4,visits_agree,4,,0.3
 AD000330,AC000261,T2,2726.5,-1166.8,visit_1,1,Field Remark: Behind Paani Ki Tanki (conf=0.83),0.83
 AD000331,AC000261,T2,2880.0,718.1,baseline_coarse,0,,0.0
 AD000332,AC000262,T2,-532.5,3389.7,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
@@ -338,7 +338,7 @@ AD000355,AC000282,T2,692.6,-3298.6,visits_disagree,8,Near Bus Stop (about 30 m f
 AD000356,AC000283,T3,1157.3,-3636.6,landmark,0,Near Water Tank (pin is a guess near this landmark),0.0
 AD000357,AC000284,T3,431.5,1548.7,landmark,0,Near Bus Stop (pin is a guess near this landmark),0.0
 AD000358,AC000285,T2,655.6,95.2,visit_1,1,Field Remark: Opposite Sarkari School (conf=0.85),0.85
-AD000359,AC000286,T1,-2470.0,-2645.9,visits_disagree,3,,0.3
+AD000359,AC000286,T1,-2470.0,-2645.9,visits_disagree,3,,0.2
 AD000360,AC000287,T1,3068.2,-2386.4,visits_disagree,6,Field Remark: Opposite Nyayabele Angadi (conf=0.85),0.85
 AD000361,AC000288,T1,-992.7,-2988.7,baseline_coarse,0,,0.0
 AD000362,AC000288,T1,-2217.3,-2491.4,baseline_coarse,0,,0.0
@@ -457,7 +457,7 @@ AD000484,AC000381,T3,-2001.1,1493.0,visits_disagree,4,Field Remark: Behind Anche
 AD000485,AC000382,T2,859.0,-2641.7,baseline_street,0,,0.0
 AD000486,AC000382,T2,2967.3,-995.6,baseline_street,0,,0.0
 AD000487,AC000383,T2,1287.5,-1265.5,baseline_coarse,0,,0.0
-AD000488,AC000384,T1,1237.1,221.4,visits_agree,6,Near Milk Dairy (about 170 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD000488,AC000384,T1,1237.1,221.4,visits_agree,6,Near Milk Dairy (about 170 m from pin) | Remark Cue: Near Haalina Dairy (conf=0.82),0.819
 AD000489,AC000385,T3,-2597.7,-382.8,baseline_coarse,0,,0.0
 AD000491,AC000386,T2,479.9,-3006.3,baseline_street,0,Near Church (about 80 m from pin),0.0
 AD000492,AC000386,T2,1156.6,2642.4,baseline_coarse,0,,0.0
@@ -474,7 +474,7 @@ AD000504,AC000395,T1,2927.8,-2067.1,visits_disagree,2,Field Remark: Behind Ratio
 AD000505,AC000396,T3,-1726.8,-1066.9,baseline_coarse,0,,0.0
 AD000506,AC000397,T2,3316.4,425.3,baseline_street,0,,0.0
 AD000507,AC000397,T2,3296.6,936.9,baseline_street,0,,0.0
-AD000508,AC000398,T3,-2014.4,1656.8,visit_1,1,Near Ganesh Temple (about 100 m from pin),0.3
+AD000508,AC000398,T3,-2014.4,1656.8,visit_1,1,Near Ganesh Temple (about 100 m from pin),0.2
 AD000509,AC000399,T2,893.3,2656.2,baseline_street,0,Opposite Ration Shop (about 120 m from pin),0.0
 AD000510,AC000400,T3,-2847.1,-569.9,landmark,0,Near Bus Stop (pin is a guess near this landmark),0.0
 AD000511,AC000401,T3,-402.8,3230.6,landmark,0,Opposite Water Tank (pin is a guess near this landmark),0.0
@@ -495,7 +495,7 @@ AD000528,AC000412,T3,-2718.7,-557.4,baseline_street,0,,0.0
 AD000529,AC000413,T1,2816.5,-2099.8,visits_disagree,5,Near Medical Store (about 30 m from pin) | Remark Cue: Opposite Pharmacy (conf=0.85),0.85
 AD000530,AC000413,T1,-1137.4,-3087.3,visits_agree,3,Field Remark: Opposite Neerina Tank (conf=0.85),0.85
 AD000531,AC000414,T2,1322.8,-2447.5,visits_agree,3,,0.2
-AD000532,AC000415,T3,1366.7,-774.0,visits_agree,2,Near Medical Store (about 110 m from pin) | Remark Cue: Opposite Water Tank (conf=0.85),0.2
+AD000532,AC000415,T3,1366.7,-774.0,visits_agree,2,Near Medical Store (about 110 m from pin) | Remark Cue: Opposite Water Tank (conf=0.85),0.3
 AD000533,AC000415,T3,-2581.0,-176.7,visit_1,1,Field Remark: Behind Sarkari Shaale (conf=0.83),0.83
 AD000534,AC000416,T3,3957.2,716.0,visits_agree,3,,0.2
 AD000535,AC000416,T3,3701.7,111.3,visits_agree,2,,0.2
@@ -589,7 +589,7 @@ AD000628,AC000488,T3,-774.7,3249.2,baseline_street,0,,0.0
 AD000629,AC000488,T3,-2878.1,1621.2,landmark,0,Near Milk Dairy (pin is a guess near this landmark),0.0
 AD000630,AC000489,T1,2874.2,-1947.0,visits_disagree,2,,0.2
 AD000631,AC000490,T3,-2849.7,-148.8,visits_disagree,6,Field Remark: Opposite Doodh Dairy (conf=0.85),0.85
-AD000632,AC000491,T3,-888.2,-3833.5,visits_agree,4,Field Remark: Beside Park (conf=0.85),0.85
+AD000632,AC000491,T3,-918.3,-3860.8,visits_agree,4,,0.3
 AD000633,AC000492,T2,2632.1,-1183.3,baseline_coarse,0,,0.0
 AD000634,AC000493,T2,1819.2,-1596.4,visits_disagree,4,,0.2
 AD000635,AC000494,T1,1481.3,-684.1,visit_1,1,,0.2
@@ -622,7 +622,7 @@ AD000665,AC000515,T1,-920.9,-3141.1,baseline_coarse,0,,0.0
 AD000666,AC000516,T3,-2645.7,-482.5,visits_agree,4,Field Remark: Opposite Girja Ghar (conf=0.85),0.85
 AD000667,AC000517,T1,2276.3,-2358.2,visits_disagree,4,Field Remark: Near Masidi (conf=0.82),0.819
 AD000668,AC000518,T1,2325.3,915.7,visits_agree,6,Field Remark: Near Medical Store (conf=0.80),0.795
-AD000669,AC000519,T1,2252.6,615.2,visits_agree,6,Behind Post Office (about 110 m from pin),0.3
+AD000669,AC000519,T1,2252.6,615.2,visits_agree,6,Behind Post Office (about 110 m from pin),0.2
 AD000671,AC000520,T3,1271.7,-837.8,visits_disagree,2,Field Remark: Opposite Medical Shop (conf=0.85),0.85
 AD000672,AC000521,T2,942.9,2635.7,visits_disagree,7,Field Remark: Near Sarkari School (conf=0.82),0.819
 AD000673,AC000522,T2,1041.5,-1855.2,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
@@ -668,7 +668,7 @@ AD000713,AC000553,T2,864.1,2628.1,baseline_coarse,0,,0.0
 AD000715,AC000554,T2,1440.8,-1984.6,landmark,0,Near Church (pin is a guess near this landmark),0.0
 AD000717,AC000555,T3,-813.3,-513.1,baseline_coarse,0,,0.0
 AD000718,AC000556,T2,999.1,2588.3,baseline_coarse,0,,0.0
-AD000719,AC000557,T1,2747.8,-1829.0,visits_agree,5,Field Remark: Beside Park (conf=0.85),0.85
+AD000719,AC000557,T1,2747.8,-1818.2,visits_agree,5,,0.398
 AD000720,AC000558,T2,983.4,-70.8,baseline_coarse,0,,0.0
 AD000721,AC000559,T3,-3035.4,-140.9,visits_disagree,3,Field Remark: Near Milk Booth (conf=0.80),0.795
 AD000722,AC000560,T3,4025.7,325.7,visits_disagree,7,,0.425
@@ -687,7 +687,7 @@ AD000737,AC000571,T1,-459.3,-2870.6,visit_1,1,,0.2
 AD000738,AC000572,T1,-545.0,-990.4,visits_disagree,3,,0.2
 AD000739,AC000573,T1,709.2,-3292.8,visits_agree,2,Field Remark: Opposite Samudaya Bhavana (conf=0.85),0.85
 AD000740,AC000573,T1,1975.6,-911.1,visit_1,1,Opposite Park (about 160 m from pin) | Remark Cue: Behind Park (conf=0.83),0.83
-AD000741,AC000574,T3,-845.7,2847.6,visits_disagree,6,Field Remark: Beside Park (conf=0.85),0.85
+AD000741,AC000574,T3,-845.7,2847.6,visits_disagree,6,,0.3
 AD000742,AC000575,T1,517.0,2442.5,baseline_coarse,0,,0.0
 AD000743,AC000576,T1,-1982.6,-2304.3,baseline_coarse,0,Field Remark: Near Church (conf=0.82),0.819
 AD000744,AC000577,T3,1325.8,-1116.6,visit_1,1,,0.2
@@ -698,7 +698,7 @@ AD000749,AC000581,T3,-175.3,-3450.4,visits_agree,2,,0.2
 AD000750,AC000581,T3,-52.2,3155.0,visit_1,1,,0.2
 AD000751,AC000582,T2,1185.1,1388.5,baseline_coarse,0,,0.0
 AD000752,AC000582,T2,-740.1,2565.6,landmark,0,Near Medical Store (pin is a guess near this landmark),0.0
-AD000753,AC000583,T1,2842.7,-2599.3,visits_agree,5,,0.3
+AD000753,AC000583,T1,2842.7,-2599.3,visits_agree,5,,0.2
 AD000754,AC000584,T2,2326.7,1917.1,landmark,0,Near Ganesh Temple (pin is a guess near this landmark),0.0
 AD000755,AC000585,T2,647.5,-2633.2,landmark,0,Near Medical Store (pin is a guess near this landmark),0.0
 AD000756,AC000586,T2,1349.7,-2074.3,visits_disagree,6,Opposite Milk Dairy (about 90 m from pin) | Remark Cue: Beside Doodh Dairy (conf=0.83),0.832
@@ -719,7 +719,7 @@ AD000770,AC000597,T2,2524.4,-500.7,baseline_street,0,,0.0
 AD000771,AC000598,T3,824.8,-711.4,visits_agree,2,,0.2
 AD000772,AC000598,T3,-402.8,3230.6,landmark,0,Near Water Tank (pin is a guess near this landmark),0.0
 AD000773,AC000599,T2,1346.4,-2520.7,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
-AD000774,AC000600,T3,-2668.6,1741.0,visits_agree,5,,0.3
+AD000774,AC000600,T3,-2668.6,1741.0,visits_agree,5,,0.2
 AD000775,AC000601,T3,-661.6,-272.4,visit_1,1,,0.2
 AD000776,AC000602,T3,3745.4,207.6,baseline_coarse,0,,0.0
 AD000778,AC000603,T1,1918.1,-847.5,baseline_coarse,0,,0.0
@@ -752,7 +752,7 @@ AD000806,AC000623,T2,2291.9,1878.5,baseline_coarse,0,,0.0
 AD000807,AC000624,T3,-1165.1,-1839.0,baseline_coarse,0,,0.0
 AD000808,AC000625,T3,-720.8,3385.8,visits_disagree,4,Opposite Park (about 110 m from pin),0.2
 AD000809,AC000626,T1,667.5,87.7,visits_agree,4,Near Bus Stop (pin is at this landmark) | Remark Cue: Near Bus Stop (conf=0.82),0.819
-AD000810,AC000627,T1,1145.4,-3187.0,visits_agree,3,,0.3
+AD000810,AC000627,T1,1145.4,-3187.0,visits_agree,3,,0.2
 AD000812,AC000628,T1,-1248.8,-2714.3,visits_agree,4,Field Remark: Opposite Anjaneya Swamy Temple (conf=0.85),0.85
 AD000813,AC000629,T1,3038.5,-2306.4,visits_agree,3,Near Ration Shop (about 150 m from pin) | Remark Cue: Opposite Pds Shop (conf=0.85),0.85
 AD000814,AC000630,T1,-1196.1,-2249.7,baseline_coarse,0,,0.0
@@ -833,7 +833,7 @@ AD000890,AC000692,T2,-661.4,3352.0,baseline_street,0,Near Hanuman Temple (about 
 AD000891,AC000692,T2,-1316.2,-1522.3,baseline_coarse,0,,0.0
 AD000892,AC000693,T3,-272.4,-3176.9,baseline_street,0,,0.0
 AD000894,AC000694,T3,1233.3,-1108.1,baseline_street,0,,0.0
-AD000895,AC000695,T1,410.3,2335.9,visits_agree,2,,0.2
+AD000895,AC000695,T1,410.3,2335.9,visits_agree,2,,0.3
 AD000897,AC000696,T2,1637.2,-2611.1,visits_agree,2,Field Remark: Beside Medical Store (conf=0.83),0.832
 AD000898,AC000697,T1,1190.6,-3389.6,visit_1,1,Field Remark: Near Ganapathi Temple (conf=0.80),0.795
 AD000899,AC000698,T3,2155.4,-2099.7,baseline_coarse,0,,0.0
@@ -878,7 +878,7 @@ AD000939,AC000728,T1,2364.6,1132.3,baseline_coarse,0,,0.0
 AD000940,AC000729,T1,320.8,-3029.4,visits_disagree,2,Field Remark: Behind Bus Nildana (conf=0.83),0.2
 AD000942,AC000730,T2,800.7,3241.4,visits_agree,2,,0.2
 AD000943,AC000731,T3,-2594.8,-473.2,visit_1,1,Opposite Church (about 110 m from pin) | Remark Cue: Near Church (conf=0.82),0.819
-AD000944,AC000732,T3,-2331.7,1326.0,visits_agree,2,Behind Masjid (about 110 m from pin),0.3
+AD000944,AC000732,T3,-2331.7,1326.0,visits_agree,2,Behind Masjid (about 110 m from pin),0.2
 AD000945,AC000733,T1,2843.8,757.1,landmark,0,Opposite Ration Shop (pin is a guess near this landmark),0.0
 AD000946,AC000733,T1,-2856.5,1097.7,baseline_coarse,0,,0.0
 AD000947,AC000734,T2,907.5,2586.7,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
@@ -889,7 +889,7 @@ AD000951,AC000738,T2,921.7,-30.1,baseline_coarse,0,,0.0
 AD000952,AC000738,T2,-521.0,2862.9,baseline_coarse,0,,0.0
 AD000953,AC000739,T2,202.8,-3160.6,visits_disagree,4,Field Remark: Behind Ganesh Mandir (conf=0.83),0.83
 AD000954,AC000740,T3,-2490.9,1182.2,visits_disagree,2,,0.2
-AD000955,AC000741,T1,3118.6,-1923.1,visits_agree,6,Field Remark: Beside Park (conf=0.85),0.85
+AD000955,AC000741,T1,3118.6,-1923.1,visits_agree,6,,0.398
 AD000957,AC000742,T2,2861.0,64.4,visit_1,1,,0.2
 AD000958,AC000742,T2,2374.2,-1074.8,baseline_street,0,,0.0
 AD000959,AC000743,T1,2925.5,-2722.3,visit_1,1,,0.2
@@ -900,7 +900,7 @@ AD000964,AC000747,T2,1032.9,-1837.5,visits_agree,2,Opposite Ration Shop (pin is 
 AD000965,AC000748,T1,-2237.6,-2477.1,baseline_coarse,0,,0.0
 AD000967,AC000749,T3,-2477.9,-542.1,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
 AD000968,AC000750,T3,-2360.1,1644.4,baseline_coarse,0,,0.0
-AD000969,AC000751,T1,2188.3,971.9,visits_agree,5,Field Remark: Beside Park (conf=0.85),0.85
+AD000969,AC000751,T1,2188.3,971.9,visits_agree,5,,0.3
 AD000970,AC000751,T1,2705.2,1471.0,visits_agree,3,,0.2
 AD000971,AC000752,T1,813.3,-2903.7,visits_disagree,3,Field Remark: Behind Ganesh Temple (conf=0.80),0.795
 AD000972,AC000753,T3,-2202.0,-1094.0,baseline_coarse,0,,0.0
@@ -916,7 +916,7 @@ AD000982,AC000762,T3,4010.3,789.2,visits_disagree,2,,0.2
 AD000984,AC000763,T1,-2387.8,-2247.0,visit_1,1,Near Water Tank (about 80 m from pin),0.2
 AD000985,AC000764,T3,-2505.6,-92.4,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD000986,AC000765,T2,1216.7,2516.0,visits_disagree,4,,0.2
-AD000987,AC000766,T1,2827.6,1123.3,visit_1,1,,0.3
+AD000987,AC000766,T1,2827.6,1123.3,visit_1,1,,0.2
 AD000988,AC000767,T1,-2970.3,1121.1,baseline_coarse,0,,0.0
 AD000989,AC000768,T2,2298.9,-1400.3,baseline_coarse,0,,0.0
 AD000990,AC000768,T2,1434.6,219.8,baseline_street,0,,0.0
@@ -961,14 +961,14 @@ AD001029,AC000799,T2,907.5,2586.7,landmark,0,Near Govt School (pin is a guess ne
 AD001031,AC000800,T2,1435.4,-2121.0,visits_disagree,6,,0.2
 AD001032,AC000801,T2,-549.5,-336.6,baseline_coarse,0,,0.0
 AD001033,AC000802,T1,-1205.0,-3497.9,baseline_street,0,Opposite Govt School (about 130 m from pin),0.0
-AD001034,AC000803,T1,3164.6,-1992.7,visits_agree,4,Field Remark: Beside Park (conf=0.85),0.85
+AD001034,AC000803,T1,3164.6,-1992.7,visits_agree,4,,0.425
 AD001035,AC000804,T1,800.2,-339.3,visits_disagree,6,,0.2
 AD001036,AC000805,T3,-2334.9,1811.3,visits_disagree,2,Field Remark: Behind Petrol Bunk (conf=0.80),0.795
 AD001037,AC000806,T3,-2878.1,1621.2,landmark,0,Near Milk Dairy (pin is a guess near this landmark),0.0
 AD001039,AC000807,T3,2977.4,-2372.7,visit_1,1,,0.2
 AD001040,AC000808,T3,852.9,-1117.6,visits_disagree,7,Opposite Church (about 130 m from pin),0.2
 AD001041,AC000809,T1,1771.0,1594.8,baseline_coarse,0,,0.0
-AD001042,AC000810,T1,-2989.3,803.8,visits_agree,6,,0.3
+AD001042,AC000810,T1,-2989.3,793.9,visits_agree,6,,0.3
 AD001043,AC000810,T1,-2599.0,1069.1,visits_agree,2,,0.2
 AD001044,AC000811,T1,2707.3,-2312.1,baseline_coarse,0,,0.0
 AD001045,AC000812,T1,2677.3,1419.7,visits_agree,4,,0.2
@@ -1000,11 +1000,11 @@ AD001074,AC000834,T1,2533.3,-1888.0,visit_1,1,Field Remark: Near Ganapathi Gudi 
 AD001075,AC000835,T1,-3292.4,1100.6,baseline_street,0,,0.0
 AD001076,AC000836,T3,-513.7,-242.5,landmark,0,Near Medical Store (pin is a guess near this landmark),0.0
 AD001078,AC000837,T3,3064.0,-1915.8,visits_disagree,5,,0.425
-AD001079,AC000838,T3,-2570.4,-31.3,visits_disagree,3,,0.3
+AD001079,AC000838,T3,-2570.4,-31.3,visits_disagree,3,,0.2
 AD001080,AC000838,T3,-2306.2,-144.4,visits_disagree,3,,0.2
 AD001081,AC000839,T2,1086.5,-83.6,baseline_coarse,0,,0.0
 AD001082,AC000839,T2,940.8,2546.9,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
-AD001083,AC000840,T1,789.0,-3288.8,visits_agree,6,,0.2
+AD001083,AC000840,T1,789.0,-3288.8,visits_agree,6,,0.3
 AD001084,AC000841,T2,-1869.6,-2662.9,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD001086,AC000842,T3,-778.5,-484.3,baseline_coarse,0,,0.0
 AD001087,AC000843,T1,988.3,-2664.9,visits_agree,3,Field Remark: Behind Govt School (conf=0.80),0.795
@@ -1012,7 +1012,7 @@ AD001088,AC000844,T1,1478.1,-298.4,visits_disagree,2,,0.2
 AD001089,AC000845,T3,3509.8,540.2,landmark,0,Near Milk Dairy (pin is a guess near this landmark),0.0
 AD001091,AC000846,T3,-3691.6,-718.5,visit_1,1,,0.2
 AD001092,AC000847,T3,-1031.2,-536.6,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
-AD001094,AC000848,T3,-2463.5,1758.0,visits_agree,3,,0.2
+AD001094,AC000848,T3,-2463.5,1758.0,visits_agree,3,,0.3
 AD001095,AC000849,T2,1186.1,-1723.2,baseline_coarse,0,,0.0
 AD001096,AC000850,T1,2712.2,944.4,visits_disagree,4,Field Remark: Opposite Mosque (conf=0.85),0.85
 AD001097,AC000850,T1,1982.8,-1241.6,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
@@ -1061,7 +1061,7 @@ AD001141,AC000883,T3,-622.3,-3498.9,baseline_coarse,0,,0.0
 AD001142,AC000883,T3,-689.3,-604.3,baseline_coarse,0,,0.0
 AD001143,AC000884,T3,3231.2,-1663.6,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
 AD001144,AC000885,T1,-613.2,-1231.1,baseline_street,0,Near Church (about 170 m from pin),0.0
-AD001145,AC000886,T1,593.9,2301.0,visits_disagree,4,,0.3
+AD001145,AC000886,T1,593.9,2301.0,visits_disagree,4,,0.2
 AD001146,AC000887,T3,260.2,-163.8,baseline_coarse,0,,0.0
 AD001147,AC000888,T3,-1795.0,2348.4,baseline_coarse,0,,0.0
 AD001148,AC000889,T1,-1220.3,476.3,baseline_coarse,0,,0.0
@@ -1084,13 +1084,13 @@ AD001165,AC000902,T3,-186.5,2836.7,visit_1,1,,0.2
 AD001166,AC000903,T1,-2805.7,1404.6,baseline_coarse,0,,0.0
 AD001167,AC000904,T1,1982.8,-1241.6,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
 AD001168,AC000905,T2,-280.8,-278.0,landmark,0,Near Milk Dairy (pin is a guess near this landmark),0.0
-AD001170,AC000906,T3,3658.8,-1915.9,visits_disagree,4,,0.3
+AD001170,AC000906,T3,3658.8,-1915.9,visits_disagree,4,,0.2
 AD001171,AC000907,T3,-2680.8,-627.4,visit_1,1,,0.2
 AD001172,AC000908,T1,3049.4,-2157.6,landmark,0,Behind Ration Shop (pin is a guess near this landmark),0.0
 AD001173,AC000908,T1,2540.5,1008.7,baseline_coarse,0,,0.0
 AD001174,AC000909,T1,2592.6,-1926.1,visits_agree,3,,0.2
 AD001175,AC000910,T3,1006.7,-770.0,baseline_street,0,,0.0
-AD001176,AC000911,T3,3795.3,38.5,visits_disagree,4,,0.3
+AD001176,AC000911,T3,3795.3,38.5,visits_disagree,4,,0.2
 AD001177,AC000912,T2,823.4,2799.6,baseline_coarse,0,,0.0
 AD001178,AC000913,T2,1803.6,-2195.5,visits_agree,2,Field Remark: Opposite Medical Store (conf=0.85),0.85
 AD001180,AC000914,T3,1031.2,-3518.5,baseline_coarse,0,,0.0
@@ -1118,7 +1118,7 @@ AD001202,AC000930,T2,-1528.9,-2813.1,landmark,0,Near Hanuman Temple (pin is a gu
 AD001203,AC000931,T3,-581.4,-3536.0,baseline_street,0,,0.0
 AD001204,AC000932,T2,1346.4,-2520.7,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
 AD001206,AC000933,T3,-2505.6,-92.4,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
-AD001207,AC000934,T1,2520.6,902.4,visits_disagree,5,Near Masjid (about 120 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD001207,AC000934,T1,2520.6,902.4,visits_disagree,5,Near Masjid (about 120 m from pin),0.3
 AD001208,AC000934,T1,1596.3,-1026.8,visit_1,1,Near Medical Store (about 170 m from pin) | Remark Cue: Near Medical Store (conf=0.82),0.819
 AD001209,AC000935,T2,-1034.4,3134.4,baseline_street,0,,0.0
 AD001210,AC000936,T2,900.0,3101.3,landmark,0,Near Petrol Bunk (pin is a guess near this landmark),0.0
@@ -1153,7 +1153,7 @@ AD001242,AC000959,T2,1561.3,-1866.8,visits_disagree,5,Field Remark: Beside Hanum
 AD001243,AC000960,T1,2870.3,-2346.1,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
 AD001245,AC000961,T2,1514.8,-1952.7,visit_1,1,Near Church (about 80 m from pin),0.2
 AD001246,AC000962,T1,2832.5,-2360.1,baseline_coarse,0,,0.0
-AD001247,AC000963,T3,-825.3,-399.5,visit_1,1,Near Post Office (about 90 m from pin),0.3
+AD001247,AC000963,T3,-825.3,-399.5,visit_1,1,Near Post Office (about 90 m from pin),0.2
 AD001248,AC000964,T3,1413.1,-821.8,visit_1,1,Near Medical Store (about 80 m from pin),0.2
 AD001249,AC000965,T3,731.9,-1039.8,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD001250,AC000966,T1,3049.4,-2157.6,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
@@ -1162,8 +1162,8 @@ AD001252,AC000967,T2,671.4,-3199.5,baseline_coarse,0,,0.0
 AD001253,AC000968,T1,-770.6,-3236.6,baseline_street,0,,0.0
 AD001254,AC000969,T2,2723.1,267.4,visits_agree,6,Field Remark: Opposite Bus Adda (conf=0.85),0.85
 AD001255,AC000970,T3,3482.5,429.2,baseline_street,0,,0.0
-AD001256,AC000971,T1,3301.8,-1981.7,visits_agree,6,Field Remark: Beside Park (conf=0.85),0.85
-AD001257,AC000972,T1,2319.9,1438.9,visits_agree,2,,0.3
+AD001256,AC000971,T1,3301.8,-1981.7,visits_agree,6,,0.398
+AD001257,AC000972,T1,2319.9,1438.9,visits_agree,2,,0.2
 AD001258,AC000972,T1,127.4,1822.5,visit_1,1,Field Remark: Behind Haalina Dairy (conf=0.83),0.83
 AD001259,AC000973,T3,-2776.2,-194.0,baseline_coarse,0,,0.0
 AD001260,AC000974,T2,2469.1,-1329.6,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
@@ -1235,7 +1235,7 @@ AD001327,AC001027,T2,1460.0,-1918.0,baseline_coarse,0,,0.0
 AD001328,AC001027,T2,933.9,2624.5,baseline_coarse,0,,0.0
 AD001329,AC001028,T3,1014.3,-406.9,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
 AD001330,AC001029,T3,-2528.9,-558.5,visits_disagree,4,Near Church (about 150 m from pin) | Remark Cue: Beside Post Office (conf=0.83),0.832
-AD001331,AC001030,T3,-2948.6,-20.5,visit_1,1,,0.3
+AD001331,AC001030,T3,-2948.6,-20.5,visit_1,1,,0.2
 AD001332,AC001030,T3,-1153.3,-2028.0,baseline_coarse,0,,0.0
 AD001333,AC001031,T3,-2772.6,-349.4,landmark,0,Near Petrol Bunk (pin is a guess near this landmark),0.0
 AD001335,AC001032,T1,868.7,-2937.9,visit_1,1,,0.2
@@ -1272,7 +1272,7 @@ AD001368,AC001059,T2,858.6,2534.8,baseline_coarse,0,,0.0
 AD001369,AC001060,T3,-551.4,-542.2,baseline_street,0,Near Water Tank (about 40 m from pin),0.0
 AD001370,AC001061,T1,1371.8,1402.5,baseline_coarse,0,,0.0
 AD001371,AC001062,T3,-2595.5,-762.4,visits_disagree,4,,0.2
-AD001372,AC001063,T1,2899.1,-2737.4,visits_disagree,5,,0.3
+AD001372,AC001063,T1,2899.1,-2737.4,visits_disagree,5,,0.2
 AD001373,AC001064,T2,2698.3,1438.9,landmark,0,Near Park (pin is a guess near this landmark),0.0
 AD001374,AC001065,T1,1982.8,-1241.6,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
 AD001375,AC001065,T1,-3155.2,823.8,landmark,0,Behind Ganesh Temple (pin is a guess near this landmark),0.0
@@ -1285,7 +1285,7 @@ AD001382,AC001069,T3,-447.3,-3356.9,visit_1,1,Near Park (about 150 m from pin) |
 AD001383,AC001070,T1,2832.2,-2339.2,visit_1,1,,0.2
 AD001384,AC001071,T3,-2724.5,-504.7,visits_agree,2,Near Church (about 60 m from pin),0.2
 AD001385,AC001071,T3,1141.8,-3394.7,baseline_coarse,0,,0.0
-AD001386,AC001072,T3,-407.0,-3393.0,visits_disagree,8,Field Remark: Beside Park (conf=0.85),0.85
+AD001386,AC001072,T3,-407.0,-3396.3,visits_disagree,8,Field Remark: Beside Sarkari School (conf=0.81),0.807
 AD001387,AC001073,T1,3311.5,-2095.1,visits_disagree,2,,0.2
 AD001388,AC001073,T1,2001.7,-1434.8,baseline_coarse,0,,0.0
 AD001389,AC001074,T1,652.6,2369.8,visit_1,1,,0.2
@@ -1318,7 +1318,7 @@ AD001417,AC001092,T2,1378.9,-448.3,visits_disagree,5,,0.2
 AD001419,AC001093,T1,1247.4,-1496.1,baseline_coarse,0,,0.0
 AD001420,AC001093,T1,-2042.0,-2085.1,visit_1,1,,0.2
 AD001421,AC001094,T3,-2652.1,-214.7,baseline_coarse,0,,0.0
-AD001422,AC001095,T3,3301.2,1357.0,visits_disagree,5,,0.3
+AD001422,AC001095,T3,3301.2,1357.0,visits_disagree,5,,0.2
 AD001424,AC001096,T2,562.2,2345.4,visits_disagree,2,,0.2
 AD001425,AC001096,T2,859.9,-3302.3,visit_1,1,,0.2
 AD001426,AC001097,T1,-2413.6,1348.9,baseline_coarse,0,,0.0
@@ -1354,7 +1354,7 @@ AD001457,AC001122,T2,1029.4,2593.8,visits_agree,2,Opposite Govt School (about 12
 AD001458,AC001123,T3,-2860.6,-455.6,visits_disagree,6,Field Remark: Near Bus Stop (conf=0.82),0.819
 AD001460,AC001124,T3,3246.0,-1984.0,baseline_street,0,,0.0
 AD001461,AC001125,T1,-2799.4,893.5,landmark,0,Near Post Office (pin is a guess near this landmark),0.0
-AD001462,AC001126,T1,974.0,-3355.4,visits_disagree,5,,0.3
+AD001462,AC001126,T1,974.0,-3355.4,visits_disagree,5,,0.2
 AD001463,AC001127,T3,-2652.6,1795.5,baseline_coarse,0,,0.0
 AD001465,AC001128,T2,-779.8,-740.1,visits_agree,3,Near Masjid (about 130 m from pin) | Remark Cue: Near Masjid (conf=0.82),0.819
 AD001466,AC001129,T3,2338.9,-763.4,visits_disagree,6,Field Remark: Opposite Bus Stand (conf=0.85),0.85
@@ -1381,7 +1381,7 @@ AD001486,AC001145,T3,-108.9,190.6,baseline_coarse,0,,0.0
 AD001487,AC001146,T2,1782.5,-2167.1,baseline_coarse,0,,0.0
 AD001488,AC001146,T2,-1507.4,-2857.9,visits_agree,2,Field Remark: Beside Hanuman Mandir (conf=0.83),0.832
 AD001489,AC001147,T2,1275.0,-1769.7,visits_agree,2,,0.2
-AD001490,AC001148,T1,-1592.4,475.3,visit_1,1,Field Remark: Behind Church (conf=0.83),0.3
+AD001490,AC001148,T1,-1592.4,475.3,visit_1,1,Field Remark: Behind Church (conf=0.83),0.2
 AD001491,AC001149,T3,3703.3,-2173.9,baseline_street,0,Near Park (about 200 m from pin),0.0
 AD001493,AC001150,T2,659.5,-2899.7,visits_agree,3,Field Remark: Opposite Doodh Dairy (conf=0.85),0.85
 AD001494,AC001150,T2,721.8,-3050.8,visit_1,1,,0.2
@@ -1406,7 +1406,7 @@ AD001512,AC001166,T3,-764.5,-471.1,landmark,0,Near Post Office (pin is a guess n
 AD001513,AC001166,T3,581.0,1779.9,baseline_coarse,0,,0.0
 AD001514,AC001167,T1,-1707.8,-2403.1,baseline_coarse,0,,0.0
 AD001515,AC001168,T2,1409.9,-1980.9,baseline_coarse,0,,0.0
-AD001516,AC001169,T1,556.5,-2618.1,visits_disagree,6,,0.2
+AD001516,AC001169,T1,556.5,-2618.1,visits_disagree,6,,0.3
 AD001517,AC001170,T1,1171.6,-2988.3,baseline_street,0,,0.0
 AD001519,AC001171,T3,1081.1,-3832.5,baseline_coarse,0,,0.0
 AD001520,AC001172,T3,-732.6,-3714.5,visits_disagree,8,Field Remark: Opposite Masidi (conf=0.85),0.85
@@ -1425,7 +1425,7 @@ AD001535,AC001181,T3,-413.7,3044.8,baseline_coarse,0,,0.0
 AD001536,AC001182,T3,-2447.8,1734.6,baseline_coarse,0,,0.0
 AD001537,AC001183,T2,-1528.9,-2813.1,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
 AD001538,AC001183,T2,1075.2,1767.5,baseline_street,0,,0.0
-AD001539,AC001184,T1,256.7,1989.2,visits_agree,2,Field Remark: Opposite Haalina Dairy (conf=0.85),0.3
+AD001539,AC001184,T1,256.7,1989.2,visits_agree,2,Field Remark: Opposite Haalina Dairy (conf=0.85),0.2
 AD001540,AC001185,T3,-2365.2,1808.8,visits_agree,3,Field Remark: Opposite Petrol Pump (conf=0.85),0.85
 AD001541,AC001186,T1,-2026.3,2547.9,landmark,0,Near Ganesh Temple (pin is a guess near this landmark),0.0
 AD001542,AC001187,T3,-821.6,-3377.5,baseline_street,0,,0.0
@@ -1450,7 +1450,7 @@ AD001563,AC001203,T3,-714.2,-735.9,visits_agree,4,Near Milk Dairy (about 80 m fr
 AD001564,AC001204,T3,-639.9,-3367.2,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
 AD001565,AC001204,T3,-3731.2,-771.6,visit_1,1,,0.2
 AD001566,AC001205,T2,1575.7,-2215.8,baseline_coarse,0,,0.0
-AD001567,AC001206,T1,2856.8,-2194.9,visits_disagree,4,Near Community Hall (about 90 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD001567,AC001206,T1,2856.8,-2194.9,visits_disagree,4,Near Community Hall (about 90 m from pin),0.3
 AD001568,AC001207,T1,2578.3,-2244.7,baseline_coarse,0,,0.0
 AD001569,AC001208,T3,3388.0,-1378.0,visit_1,1,,0.2
 AD001570,AC001209,T1,2746.5,1165.7,visit_1,1,,0.2
@@ -1496,7 +1496,7 @@ AD001612,AC001245,T2,1697.8,-1096.0,baseline_coarse,0,,0.0
 AD001613,AC001245,T2,1205.4,74.3,baseline_coarse,0,,0.0
 AD001614,AC001246,T2,2582.7,-1182.3,baseline_coarse,0,,0.0
 AD001615,AC001247,T1,-1850.9,2731.0,baseline_coarse,0,,0.0
-AD001616,AC001248,T1,2348.3,1389.2,visits_disagree,3,Field Remark: Beside Park (conf=0.85),0.85
+AD001616,AC001248,T1,2348.3,1389.2,visits_disagree,3,,0.3
 AD001617,AC001248,T1,112.7,1974.3,visit_1,1,,0.2
 AD001618,AC001249,T3,1082.0,-369.6,visit_1,1,Opposite Masjid (about 80 m from pin),0.2
 AD001619,AC001250,T2,2608.3,-1091.6,visits_disagree,3,Field Remark: Behind Tanki (conf=0.83),0.83
@@ -1576,7 +1576,7 @@ AD001702,AC001311,T1,2465.9,-2257.0,visits_agree,4,Near Masjid (about 190 m from
 AD001703,AC001312,T2,-1608.1,-2813.4,baseline_street,0,,0.0
 AD001704,AC001312,T2,-347.2,-581.3,baseline_coarse,0,,0.0
 AD001705,AC001313,T3,-933.1,-1915.8,landmark,0,Near Water Tank (pin is a guess near this landmark),0.0
-AD001706,AC001314,T3,3392.6,-2265.0,visits_agree,4,Near Water Tank (about 200 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD001706,AC001314,T3,3393.9,-2268.9,visits_agree,4,Near Water Tank (about 200 m from pin),0.3
 AD001707,AC001315,T2,-527.8,2561.9,baseline_street,0,,0.0
 AD001709,AC001316,T1,-1292.5,-2969.0,baseline_coarse,0,,0.0
 AD001710,AC001317,T2,-310.8,990.8,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
@@ -1591,7 +1591,7 @@ AD001718,AC001323,T3,-386.8,3422.8,landmark,0,Near Milk Dairy (pin is a guess ne
 AD001719,AC001324,T3,-646.0,3305.4,baseline_coarse,0,,0.0
 AD001720,AC001325,T2,791.8,346.8,visit_1,1,Field Remark: Opposite Post Office (conf=0.85),0.85
 AD001721,AC001326,T1,695.1,-3199.6,baseline_coarse,0,,0.0
-AD001722,AC001327,T3,-2243.5,1271.9,visits_disagree,5,,0.3
+AD001722,AC001327,T3,-2243.5,1271.9,visits_disagree,5,,0.2
 AD001723,AC001328,T3,820.1,-1302.0,baseline_street,0,,0.0
 AD001724,AC001329,T1,1991.6,-1060.8,baseline_coarse,0,,0.0
 AD001725,AC001330,T1,2967.0,-2148.1,visit_1,1,Behind Ration Shop (about 80 m from pin) | Remark Cue: Opposite Nyayabele Angadi (conf=0.85),0.85
@@ -1621,7 +1621,7 @@ AD001750,AC001351,T2,922.4,1323.5,baseline_coarse,0,,0.0
 AD001751,AC001352,T3,-249.7,-957.3,baseline_street,0,,0.0
 AD001752,AC001353,T2,1427.8,-2199.8,visits_disagree,5,Field Remark: Near Medical Store (conf=0.82),0.819
 AD001753,AC001354,T1,920.8,-2891.4,visits_disagree,8,Field Remark: Near Ganapathi Gudi (conf=0.80),0.795
-AD001754,AC001355,T3,-2363.8,-104.3,visits_disagree,5,,0.2
+AD001754,AC001355,T3,-2380.1,-104.3,visits_disagree,5,,0.3
 AD001755,AC001356,T3,597.2,-859.2,visits_agree,2,Near Bus Stop (about 110 m from pin),0.2
 AD001756,AC001356,T3,-1436.3,-2121.2,visit_1,1,Field Remark: Behind Church (conf=0.83),0.83
 AD001757,AC001357,T1,-2329.3,-2495.7,baseline_coarse,0,,0.0
@@ -1683,7 +1683,7 @@ AD001816,AC001407,T1,-2104.6,1495.5,baseline_coarse,0,,0.0
 AD001817,AC001408,T1,-2087.6,2424.6,baseline_coarse,0,,0.0
 AD001818,AC001409,T1,216.3,-270.9,baseline_coarse,0,,0.0
 AD001820,AC001410,T1,-2050.5,2320.6,baseline_coarse,0,,0.0
-AD001821,AC001411,T1,2482.3,-2430.5,visits_agree,5,Near Masjid (about 160 m from pin),0.3
+AD001821,AC001411,T1,2482.3,-2430.5,visits_agree,5,Near Masjid (about 160 m from pin),0.2
 AD001822,AC001412,T3,-2686.7,-701.3,visits_disagree,3,,0.2
 AD001823,AC001413,T3,2334.0,-1654.6,baseline_coarse,0,,0.0
 AD001824,AC001414,T3,-2477.9,-542.1,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
@@ -1704,7 +1704,7 @@ AD001840,AC001427,T3,731.9,-1039.8,landmark,0,Near Govt School (pin is a guess n
 AD001841,AC001427,T3,3490.0,610.0,baseline_coarse,0,,0.0
 AD001842,AC001428,T3,-3668.1,-725.5,visit_1,1,Field Remark: Beside Bus Adda (conf=0.83),0.832
 AD001844,AC001429,T2,-571.8,-9.0,visits_disagree,4,Field Remark: Beside Hanuman Mandir (conf=0.83),0.832
-AD001845,AC001430,T3,3594.5,25.5,visits_agree,3,,0.3
+AD001845,AC001430,T3,3594.5,25.5,visits_agree,3,,0.2
 AD001846,AC001430,T3,-3620.1,-802.0,baseline_coarse,0,,0.0
 AD001847,AC001431,T3,-2409.5,1137.8,visit_1,1,,0.2
 AD001848,AC001431,T3,-3740.2,-887.6,baseline_coarse,0,,0.0
@@ -1738,7 +1738,7 @@ AD001876,AC001453,T2,2450.4,1996.0,landmark,0,Near Hanuman Temple (pin is a gues
 AD001877,AC001454,T2,2445.4,-1146.5,baseline_coarse,0,,0.0
 AD001878,AC001455,T1,-2799.4,893.5,landmark,0,Opposite Post Office (pin is a guess near this landmark),0.0
 AD001879,AC001456,T1,575.1,-2853.0,visits_agree,2,,0.2
-AD001880,AC001457,T3,3493.7,123.5,visits_disagree,2,,0.3
+AD001880,AC001457,T3,3493.7,123.5,visits_disagree,2,,0.2
 AD001881,AC001458,T1,688.0,23.7,visit_1,1,Near Ration Shop (about 200 m from pin),0.2
 AD001882,AC001458,T1,710.9,-3006.0,visits_agree,2,,0.2
 AD001883,AC001459,T1,2674.9,-2182.4,baseline_coarse,0,,0.0
@@ -1826,14 +1826,14 @@ AD001968,AC001528,T2,2844.3,775.5,landmark,0,Opposite Water Tank (pin is a guess
 AD001969,AC001529,T2,-1282.8,-3078.7,visit_1,1,Near Bus Stop (about 150 m from pin),0.2
 AD001970,AC001530,T1,-3155.2,823.8,landmark,0,Near Ganesh Temple (pin is a guess near this landmark),0.0
 AD001971,AC001531,T2,2812.7,-1268.6,visits_disagree,3,Field Remark: Beside Ganesh Mandir (conf=0.81),0.807
-AD001972,AC001532,T1,693.0,-2829.0,visits_disagree,6,,0.3
+AD001972,AC001532,T1,693.0,-2829.0,visits_disagree,6,,0.2
 AD001973,AC001533,T1,891.6,-409.2,visits_disagree,7,Field Remark: Behind Church (conf=0.80),0.795
 AD001974,AC001534,T2,875.6,1283.5,baseline_street,0,Near Govt School (about 140 m from pin),0.0
 AD001976,AC001535,T3,3437.0,-1759.5,visit_1,1,Near Masjid (about 170 m from pin),0.2
 AD001977,AC001536,T3,3718.9,488.2,visits_agree,2,,0.2
-AD001978,AC001537,T1,2960.2,-2374.2,visits_disagree,2,Field Remark: Beside Park (conf=0.85),0.85
+AD001978,AC001537,T1,2960.2,-2374.2,visits_disagree,2,,0.3
 AD001980,AC001538,T2,613.4,-3008.5,baseline_coarse,0,,0.0
-AD001982,AC001539,T3,-2512.2,-484.4,visits_agree,4,Behind Masjid (about 70 m from pin),0.2
+AD001982,AC001539,T3,-2525.6,-484.4,visits_agree,4,Behind Masjid (about 70 m from pin),0.3
 AD001983,AC001540,T3,3757.9,440.4,baseline_coarse,0,,0.0
 AD001984,AC001540,T3,-933.1,-1915.8,landmark,0,Near Water Tank (pin is a guess near this landmark),0.0
 AD001985,AC001541,T3,-31.9,-3138.2,landmark,0,Near Medical Store (pin is a guess near this landmark),0.0
@@ -1863,7 +1863,7 @@ AD002011,AC001559,T1,-1026.9,-2116.1,baseline_coarse,0,,0.0
 AD002013,AC001560,T1,2475.8,874.1,baseline_coarse,0,,0.0
 AD002014,AC001560,T1,-2558.5,-2177.8,baseline_street,0,,0.0
 AD002015,AC001561,T1,-1418.4,-2700.3,visit_1,1,,0.2
-AD002016,AC001562,T1,2768.2,-2327.0,visits_disagree,3,Near Hanuman Temple (about 100 m from pin) | Remark Cue: Beside Park (conf=0.85),0.85
+AD002016,AC001562,T1,2768.2,-2327.0,visits_disagree,3,Near Hanuman Temple (about 100 m from pin) | Remark Cue: Behind Anjaneya Swamy Temple (conf=0.83),0.83
 AD002018,AC001563,T2,970.9,1390.7,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD002019,AC001564,T2,1154.0,-1962.7,visit_1,1,Near Govt School (about 90 m from pin),0.2
 AD002021,AC001565,T1,3148.6,-2466.4,visit_1,1,,0.2
@@ -1948,7 +1948,7 @@ AD002105,AC001632,T2,2908.5,940.9,landmark,0,Near Ration Shop (pin is a guess ne
 AD002106,AC001632,T2,2441.1,-1253.6,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD002107,AC001633,T1,-880.5,-1288.3,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
 AD002108,AC001634,T1,2264.9,-2401.5,visits_agree,2,Opposite Masjid (about 60 m from pin),0.2
-AD002110,AC001635,T1,1990.1,-1376.6,visits_agree,2,,0.3
+AD002110,AC001635,T1,1990.1,-1376.6,visits_agree,2,,0.2
 AD002111,AC001636,T2,3063.1,-1243.7,visits_disagree,2,,0.2
 AD002112,AC001637,T2,-358.9,3278.7,visits_disagree,7,,0.2
 AD002113,AC001638,T1,740.2,-3077.2,landmark,0,Near Community Hall (pin is a guess near this landmark),0.0
@@ -1972,10 +1972,10 @@ AD002130,AC001650,T3,-181.6,3389.2,baseline_street,0,,0.0
 AD002131,AC001651,T2,-1539.2,-2450.6,visits_agree,4,Field Remark: Behind Masjid (conf=0.83),0.83
 AD002132,AC001651,T2,2335.2,1476.5,landmark,0,Opposite Ration Shop (pin is a guess near this landmark),0.0
 AD002133,AC001652,T1,-1348.5,407.7,baseline_street,0,Opposite Petrol Bunk (about 90 m from pin),0.0
-AD002134,AC001653,T3,3132.2,-1878.6,visits_agree,5,,0.3
+AD002134,AC001653,T3,3132.2,-1878.6,visits_agree,5,,0.2
 AD002135,AC001654,T3,1365.9,-882.5,landmark,0,Near Medical Store (pin is a guess near this landmark),0.0
 AD002136,AC001655,T2,1841.0,-2206.8,visits_disagree,2,,0.2
-AD002138,AC001656,T3,3740.6,563.2,visits_disagree,3,Near Bus Stop (about 160 m from pin),0.3
+AD002138,AC001656,T3,3740.6,563.2,visits_disagree,3,Near Bus Stop (about 160 m from pin),0.2
 AD002139,AC001656,T3,-3788.8,-704.8,visits_disagree,3,,0.2
 AD002140,AC001657,T2,956.8,-131.8,visits_agree,2,Field Remark: Opposite Sarkari School (conf=0.85),0.85
 AD002141,AC001657,T2,-1793.8,-2738.4,visit_1,1,Behind Govt School (about 110 m from pin) | Remark Cue: Behind Sarkari School (conf=0.83),0.83
@@ -2077,7 +2077,7 @@ AD002242,AC001735,T2,-438.5,-465.6,baseline_coarse,0,,0.0
 AD002243,AC001735,T2,-1872.5,-2486.2,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
 AD002244,AC001736,T2,1237.7,-1845.6,visits_agree,6,,0.2
 AD002245,AC001737,T1,2873.9,-2070.2,visits_disagree,2,,0.398
-AD002246,AC001738,T1,2451.3,-2330.3,visits_agree,7,,0.3
+AD002246,AC001738,T1,2451.3,-2330.3,visits_agree,7,,0.2
 AD002247,AC001739,T1,2668.7,-1779.4,visits_agree,2,Field Remark: Near Ganapathi Gudi (conf=0.80),0.795
 AD002248,AC001740,T3,-238.8,-59.2,baseline_coarse,0,,0.0
 AD002249,AC001741,T3,603.8,1864.0,baseline_coarse,0,,0.0
@@ -2133,7 +2133,7 @@ AD002301,AC001782,T2,1282.7,-2128.4,baseline_coarse,0,,0.0
 AD002302,AC001783,T2,1119.9,2528.2,visit_1,1,Opposite Bus Stop (about 130 m from pin),0.2
 AD002303,AC001784,T1,-1241.8,-2716.3,baseline_coarse,0,,0.0
 AD002304,AC001785,T1,2870.3,-2346.1,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
-AD002305,AC001786,T1,2198.1,936.3,visit_1,1,,0.3
+AD002305,AC001786,T1,2198.1,936.3,visit_1,1,,0.2
 AD002306,AC001787,T1,2792.1,-2000.0,visits_disagree,3,,0.2
 AD002307,AC001788,T1,2482.8,-2346.0,visits_disagree,3,,0.2
 AD002308,AC001789,T1,2931.5,-2465.2,visits_disagree,3,Near Hanuman Temple (about 130 m from pin) | Remark Cue: Opposite Anjaneya Swamy Temple (conf=0.85),0.85
@@ -2223,7 +2223,7 @@ AD002400,AC001861,T3,-2541.2,1706.8,baseline_coarse,0,,0.0
 AD002401,AC001862,T2,619.0,-3491.8,visits_disagree,3,Near Bus Stop (about 190 m from pin) | Remark Cue: Near Bus Stop (conf=0.82),0.819
 AD002402,AC001863,T3,-236.3,-3862.8,visits_disagree,2,Behind Ganesh Temple (about 130 m from pin),0.2
 AD002403,AC001864,T1,2330.5,903.0,visit_1,1,Near Govt School (about 150 m from pin),0.2
-AD002404,AC001865,T1,3073.5,-1959.2,visits_disagree,7,Field Remark: Beside Park (conf=0.85),0.85
+AD002404,AC001865,T1,3073.5,-1966.3,visits_disagree,7,,0.3
 AD002405,AC001866,T3,-957.2,-951.0,baseline_street,0,,0.0
 AD002407,AC001867,T3,3748.5,474.4,baseline_coarse,0,,0.0
 AD002408,AC001868,T1,-1224.0,26.9,baseline_street,0,,0.0
@@ -2282,7 +2282,7 @@ AD002467,AC001908,T3,2974.3,-2037.7,visit_1,1,,0.2
 AD002468,AC001909,T1,-3014.7,1450.9,visits_disagree,4,Field Remark: Opposite Samudaya Bhavana (conf=0.85),0.85
 AD002469,AC001910,T3,-402.8,3230.6,landmark,0,Near Water Tank (pin is a guess near this landmark),0.0
 AD002470,AC001911,T2,2661.9,-1811.1,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
-AD002471,AC001912,T3,3407.8,-2353.9,visits_agree,3,Field Remark: Beside Park (conf=0.85),0.85
+AD002471,AC001912,T3,3413.2,-2357.5,visits_agree,3,Field Remark: Near Park (conf=0.82),0.819
 AD002472,AC001913,T3,-3355.4,-1017.5,baseline_street,0,,0.0
 AD002473,AC001914,T2,1673.9,-2049.5,baseline_coarse,0,,0.0
 AD002474,AC001915,T2,2803.3,831.7,visit_1,1,Opposite Water Tank (about 70 m from pin) | Remark Cue: Beside Tanki (conf=0.83),0.832
@@ -2305,7 +2305,7 @@ AD002490,AC001927,T1,-844.9,-1411.8,visits_agree,3,,0.2
 AD002491,AC001927,T1,-113.2,2612.6,baseline_street,0,,0.0
 AD002492,AC001928,T2,-1041.1,-304.5,visit_1,1,Field Remark: Near Sarkari School (conf=0.80),0.795
 AD002493,AC001929,T3,-2505.6,-92.4,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
-AD002494,AC001930,T1,-717.4,-1125.2,visits_disagree,3,,0.3
+AD002494,AC001930,T1,-717.4,-1125.2,visits_disagree,3,,0.2
 AD002495,AC001931,T1,-1911.2,-2128.2,baseline_coarse,0,,0.0
 AD002496,AC001931,T1,-1114.9,-3404.5,landmark,0,Near Govt School (pin is a guess near this landmark),0.0
 AD002497,AC001932,T3,-791.9,-718.7,landmark,0,Near Milk Dairy (pin is a guess near this landmark),0.0
@@ -2313,13 +2313,13 @@ AD002498,AC001932,T3,1205.6,-3827.8,baseline_coarse,0,,0.0
 AD002499,AC001933,T2,858.4,2773.5,visits_agree,5,Near Govt School (about 190 m from pin) | Remark Cue: Beside Sarkari School (conf=0.83),0.832
 AD002500,AC001934,T3,1024.9,1623.8,baseline_street,0,,0.0
 AD002501,AC001935,T2,632.7,3037.8,visit_1,1,,0.2
-AD002502,AC001936,T1,939.4,-3438.0,visit_1,1,,0.3
+AD002502,AC001936,T1,939.4,-3438.0,visit_1,1,,0.2
 AD002504,AC001937,T3,-2280.6,1290.1,visits_agree,4,Near Community Hall (about 130 m from pin),0.2
-AD002505,AC001938,T1,2942.8,-2655.8,visit_1,1,,0.3
+AD002505,AC001938,T1,2942.8,-2655.8,visit_1,1,,0.2
 AD002506,AC001939,T3,868.1,-869.3,visit_1,1,,0.2
 AD002508,AC001940,T1,271.0,2306.3,baseline_coarse,0,,0.0
 AD002509,AC001941,T3,-2435.6,-620.9,visits_disagree,7,Near Masjid (about 90 m from pin) | Remark Cue: Near Masidi (conf=0.82),0.819
-AD002510,AC001942,T1,-2781.5,1580.8,visit_1,1,,0.3
+AD002510,AC001942,T1,-2781.5,1580.8,visit_1,1,,0.2
 AD002511,AC001943,T3,1950.8,-2070.4,baseline_coarse,0,,0.0
 AD002512,AC001943,T3,3742.2,532.5,baseline_coarse,0,,0.0
 AD002513,AC001944,T3,-762.6,-387.1,visits_agree,2,Field Remark: Beside Dak Ghar (conf=0.83),0.832
@@ -2386,7 +2386,7 @@ AD002575,AC001996,T2,2577.3,-1320.1,landmark,0,Near Water Tank (pin is a guess n
 AD002576,AC001997,T2,1446.4,-2343.3,visits_disagree,6,Field Remark: Near Masjid (conf=0.82),0.819
 AD002577,AC001998,T3,-402.8,3230.6,landmark,0,Near Water Tank (pin is a guess near this landmark),0.0
 AD002578,AC001998,T3,-2378.1,1427.1,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
-AD002579,AC001999,T1,-2014.8,-2592.2,visits_agree,3,,0.3
+AD002579,AC001999,T1,-2014.8,-2592.2,visits_agree,3,,0.2
 AD002580,AC002000,T2,-1562.1,-2731.0,baseline_coarse,0,,0.0
 AD002581,AC002001,T3,-472.3,3397.3,baseline_coarse,0,,0.0
 AD002582,AC002001,T3,-2358.3,1692.1,visit_1,1,Field Remark: Near Bus Stop (conf=0.82),0.819
@@ -2425,9 +2425,9 @@ AD002617,AC002027,T3,-2175.6,1173.5,visit_1,1,Field Remark: Behind Community Hal
 AD002618,AC002028,T2,2905.5,-1246.5,visit_1,1,Field Remark: Near Ganesh Mandir (conf=0.80),0.795
 AD002619,AC002029,T2,1031.9,1274.6,baseline_coarse,0,,0.0
 AD002620,AC002030,T3,-705.3,-705.6,baseline_coarse,0,,0.0
-AD002621,AC002031,T1,856.1,-3104.2,visits_disagree,7,,0.3
+AD002621,AC002031,T1,856.1,-3104.2,visits_disagree,7,,0.2
 AD002622,AC002032,T2,-651.2,-773.0,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
-AD002623,AC002033,T1,2912.9,-1791.4,visits_agree,3,Field Remark: Beside Park (conf=0.85),0.85
+AD002623,AC002033,T1,2912.9,-1791.4,visits_agree,3,,0.425
 AD002624,AC002034,T1,524.4,-3479.7,visits_disagree,5,,0.2
 AD002626,AC002035,T2,3131.9,455.5,visits_agree,7,,0.2
 AD002627,AC002036,T3,395.1,-103.4,baseline_coarse,0,,0.0
@@ -2455,7 +2455,7 @@ AD002651,AC002053,T3,2329.5,-786.5,visit_1,1,,0.2
 AD002652,AC002053,T3,-1004.7,-802.6,visits_agree,2,,0.2
 AD002653,AC002054,T2,527.6,1498.2,baseline_street,0,Behind Post Office (about 160 m from pin),0.0
 AD002654,AC002055,T3,3812.5,195.3,visit_1,1,,0.2
-AD002655,AC002056,T3,-2986.9,22.9,visits_agree,3,Near Water Tank (about 100 m from pin),0.3
+AD002655,AC002056,T3,-2986.9,22.9,visits_agree,3,Near Water Tank (about 100 m from pin),0.2
 AD002656,AC002057,T3,-2308.8,2067.8,visit_1,1,Field Remark: Behind Petrol Pump (conf=0.80),0.795
 AD002657,AC002058,T2,1421.0,-2053.7,baseline_coarse,0,,0.0
 AD002658,AC002059,T3,-1156.0,-798.4,baseline_street,0,,0.0
@@ -2552,7 +2552,7 @@ AD002753,AC002134,T3,3788.5,411.2,landmark,0,Near Bus Stop (pin is a guess near 
 AD002754,AC002134,T3,-580.1,3135.0,baseline_coarse,0,,0.0
 AD002755,AC002135,T3,-3818.7,-1055.2,visit_1,1,Near Hanuman Temple (about 170 m from pin) | Remark Cue: Behind Anjaneya Swamy Temple (conf=0.83),0.83
 AD002756,AC002136,T3,-2542.9,1412.2,visits_agree,3,Near Bus Stop (about 190 m from pin),0.2
-AD002757,AC002137,T1,2395.0,-2151.1,visits_agree,5,Field Remark: Beside Park (conf=0.85),0.85
+AD002757,AC002137,T1,2395.0,-2151.1,visits_agree,5,,0.3
 AD002758,AC002138,T3,-2657.2,-346.2,baseline_coarse,0,,0.0
 AD002759,AC002138,T3,1162.0,-3599.7,baseline_coarse,0,,0.0
 AD002760,AC002139,T3,-460.7,-3589.7,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
@@ -2600,11 +2600,11 @@ AD002804,AC002173,T3,-572.1,3027.8,baseline_coarse,0,,0.0
 AD002806,AC002174,T1,2866.0,-1819.5,visits_agree,3,,0.425
 AD002807,AC002174,T1,1594.5,-1005.6,visit_1,1,,0.2
 AD002808,AC002175,T1,2797.2,-2257.9,visits_disagree,5,Field Remark: Behind Masjid (conf=0.83),0.83
-AD002809,AC002176,T1,2175.8,-927.8,visits_agree,2,Behind Park (about 40 m from pin),0.3
+AD002809,AC002176,T1,2175.8,-927.8,visits_agree,2,Behind Park (about 40 m from pin),0.2
 AD002811,AC002177,T2,-758.4,2718.7,visit_1,1,,0.2
 AD002812,AC002178,T1,-1046.4,-1002.5,visits_disagree,4,,0.2
 AD002813,AC002178,T1,-1067.8,173.3,visit_1,1,Near Ganesh Temple (about 160 m from pin) | Remark Cue: Behind Ganapathi Gudi (conf=0.83),0.83
-AD002814,AC002179,T1,-876.9,-3557.3,visits_agree,5,,0.2
+AD002814,AC002179,T1,-876.9,-3557.3,visits_agree,5,,0.3
 AD002815,AC002180,T1,1681.8,-2023.3,baseline_coarse,0,,0.0
 AD002816,AC002181,T3,-1400.0,2521.1,baseline_coarse,0,,0.0
 AD002817,AC002181,T3,871.8,-795.5,baseline_coarse,0,,0.0
@@ -2638,7 +2638,7 @@ AD002844,AC002203,T2,675.0,-3131.9,baseline_coarse,0,,0.0
 AD002845,AC002204,T1,-2278.0,-2775.7,baseline_street,0,,0.0
 AD002846,AC002204,T1,2543.2,1074.8,baseline_coarse,0,,0.0
 AD002847,AC002205,T3,1365.9,-882.5,landmark,0,Opposite Medical Store (pin is a guess near this landmark),0.0
-AD002848,AC002206,T3,976.0,-821.9,visits_disagree,4,,0.2
+AD002848,AC002206,T3,976.0,-821.9,visits_disagree,4,,0.3
 AD002849,AC002207,T2,1711.7,-2359.0,visits_disagree,5,Opposite Medical Store (pin is at this landmark) | Remark Cue: Opposite Dawai Ki Dukaan (conf=0.85),0.85
 AD002850,AC002208,T1,665.4,2976.9,baseline_street,0,,0.0
 AD002851,AC002209,T2,-569.8,-390.2,baseline_street,0,,0.0
@@ -2651,13 +2651,13 @@ AD002857,AC002215,T3,1010.0,-874.3,baseline_coarse,0,,0.0
 AD002858,AC002216,T1,1153.8,-2873.8,visits_disagree,9,,0.2
 AD002859,AC002217,T2,947.7,2897.3,baseline_coarse,0,,0.0
 AD002860,AC002218,T3,3771.7,597.6,baseline_coarse,0,,0.0
-AD002861,AC002219,T1,140.0,2571.7,visit_1,1,,0.3
+AD002861,AC002219,T1,140.0,2571.7,visit_1,1,,0.2
 AD002862,AC002220,T3,3390.7,-1916.5,visit_1,1,Near Masjid (about 40 m from pin),0.2
 AD002863,AC002221,T3,-409.1,-3408.0,baseline_coarse,0,,0.0
 AD002864,AC002221,T3,-689.1,-3257.6,visit_1,1,Opposite Hanuman Temple (about 120 m from pin),0.2
-AD002865,AC002222,T3,-3036.3,-257.3,visit_1,1,,0.3
+AD002865,AC002222,T3,-3036.3,-257.3,visit_1,1,,0.2
 AD002866,AC002223,T3,4012.4,652.7,visit_1,1,,0.403
-AD002867,AC002224,T3,-2344.4,1721.4,visits_agree,5,,0.2
+AD002867,AC002224,T3,-2344.4,1721.4,visits_agree,5,,0.3
 AD002868,AC002225,T1,-640.3,-1408.3,baseline_coarse,0,,0.0
 AD002869,AC002226,T3,-853.4,-708.6,landmark,0,Near Ration Shop (pin is a guess near this landmark),0.0
 AD002870,AC002227,T2,1498.0,-2257.7,visits_disagree,7,Field Remark: Opposite Dawai Ki Dukaan (conf=0.85),0.85
@@ -2684,7 +2684,7 @@ AD002891,AC002244,T3,526.1,-937.1,visits_agree,2,,0.2
 AD002892,AC002245,T3,-2359.3,1492.0,baseline_coarse,0,,0.0
 AD002893,AC002246,T2,1722.9,-2340.4,landmark,0,Near Medical Store (pin is a guess near this landmark),0.0
 AD002894,AC002247,T3,431.5,1548.7,landmark,0,Near Bus Stop (pin is a guess near this landmark),0.0
-AD002896,AC002248,T3,1021.0,-657.4,visits_disagree,4,,0.3
+AD002896,AC002248,T3,1021.0,-657.4,visits_disagree,4,,0.2
 AD002898,AC002249,T3,-408.9,-3529.5,baseline_coarse,0,,0.0
 AD002899,AC002250,T2,3064.9,575.3,baseline_coarse,0,,0.0
 AD002900,AC002251,T3,3238.8,-2095.0,baseline_coarse,0,,0.0
@@ -2758,7 +2758,7 @@ AD002973,AC002308,T2,1160.8,-2170.3,visits_disagree,5,Near Govt School (about 13
 AD002974,AC002309,T2,1440.8,-1984.6,landmark,0,Near Church (pin is a guess near this landmark),0.0
 AD002975,AC002310,T2,2343.2,1984.5,baseline_coarse,0,,0.0
 AD002976,AC002311,T2,1385.4,-1659.8,visit_1,1,Field Remark: Near Barat Ghar (conf=0.82),0.819
-AD002977,AC002312,T3,-2660.8,-495.1,visits_agree,6,,0.3
+AD002977,AC002312,T3,-2660.8,-495.1,visits_agree,6,,0.2
 AD002978,AC002313,T1,2870.3,-2346.1,landmark,0,Near Hanuman Temple (pin is a guess near this landmark),0.0
 AD002979,AC002314,T1,1372.1,175.3,visits_agree,2,Behind Govt School (about 160 m from pin) | Remark Cue: Opposite Sarkari Shaale (conf=0.85),0.85
 AD002980,AC002315,T1,671.1,-3184.1,baseline_coarse,0,,0.0
@@ -2775,7 +2775,7 @@ AD002991,AC002325,T1,2540.9,-2207.9,visits_agree,2,,0.2
 AD002992,AC002326,T2,-651.2,-773.0,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
 AD002993,AC002327,T1,293.9,-2746.9,visits_agree,2,Opposite Hanuman Temple (about 120 m from pin) | Remark Cue: Near Anjaneya Swamy Temple (conf=0.82),0.819
 AD002994,AC002328,T1,-2018.6,-2173.4,landmark,0,Near Bus Stop (pin is a guess near this landmark),0.0
-AD002995,AC002329,T1,1011.3,240.1,visit_1,1,Field Remark: Beside Park (conf=0.85),0.85
+AD002995,AC002329,T1,1011.3,240.1,visit_1,1,,0.3
 AD002996,AC002330,T1,-755.7,-1529.2,visits_agree,4,Field Remark: Opposite Kalyana Mantapa (conf=0.85),0.85
 AD002997,AC002331,T3,2890.7,-2022.4,visits_agree,2,,0.398
 AD002999,AC002332,T2,-1168.0,3189.9,baseline_street,0,,0.0
@@ -2830,7 +2830,7 @@ AD003051,AC002370,T1,2870.3,-2346.1,landmark,0,Near Hanuman Temple (pin is a gue
 AD003052,AC002371,T2,611.9,-2869.8,baseline_coarse,0,,0.0
 AD003053,AC002372,T1,3289.1,-2185.5,visit_1,1,,0.2
 AD003054,AC002372,T1,-2784.3,1198.3,baseline_coarse,0,,0.0
-AD003055,AC002373,T3,3890.6,687.3,visits_agree,2,,0.2
+AD003055,AC002373,T3,3890.6,687.3,visits_agree,2,,0.3
 AD003056,AC002374,T1,-2496.9,-2499.0,baseline_coarse,0,,0.0
 AD003057,AC002375,T2,-310.8,990.8,landmark,0,Near Masjid (pin is a guess near this landmark),0.0
 AD003058,AC002376,T2,-643.5,1512.2,landmark,0,Near Petrol Bunk (pin is a guess near this landmark),0.0
