@@ -120,11 +120,13 @@ def resolve_locality(t: str, town_id, pincode, loc):
     return c.locality_name.iloc[r[2]] if r and r[1] >= LOCALITY_THRESHOLD else np.nan
 
 
-def main():
-    addr = pd.read_csv(SHARED / "addresses.csv")
-    loc = pd.read_csv(GEO / "localities.csv")
-    lm = pd.read_csv(GEO / "landmarks_poi.csv")
-    lookup = build_poi_lookup(lm)
+def parse_addresses(addr_df, pois=None, loc=None, towns=None):
+    addr = addr_df.copy()
+    if loc is None:
+        loc = pd.read_csv(GEO / "localities.csv")
+    if pois is None:
+        pois = pd.read_csv(GEO / "landmarks_poi.csv")
+    lookup = build_poi_lookup(pois)
 
     addr["clean_text_lower"] = addr.address_text.fillna("").str.lower().str.replace(r"\s+", " ", regex=True)
     # vectorised fields
@@ -161,14 +163,21 @@ def main():
     intown = out[out.town_id != "OUT"]
     audit = intown[intown.landmark_type.isna() | intown.locality_name.isna() | intown.pincode.isna()]
     audit.to_csv(OUT / "phase1_audit.csv", index=False, encoding="utf-8-sig")
+    return out
 
+
+def main():
+    addr = pd.read_csv(SHARED / "addresses.csv")
+    loc = pd.read_csv(GEO / "localities.csv")
+    lm = pd.read_csv(GEO / "landmarks_poi.csv")
+    out = parse_addresses(addr, pois=lm, loc=loc)
+
+    intown = out[out.town_id != "OUT"]
+    audit = intown[intown.landmark_type.isna() | intown.locality_name.isna() | intown.pincode.isna()]
     print(f"rows: {len(out)} (in-town {len(intown)}, OUT {len(out) - len(intown)})")
     print("coverage on in-town rows:")
     for c in ["door_no", "street_info", "landmark_type", "spatial_relation", "locality_name", "pincode"]:
         print(f"  {c:17s} {intown[c].notna().mean():.1%}")
-    print("landmark_source:\n", intown.landmark_source.value_counts(dropna=False).to_string())
-    print("landmark_type:\n", intown.landmark_type.value_counts().to_string())
-    print("spatial_relation:\n", intown.spatial_relation.value_counts(dropna=False).to_string())
     print("audit rows:", len(audit))
 
 

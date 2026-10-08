@@ -1,4 +1,4 @@
-﻿address_id,account_id,town_id,address_text,door_no,street_info,landmark_type,spatial_relation,landmark_source,landmark_match_score,locality_name,pincode
+address_id,account_id,town_id,address_text,door_no,street_info,landmark_type,spatial_relation,landmark_source,landmark_match_score,locality_name,pincode
 AD000001,AC000001,T1,"6th Cross, 5th Main, ಚರ್ಚ್ ಹತ್ತಿರ, Kuvempu Layt, Kaveripura - 960102",,6th cross; 5th main,church,NEAR,regex_lexicon,100.0,Kuvempu Layout,960102
 AD000002,AC000001,T1,no. 173 12th cross 3rd main shanthi nagar kaveripura - 960101,173,12th cross; 3rd main,,,,,Shanthi Nagar,960101
 AD000003,AC000002,T3,367/3 e block 2nd road green park layt navanagara east - 980301,367/3,e block; 2nd road,park,,regex_lexicon,100.0,Green Park Layout,980301
