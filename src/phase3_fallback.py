@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 
 from config import GEO, OUT, SHARED
+from fuzzy_remarks import get_address_level_remark_evidence
 
 LANDMARK_MAX_FROM_CENTROID = 800.0
 HINT_MAX_DIST = 200.0
@@ -40,12 +41,25 @@ def main():
     pois = pd.read_csv(GEO / "landmarks_poi.csv")
     town_xy = {t: (g.centroid_x.mean(), g.centroid_y.mean()) for t, g in loc.groupby("town_id")}
 
+    # Load audit trail and aggregate address-level remark evidence
+    audit_file = OUT / "remark_extracted_corrections.csv"
+    if audit_file.exists():
+        audit_df = pd.read_csv(audit_file)
+        addr_rem = get_address_level_remark_evidence(audit_df)
+    else:
+        addr_rem = pd.DataFrame(columns=["address_id", "best_remark_conf", "best_remark_status",
+                                         "remark_landmark_name", "remark_relation", "has_strong_correction"])
+
     df = st.merge(base, on="address_id", how="left").merge(vis, on="address_id", how="left")
+    df = df.merge(addr_rem, on="address_id", how="left")
     df = df[df.geocoder_x.notna() | df.visit_px.notna()].copy()
 
     out = []
     for r in df.itertuples(index=False):
-        poi = None
+        rem_conf = float(r.remark_confidence) if hasattr(r, "remark_confidence") and pd.notna(r.remark_confidence) else (
+            float(r.best_remark_conf) if hasattr(r, "best_remark_conf") and pd.notna(r.best_remark_conf) else 0.0
+        )
+
         if pd.notna(r.visit_px):
             px, py, tier = r.visit_px, r.visit_py, r.visit_tier
             n = int(r.n_good_visits)
@@ -55,12 +69,19 @@ def main():
                 px, py, tier = r.geocoder_x, r.geocoder_y, "baseline_street"
             else:
                 px, py, tier = r.geocoder_x, r.geocoder_y, "baseline_coarse"
-                if r.precision == "locality" and isinstance(r.landmark_type, str):
+                # Check address text landmark first
+                lm_to_search = r.landmark_type if isinstance(r.landmark_type, str) else None
+                # If address text had no landmark, but agent remark gave strong correction landmark
+                if lm_to_search is None and hasattr(r, "best_remark_status") and r.best_remark_status == "STRONG_CORRECTION" and isinstance(r.remark_landmark_name, str):
+                    lm_to_search = r.remark_landmark_name.lower().replace(" ", "_")
+
+                if lm_to_search:
                     cx, cy = centroid(r, loc, town_xy)
-                    hit = nearest_poi(pois, r.landmark_type, r.town_id, cx, cy)
+                    hit = nearest_poi(pois, lm_to_search, r.town_id, cx, cy)
                     if hit and hit[1] <= LANDMARK_MAX_FROM_CENTROID:
                         px, py, tier = hit[0].x, hit[0].y, "landmark"
 
+        # Generate landmark hint (combining address text landmark and field remark evidence)
         hint = ""
         if isinstance(r.landmark_type, str):
             hit = nearest_poi(pois, r.landmark_type, r.town_id, px, py)
@@ -73,15 +94,27 @@ def main():
                     hint = f"{rel} {name} (pin is at this landmark)"
                 else:
                     hint = f"{rel} {name} (about {round(d, -1):.0f} m from pin)"
-        out.append((r.address_id, r.account_id, r.town_id, px, py, tier, n, hint))
+
+        # Enrich or override with high-confidence field agent remark evidence if available
+        if hasattr(r, "best_remark_conf") and pd.notna(r.best_remark_conf) and r.best_remark_conf >= 0.60:
+            rem_rel = str(r.remark_relation).title() if pd.notna(r.remark_relation) else "Near"
+            rem_lm = str(r.remark_landmark_name) if pd.notna(r.remark_landmark_name) else ""
+            if rem_lm:
+                if hint:
+                    hint += f" | Remark Cue: {rem_rel} {rem_lm} (conf={r.best_remark_conf:.2f})"
+                else:
+                    hint = f"Field Remark: {rem_rel} {rem_lm} (conf={r.best_remark_conf:.2f})"
+
+        out.append((r.address_id, r.account_id, r.town_id, px, py, tier, n, hint, round(rem_conf, 3)))
 
     mp = pd.DataFrame(out, columns=["address_id", "account_id", "town_id", "px", "py", "tier",
-                                    "n_good_visits", "landmark_hint"])
+                                    "n_good_visits", "landmark_hint", "remark_confidence"])
     mp.to_csv(OUT / "master_pins.csv", index=False, encoding="utf-8-sig")
 
     print(f"master pins: {len(mp)}  (addresses without any pin: {len(st) - len(mp)})")
     print(mp.tier.value_counts().to_string())
     print("hints:", (mp.landmark_hint != "").sum())
+    print("pins with remark_confidence > 0:", (mp.remark_confidence > 0).sum())
 
     # evaluation vs survey (all 100 rows)
     truth = pd.read_csv(GEO / "surveyed_addresses.csv")

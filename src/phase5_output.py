@@ -16,8 +16,8 @@ def main():
     df = mp.merge(R, on="tier", how="left")
     df["action"] = np.select([df.R90_meters <= NEAR_M, df.R90_meters <= MID_M],
                              ["DIRECT_VISIT", "VISIT_WITH_HINT"], default="VERIFY_FIRST")
-    cols = ["address_id", "account_id", "town_id", "px", "py", "tier", "R90_meters", "action", "landmark_hint"]
-    df[cols].round({"px": 1, "py": 1, "R90_meters": 1}).to_csv(OUT / "geocoder_output.csv", index=False, encoding="utf-8-sig")
+    cols = ["address_id", "account_id", "town_id", "px", "py", "tier", "R90_meters", "action", "landmark_hint", "remark_confidence"]
+    df[cols].round({"px": 1, "py": 1, "R90_meters": 1, "remark_confidence": 3}).to_csv(OUT / "geocoder_output.csv", index=False, encoding="utf-8-sig")
 
     print(f"rows: {len(df)}")
     print(pd.crosstab(df.tier, df.action, margins=True).to_string())
