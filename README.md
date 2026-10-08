@@ -12,8 +12,9 @@ Standard commercial geocoders rely on postal code or town centroids, resulting i
 - **100% generic fraud detection without hardcoded coordinates**: purges all 229 fake visits from rogue agent `FA009` (photo hash reuse + spatial clustering + trail breadcrumbs) with **zero false positives** on genuine agents.
 - **Canonical doorstep dwell kinematics**: extracts 2,083 stationary clusters ($v < 0.4\text{ m/s}$, duration $\ge 120\text{s}$) across 160,406 breadcrumbs, eliminating roadside check-in bias and cutting doorstep error to **6.2 m** (locked premises) and **12.6 m** (met borrower).
 - **Search-quality-weighted continuous negative evidence**: converts 1,400 failed search visits (`address_not_traceable`) into continuous Gaussian repulsion fields weighted by duration, coverage, movement, and accuracy ($0.21 \le \text{quality} \le 0.99$).
-- **Honest fold-safe conformal calibration**: calculates finite-sample 90% confidence uncertainty radii ($R_{90}$) via 5-fold cross-validation strictly on 85 dev rows, yielding **86.7% empirical out-of-sample coverage** on the 15 held-out test rows (100% coverage across all visit and landmark tiers).
-- **Complete 3,117-row canonical output**: exactly 3,117 rows in `output/geocoder_output.csv` across 18 audit columns, explicitly preserving all 237 unmapped village addresses flagged with `action = 'CANNOT_GEOCODE'` and `can_geocode = False`.
+- **Granular Indian street keys & empirical place anchoring**: extracts cross/main, block/road, and gali numbers, promoting **259 unvisited addresses** to `cross_account_street` anchors and shrinking coarse fallback by **20%** (down to 592 addresses).
+- **Honest fold-safe conformal calibration**: calculates finite-sample 90% confidence uncertainty radii ($R_{90}$) via 5-fold cross-validation strictly on 85 dev rows, yielding **86.7% empirical out-of-sample coverage** on the 15 held-out test rows (100% coverage across all visit, street, and landmark tiers).
+- **Complete 3,117-row canonical output**: exactly 3,117 rows in `output/geocoder_output.csv` with granular street keys and audit columns, explicitly preserving all 237 unmapped village addresses flagged with `action = 'CANNOT_GEOCODE'` and `can_geocode = False`.
 - **100% deterministic and auditable**: zero reliance on black-box LLMs or unpredictable external APIs.
 
 ---
@@ -56,11 +57,12 @@ Open-IIT/ (branch: TISK)
 │   ├── phase5_output.py                                             # Dispatch action allocation
 │   ├── fuzzy_remarks.py                                             # Fuzzy logic remark confidence scorer
 │   ├── indic_address_understanding.py                               # Open-source Indic NLP token understanding
+│   ├── ablation_study.py                                            # Step-by-step ablation study scorecard generator
 │   └── advanced_spatial_engine.py                                   # Legacy spatial engine
 ├── tests/
 │   └── test_pipeline.py                                             # Automated 7-point safeguard test suite
 └── output/                                                          # Canonical audit deliverables
-    ├── geocoder_output.csv                                          # Authoritative deliverable (3,117 rows, 18 columns)
+    ├── geocoder_output.csv                                          # Authoritative deliverable (3,117 rows, 23 columns)
     ├── master_pins.csv                                              # Consolidated coordinate master (3,117 rows)
     ├── visit_derived_pins.csv                                       # Corroborated visit pins (1,216 rows)
     ├── calibration_radii.csv                                        # Empirical conformal radii per tier
@@ -69,7 +71,8 @@ Open-IIT/ (branch: TISK)
     ├── fraudulent_visits.csv                                        # 229 purged fake visits audit log
     ├── dwell_corrected_visits.csv                                   # 2,083 stationary doorstep dwell clusters
     ├── negative_exclusion_zones.csv                                 # 1,400 failed search exclusion zones
-    ├── cross_account_promotions.csv                                 # 88 empirical street promotions audit
+    ├── cross_account_promotions.csv                                 # 259 empirical street promotions audit
+    ├── ablation_study.csv                                           # Quantitative ablation scorecard
     └── remark_extracted_corrections.csv                             # Remark spatial reasoning audit (5,578 rows)
 ```
 
@@ -105,7 +108,7 @@ Open-IIT/ (branch: TISK)
                               │
   [Step 6] Fallback Fusion & Empirical Cross-Account Resolution (src/cross_account.py)
            - Fallback hierarchy: Landmark POI -> Baseline Street -> Locality Centroid
-           - Promotes 88 addresses to cross_account_street from visited neighbors without synthetic door shift
+           - Promotes 259 addresses to cross_account_street from visited neighbors
            - Generates 3,117 master pins preserving 237 unmapped village addresses
                               │
   [Step 7] Honest 5-Fold Cross-Validation Conformal Calibration (src/calibration.py)
@@ -116,7 +119,7 @@ Open-IIT/ (branch: TISK)
   [Step 8] Action Allocation & Canonical Export (src/pipeline.py)
            - DIRECT_VISIT (R90 <= 75m), VISIT_WITH_HINT (R90 <= 400m), VERIFY_FIRST (coarse/high uncertainty)
            - Flags 237 OUT village addresses as CANNOT_GEOCODE (can_geocode = False)
-           - Exports authoritative 18-column output/geocoder_output.csv
+           - Exports authoritative output/geocoder_output.csv with full street key lineage
 ```
 
 ---
@@ -128,18 +131,18 @@ Calibrated strictly via **5-fold cross-validation on 85 development rows** and e
 | Tier | Total Addresses | Share | Dev Median Error | Calibrated $R_{90}$ | Test Median Error | Test $R_{90}$ Coverage | Operational Action |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | `visits_agree` | 549 | 17.6% | **9.6 m** | **56.3 m** | **7.9 m** | **100% (1/1)** | `DIRECT_VISIT` |
-| `visits_disagree` | 208 | 6.7% | **6.7 m** | **214.6 m** | **7.2 m** | **100% (1/1)** | `VISIT_WITH_HINT` |
 | `visit_1` | 448 | 14.4% | **30.5 m** | **387.2 m** | **16.3 m** | **100% (3/3)** | `VISIT_WITH_HINT` |
-| `cross_account_street` | 88 | 2.8% | — | **150.0 m** | — | — | `VISIT_WITH_HINT` |
+| `cross_account_street` | 259 | 8.3% | **92.4 m** | **150.0 m** | — | — | `VISIT_WITH_HINT` |
 | `baseline_street` | 311 | 10.0% | **72.0 m** | **162.1 m** | **40.0 m** | **100% (1/1)** | `VISIT_WITH_HINT` |
+| `visits_disagree` | 180 | 5.8% | **6.7 m** | **214.6 m** | **7.2 m** | **100% (1/1)** | `VISIT_WITH_HINT` |
 | `landmark` | 541 | 17.4% | **163.7 m** | **1,430.4 m** | **197.0 m** | **100% (4/4)** | `VISIT_WITH_HINT` |
-| `baseline_coarse` | 735 | 23.6% | **464.5 m** | **2,201.7 m** | **626.9 m** | **60% (3/5)** | `VERIFY_FIRST` |
+| `baseline_coarse` | 592 | 19.0% | **434.3 m** | **2,201.7 m** | **626.9 m** | **60% (3/5)** | `VERIFY_FIRST` |
 | `unmapped_village` | 237 | 7.6% | — | **NaN** | — | — | `CANNOT_GEOCODE` |
 | **Total / Overall** | **3,117** | **100.0%** | — | — | — | **86.7% (13/15)** | — |
 
 ### Action Breakdown in Final Output:
-- **`VERIFY_FIRST`**: 1,276 addresses (40.9%) — telephony pre-verification required before field dispatch.
-- **`VISIT_WITH_HINT`**: 1,055 addresses (33.8%) — dispatch agent with vernacular landmark cues and street bounds.
+- **`VISIT_WITH_HINT`**: 1,198 addresses (38.4%) — dispatch agent with vernacular landmark cues and street bounds.
+- **`VERIFY_FIRST`**: 1,133 addresses (36.3%) — telephony pre-verification required before field dispatch.
 - **`DIRECT_VISIT`**: 549 addresses (17.6%) — high-confidence doorstep GPS navigation ($R_{90} \le 56.3\text{ m}$).
 - **`CANNOT_GEOCODE`**: 237 addresses (7.6%) — explicit handling for out-of-service/unmapped village addresses.
 
@@ -158,6 +161,20 @@ Calibrated strictly via **5-fold cross-validation on 85 development rows** and e
 | **Test Set Conformal Coverage** | — | **86.7%** (13 / 15 rows) | Finite-sample valid |
 | **FA009 Fraudulent Visits Caught** | 162 (photo-only) | **229 (all fixed clusters + photos)** | **+67 fake visits purged** |
 | **Genuine Agent False Positives** | — | **0 (0.0%)** | Zero collateral damage |
+| **Cross-Account Street Promotions** | — | **259 addresses** | **20% coarse fallback reduction** |
+
+---
+
+## 📈 Step-by-Step Ablation Study
+
+Evaluated across all 100 ground-truth survey points (`output/ablation_study.csv`):
+
+| Pipeline Stage / Component | Overall Median Error | Overall P90 Error | Dev Median Error | Dev P90 Error | Corroborated Consensus (`visits_agree`) | Conflicting Pins (`visits_disagree`) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **1. Baseline Kinematics + Dwell** | 65.9 m | 621.8 m | 60.4 m | 498.9 m | 544 | 284 |
+| **2. + Hierarchical Street Keys** | 61.0 m | 627.3 m | 56.3 m | 469.4 m | 544 | 284 |
+| **3. + Spatial Clustering (100m)** | 60.6 m | 609.1 m | 55.4 m | 469.4 m | 541 | 227 |
+| **4. + 3-$\sigma$ Outlier Trimming** | **60.6 m** | **609.1 m** | **55.4 m** | **469.4 m** | **549 (+5)** | **218 (-66)** |
 
 ---
 
@@ -175,7 +192,7 @@ Execute the full unified 8-step pipeline from start to finish:
 ```bash
 python -m src.pipeline
 ```
-This generates the authoritative 18-column deliverable `output/geocoder_output.csv` (3,117 rows) along with all intermediate audit tables.
+This generates the authoritative deliverable `output/geocoder_output.csv` (3,117 rows) along with all intermediate audit tables.
 
 ### 2. Run the Automated Test Suite
 Run the 7 regression safeguards and integrity tests:
@@ -183,10 +200,17 @@ Run the 7 regression safeguards and integrity tests:
 python -m unittest discover tests -v
 ```
 All 7 tests verify:
-1. `test_canonical_18_column_schema`: Authoritative output adheres to 18 audit columns.
+1. `test_canonical_18_column_schema`: Authoritative output adheres to all required audit columns.
 2. `test_out_address_completeness`: Output contains exactly 3,117 rows with 237 `OUT` addresses tagged `CANNOT_GEOCODE`.
 3. `test_generic_fraud_detection`: Generic detector purges FA009's fake check-ins without hardcoded coordinates.
 4. `test_genuine_agent_integrity`: Zero false positive cluster detections on genuine field agents.
 5. `test_dwell_centroid_error_reduction`: Canonical dwell centroids reduce doorstep error on positive visits.
 6. `test_negative_evidence_search_quality`: Search quality metric properly weights movement, coverage, and duration.
 7. `test_evaluation_split_isolation`: The 15 held-out test accounts are strictly isolated from training/anchors.
+
+### 3. Run the Ablation Study
+Generate the quantitative incremental contribution scorecard across all 4 pipeline variants:
+```bash
+python -m src.ablation_study
+```
+Outputs `output/ablation_study.csv`.
