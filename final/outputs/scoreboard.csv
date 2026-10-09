@@ -1,0 +1,133 @@
+version,split,n,median_m,p90_m,within_100m,within_300m,coverage_90,median_radius_m
+0 baseline geocoder,all,100.0,376.0,839.0,0.09,0.38,,
+0 baseline geocoder,test,15.0,455.0,2845.0,0.07,0.33,,
+0 baseline geocoder,train,66.0,381.0,746.0,0.09,0.33,,
+0 baseline geocoder,validation,19.0,194.0,804.0,0.11,0.58,,
+1 text prior (parser + landmark + locality + baseline fusion),all,100.0,207.0,589.0,0.16,0.61,,
+1 text prior (parser + landmark + locality + baseline fusion),test,15.0,199.0,2785.0,0.13,0.6,,
+1 text prior (parser + landmark + locality + baseline fusion),train,66.0,243.0,559.0,0.15,0.56,,
+1 text prior (parser + landmark + locality + baseline fusion),validation,19.0,166.0,514.0,0.21,0.79,,
+1a text prior using the repo's existing parser,all,100.0,243.0,1703.0,0.17,0.55,,
+1a text prior using the repo's existing parser,test,15.0,205.0,2814.0,0.2,0.53,,
+1a text prior using the repo's existing parser,train,66.0,290.0,1615.0,0.15,0.52,,
+1a text prior using the repo's existing parser,validation,19.0,185.0,1240.0,0.21,0.68,,
+"1b text prior, parser v2 (typo/pincode/relation fixes)",all,100.0,207.0,589.0,0.16,0.61,,
+"1b text prior, parser v2 (typo/pincode/relation fixes)",test,15.0,199.0,2785.0,0.13,0.6,,
+"1b text prior, parser v2 (typo/pincode/relation fixes)",train,66.0,243.0,559.0,0.15,0.56,,
+"1b text prior, parser v2 (typo/pincode/relation fixes)",validation,19.0,166.0,514.0,0.21,0.79,,
+check,all,100.0,207.0,589.0,0.16,0.61,,
+check,test,15.0,199.0,2785.0,0.13,0.6,,
+check,train,66.0,243.0,559.0,0.15,0.56,,
+check,validation,19.0,166.0,514.0,0.21,0.79,,
+2 visits + integrity + fusion,all,100.0,119.0,425.0,0.48,0.79,,
+2 visits + integrity + fusion,test,15.0,127.0,2762.0,0.33,0.8,,
+2 visits + integrity + fusion,train,66.0,143.0,439.0,0.45,0.73,,
+2 visits + integrity + fusion,validation,19.0,20.0,151.0,0.68,1.0,,
+2b largest-cluster rule,all,100.0,78.0,425.0,0.52,0.79,,
+2b largest-cluster rule,test,15.0,117.0,2762.0,0.4,0.8,,
+2b largest-cluster rule,train,66.0,143.0,439.0,0.48,0.73,,
+2b largest-cluster rule,validation,19.0,19.0,151.0,0.74,1.0,,
+3 calibrated R90,all,100.0,78.0,425.0,0.52,0.79,0.89,234.0
+3 calibrated R90,test,15.0,117.0,2762.0,0.4,0.8,0.8,326.0
+3 calibrated R90,train,66.0,143.0,439.0,0.48,0.73,0.89,290.0
+3 calibrated R90,validation,19.0,19.0,151.0,0.74,1.0,0.95,61.0
+4 neighbour street-key evidence,all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+4 neighbour street-key evidence,test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+4 neighbour street-key evidence,train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+4 neighbour street-key evidence,validation,19.0,17.0,154.0,0.79,1.0,0.89,62.0
+5 remark corrections,all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+5 remark corrections,test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+5 remark corrections,train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+5 remark corrections,validation,19.0,17.0,154.0,0.79,1.0,0.89,61.0
+5 remark corrections (+ hint columns),all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+5 remark corrections (+ hint columns),test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+5 remark corrections (+ hint columns),train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+5 remark corrections (+ hint columns),validation,19.0,17.0,154.0,0.79,1.0,0.89,61.0
+5b correction-visit tie-break,all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+5b correction-visit tie-break,test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+5b correction-visit tie-break,train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+5b correction-visit tie-break,validation,19.0,17.0,154.0,0.79,1.0,0.89,61.0
+5c uniqueness checks (no duplicates found),all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+5c uniqueness checks (no duplicates found),test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+5c uniqueness checks (no duplicates found),train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+5c uniqueness checks (no duplicates found),validation,19.0,17.0,154.0,0.79,1.0,0.89,61.0
+Steps 14-15 outputs (no pin change),all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+Steps 14-15 outputs (no pin change),test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+Steps 14-15 outputs (no pin change),train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+Steps 14-15 outputs (no pin change),validation,19.0,17.0,154.0,0.79,1.0,0.89,61.0
+geocodes (phone-first: no search radius),all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+geocodes (phone-first: no search radius),test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+geocodes (phone-first: no search radius),train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+geocodes (phone-first: no search radius),validation,19.0,17.0,154.0,0.79,1.0,0.89,61.0
+Final evaluation,all,100.0,67.0,353.0,0.57,0.85,0.89,194.0
+Final evaluation,test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+Final evaluation,train,66.0,86.0,357.0,0.53,0.82,0.91,215.0
+Final evaluation,validation,19.0,17.0,154.0,0.79,1.0,0.89,61.0
+6 trail-centroid visits,all,100.0,70.0,353.0,0.56,0.85,0.89,202.0
+6 trail-centroid visits,test,15.0,102.0,2762.0,0.47,0.8,0.8,262.0
+6 trail-centroid visits,train,66.0,94.0,357.0,0.52,0.82,0.89,233.0
+6 trail-centroid visits,validation,19.0,14.0,154.0,0.79,1.0,0.95,81.0
+6 trail-centroid visits (old sigmas),all,100.0,68.0,353.0,0.57,0.85,0.9,194.0
+6 trail-centroid visits (old sigmas),test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+6 trail-centroid visits (old sigmas),train,66.0,86.0,357.0,0.53,0.82,0.91,214.0
+6 trail-centroid visits (old sigmas),validation,19.0,14.0,154.0,0.79,1.0,0.95,67.0
+run_all,all,100.0,68.0,353.0,0.57,0.85,0.9,194.0
+run_all,test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+run_all,train,66.0,86.0,357.0,0.53,0.82,0.91,214.0
+run_all,validation,19.0,14.0,154.0,0.79,1.0,0.95,67.0
+7a (dropped) baseline street/rooftop sigma 97/15,all,100.0,68.0,353.0,0.58,0.85,0.9,194.0
+7a (dropped) baseline street/rooftop sigma 97/15,test,15.0,99.0,2762.0,0.53,0.8,0.8,272.0
+7a (dropped) baseline street/rooftop sigma 97/15,train,66.0,86.0,357.0,0.53,0.82,0.91,211.0
+7a (dropped) baseline street/rooftop sigma 97/15,validation,19.0,14.0,154.0,0.79,1.0,0.95,62.0
+7b (dropped) searched-clue down-weighting R100 x3,all,100.0,68.0,353.0,0.57,0.85,0.89,194.0
+7b (dropped) searched-clue down-weighting R100 x3,test,15.0,102.0,2778.0,0.47,0.8,0.8,272.0
+7b (dropped) searched-clue down-weighting R100 x3,train,66.0,86.0,357.0,0.53,0.82,0.91,210.0
+7b (dropped) searched-clue down-weighting R100 x3,validation,19.0,14.0,154.0,0.79,1.0,0.89,65.0
+7c door cues in directions (no pin change),all,100.0,68.0,353.0,0.57,0.85,0.9,194.0
+7c door cues in directions (no pin change),test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+7c door cues in directions (no pin change),train,66.0,86.0,357.0,0.53,0.82,0.91,214.0
+7c door cues in directions (no pin change),validation,19.0,14.0,154.0,0.79,1.0,0.95,67.0
+7d dispatch fields (no pin change),all,100.0,68.0,353.0,0.57,0.85,0.9,194.0
+7d dispatch fields (no pin change),test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+7d dispatch fields (no pin change),train,66.0,86.0,357.0,0.53,0.82,0.91,214.0
+7d dispatch fields (no pin change),validation,19.0,14.0,154.0,0.79,1.0,0.95,67.0
+run_all,all,100.0,68.0,353.0,0.57,0.85,0.9,194.0
+run_all,test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+run_all,train,66.0,86.0,357.0,0.53,0.82,0.91,214.0
+run_all,validation,19.0,14.0,154.0,0.79,1.0,0.95,67.0
+7 borrowed ideas,all,100.0,68.0,353.0,0.57,0.85,0.9,194.0
+7 borrowed ideas,test,15.0,102.0,2762.0,0.47,0.8,0.8,272.0
+7 borrowed ideas,train,66.0,86.0,357.0,0.53,0.82,0.91,214.0
+7 borrowed ideas,validation,19.0,14.0,154.0,0.79,1.0,0.95,67.0
+run_all,all,100.0,68.0,353.0,0.57,0.85,0.89,184.0
+run_all,test,15.0,102.0,2762.0,0.47,0.8,0.73,272.0
+run_all,train,66.0,86.0,357.0,0.53,0.82,0.91,210.0
+run_all,validation,19.0,9.0,154.0,0.79,1.0,0.95,38.0
+"8a dwell positions, old sigmas",all,100.0,68.0,353.0,0.57,0.85,0.89,184.0
+"8a dwell positions, old sigmas",test,15.0,102.0,2762.0,0.47,0.8,0.73,272.0
+"8a dwell positions, old sigmas",train,66.0,86.0,357.0,0.53,0.82,0.91,210.0
+"8a dwell positions, old sigmas",validation,19.0,9.0,154.0,0.79,1.0,0.95,38.0
+run_all,all,100.0,74.0,353.0,0.55,0.85,0.89,199.0
+run_all,test,15.0,102.0,2762.0,0.47,0.8,0.8,269.0
+run_all,train,66.0,102.0,357.0,0.5,0.82,0.89,228.0
+run_all,validation,19.0,8.0,154.0,0.79,1.0,0.95,29.0
+"8b dwell positions, retuned sigmas",all,100.0,74.0,353.0,0.55,0.85,0.89,199.0
+"8b dwell positions, retuned sigmas",test,15.0,102.0,2762.0,0.47,0.8,0.8,269.0
+"8b dwell positions, retuned sigmas",train,66.0,102.0,357.0,0.5,0.82,0.89,228.0
+"8b dwell positions, retuned sigmas",validation,19.0,8.0,154.0,0.79,1.0,0.95,29.0
+run_all,all,100.0,68.0,353.0,0.57,0.85,0.89,184.0
+run_all,test,15.0,102.0,2762.0,0.47,0.8,0.73,272.0
+run_all,train,66.0,86.0,357.0,0.53,0.82,0.91,210.0
+run_all,validation,19.0,9.0,154.0,0.79,1.0,0.95,38.0
+run_all,all,100.0,68.0,353.0,0.57,0.85,0.89,184.0
+run_all,test,15.0,102.0,2762.0,0.47,0.8,0.73,272.0
+run_all,train,66.0,86.0,357.0,0.53,0.82,0.91,210.0
+run_all,validation,19.0,9.0,154.0,0.79,1.0,0.95,38.0
+9 CANNOT_GEOCODE label for OUT,all,100.0,68.0,353.0,0.57,0.85,0.89,184.0
+9 CANNOT_GEOCODE label for OUT,test,15.0,102.0,2762.0,0.47,0.8,0.73,272.0
+9 CANNOT_GEOCODE label for OUT,train,66.0,86.0,357.0,0.53,0.82,0.91,210.0
+9 CANNOT_GEOCODE label for OUT,validation,19.0,9.0,154.0,0.79,1.0,0.95,38.0
+run_all,all,100.0,68.0,353.0,0.57,0.85,0.89,184.0
+run_all,test,15.0,102.0,2762.0,0.47,0.8,0.73,272.0
+run_all,train,66.0,86.0,357.0,0.53,0.82,0.91,210.0
+run_all,validation,19.0,9.0,154.0,0.79,1.0,0.95,38.0

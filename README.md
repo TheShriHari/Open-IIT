@@ -1,5 +1,21 @@
 # CreditNirvana (CN) — Self-Correcting Address Geocoder with Spatial Intelligence
 
+## Final submission: see [`final/`](final/)
+
+The final geocoder is in `final/` (code, tests, data, outputs and its own README).
+
+- **Headline results** on the 100 surveyed addresses: **68 m median / 353 m p90** (baseline
+  geocoder 376 m / 839 m). Visit pins are 8 m median. 5-fold CV R90 coverage is 0.92.
+- **Includes** TISK's stationary-dwell detector for visit positions, reimplemented in
+  `final/src/load.py`, and a separate `CANNOT_GEOCODE` action for the 237 out-of-territory addresses.
+- **How to run** (from `final/`): `py run_all.py` runs the whole pipeline; add `--with-replay`
+  for the weekly replay (~15 min). Run the tests with `py -m pytest tests -q`. Scoring is done
+  by `py evaluate.py outputs/pins_final.csv "label"`.
+  See `final/README.md` for the design, the ablation table and the outputs for each consumer.
+- `ps3_geocoder_final.zip` at the repo root is the same project without `data/`.
+
+---
+
 An enterprise-grade, deterministic self-correcting geocoding system designed for Indian addresses and noisy field-agent GPS logs. Developed for Open-IIT (CreditNirvana Problem Statement 3).
 
 ---
