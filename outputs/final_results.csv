@@ -1,0 +1,23 @@
+version,by,group,n,median_m,p90_m,within_100m,within_300m,r90_coverage,median_r90_m,cv_r90_coverage
+baseline geocoder,all,all,100,376,839,0.09,0.38,,,
+baseline geocoder,split,test,15,455,2845,0.07,0.33,,,
+baseline geocoder,split,train,66,381,746,0.09,0.33,,,
+baseline geocoder,split,validation,19,194,804,0.11,0.58,,,
+baseline geocoder,source,baseline_rooftop,1,26,26,1.0,1.0,,,
+baseline geocoder,source,baseline_street,4,58,106,0.75,1.0,,,
+baseline geocoder,source,landmark,28,384,772,0.07,0.39,,,
+baseline geocoder,source,locality,10,383,612,0.1,0.4,,,
+baseline geocoder,source,neighbours,9,363,528,0.0,0.33,,,
+baseline geocoder,source,pincode_area,3,2202,4286,0.0,0.0,,,
+baseline geocoder,source,visits,45,384,1366,0.04,0.33,,,
+final,all,all,100,68,353,0.57,0.85,0.89,184.0,0.92
+final,split,test,15,102,2762,0.47,0.8,0.73,272.0,0.73
+final,split,train,66,86,357,0.53,0.82,0.91,210.0,0.95
+final,split,validation,19,9,154,0.79,1.0,0.95,38.0,0.95
+final,source,baseline_rooftop,1,17,17,1.0,1.0,1.0,132.0,1.0
+final,source,baseline_street,4,50,86,1.0,1.0,1.0,216.0,1.0
+final,source,landmark,28,171,348,0.11,0.79,0.86,329.0,0.89
+final,source,locality,10,326,551,0.2,0.4,0.9,569.0,1.0
+final,source,neighbours,9,82,221,0.56,1.0,0.89,194.0,0.89
+final,source,pincode_area,3,2106,4224,0.0,0.0,0.67,2278.0,0.67
+final,source,visits,45,8,61,0.93,1.0,0.91,35.0,0.93

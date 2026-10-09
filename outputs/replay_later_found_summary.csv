@@ -1,0 +1,5 @@
+town_id,n,search_median_m,search_p90_m,baseline_median_m,daybefore_median_m,daybefore_p90_m,pct_daybefore_within_r90,n_verify_first,n_pinned,pinned_daybefore_median_m,pct_pinned_within_r90,n_pin_would_lead,pct_pin_would_lead
+T1,269.0,293.0,801.0,486.0,212.0,1499.0,74.7,71.0,198.0,40.0,74.7,100.0,37.2
+T2,236.0,239.0,679.0,406.0,110.0,1206.0,80.1,41.0,195.0,26.0,81.5,102.0,43.2
+T3,238.0,242.0,633.0,393.0,102.0,652.0,77.3,28.0,210.0,77.0,77.6,98.0,41.2
+ALL,743.0,258.0,709.0,418.0,132.0,1303.0,77.3,140.0,603.0,51.0,77.9,300.0,40.4
